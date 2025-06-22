@@ -143,8 +143,8 @@ class MinhaInterface:
                 acces_token=token_de_acesso,
                 baixar_img=self.baixar_imagem.get(),
                 planilha=local_planilha,
-                atualizar_barra_geral=self.atualizar_progresso_geral,
-                atualizar_barra_anuncio=self.atualizar_progresso_anuncio_atual
+                funcao_atualizar_barra_geral=self.atualizar_progresso_geral,
+                funcao_atualizar_barra_anuncio=self.atualizar_progresso_anuncio_atual
                   # Passa função para uso interno
             )
             app.gerar_planilha()

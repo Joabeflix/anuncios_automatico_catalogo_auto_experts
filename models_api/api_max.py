@@ -96,7 +96,7 @@ def puxar_dados_produto_api(access_token, codigo_produto, dados_necessarios=None
 
     return retorno
 
-def puxar_dados_veiculos_api(access_token, lista_veiculos, atualizar_barra_anuncio):
+def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barra_anuncio):
     api_cliente = APICliente(access_token)
     url_path = 'veiculos/codigo'
     veiculos_completos = []
@@ -105,10 +105,18 @@ def puxar_dados_veiculos_api(access_token, lista_veiculos, atualizar_barra_anunc
     feito = 0
 
     for item in lista_veiculos:
-        if atualizar_barra_anuncio:
+        
+        
+        # Aqui na funcao (funcao_atualizar_barra_anuncios)
+        # estamos recebendo a funcaodo arquivo interface.py
+        # e essa função passamos o parametro para mudar 
+        # a interface de acordo que vai formulando a aplicacao
+        
+        if funcao_atualizar_barra_anuncio:
             progresso = int((feito / total) * 100)
-            atualizar_barra_anuncio(progresso)
-        # Um time pequeno para evitar requisições muito rápidas
+            funcao_atualizar_barra_anuncio(progresso)
+        
+        # Um time para evitar requisições muito rápidas
         time.sleep(0.05)
         codigo = item.get('codigo')
         if not codigo:
@@ -153,7 +161,7 @@ def puxar_dados_veiculos_api(access_token, lista_veiculos, atualizar_barra_anunc
             texto_no_console(f"Erro ao processar veículo {codigo}: {e}")
             continue
 
-    atualizar_barra_anuncio(0)
+    funcao_atualizar_barra_anuncio(0)
     return veiculos_completos
 
 
