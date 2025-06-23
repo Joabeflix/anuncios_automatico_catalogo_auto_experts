@@ -1,8 +1,8 @@
 import ttkbootstrap as ttk
 import tkinter as tk
 from ttkbootstrap.constants import *
-from tkinter.filedialog import askopenfilename
-from utils.utils import texto_no_console, tela_aviso
+from tkinter.filedialog import askopenfilename, askdirectory
+from utils.utils import texto_no_console, tela_aviso, selecionar_pasta
 from tkinter.scrolledtext import ScrolledText
 import sys
 from models_excel.core import Gerar_Anuncios
@@ -25,6 +25,8 @@ class RedirecionarConsole:
 
 class MinhaInterface:
     def __init__(self):
+        self.local_salvar_imagens=None
+
         self.root = ttk.Window(themename=TEMA)
         self.root.title("Criar Anúncios AutoExperts")
         self.root.geometry("1057x493")
@@ -35,19 +37,15 @@ class MinhaInterface:
         self.entrada_planilha.place(x=10, y=10)
 
         """ CheckButtons"""
-        self.baixar_imagem = tk.BooleanVar(value=True)
-        def printar_status_escolher_imagem():
-            if self.baixar_imagem.get():
-                texto_no_console('Baixar imagens (ATIVADO).')
-            else:
-                texto_no_console('Baixar imagens (DESATIVADO).')
+        self.baixar_imagem = tk.BooleanVar(value=False)
+
 
         self.escolher_baixar_imagem = ttk.Checkbutton(
             self.root,
             variable=self.baixar_imagem,
             text='baixar imagens',
             style='square-toggle',
-            command=printar_status_escolher_imagem
+            command=lambda: self.definir_local_salvar_imagem()
         )
         self.escolher_baixar_imagem.place(x=530, y=16)
 
@@ -106,6 +104,19 @@ class MinhaInterface:
         self.console.place(x=10, y=84)
         sys.stdout = RedirecionarConsole(self.console)
 
+    def definir_local_salvar_imagem(self):
+        if self.baixar_imagem.get():
+            texto_no_console('Baixar imagens (ATIVADO).')
+            local = selecionar_pasta(titulo='Local para salvar as imagens',msg='Local para salvar as imagens selecionado com sucesso')
+            if local:
+                self.local_salvar_imagens = local
+        else:
+            texto_no_console('Baixar imagens (DESATIVADO).')
+            self.local_salvar_imagens = None
+
+
+        
+
     def atualizar_progresso_geral(self, valor):
         """ Atualiza o medidor com o valor (0 a 100) """
         self.meter_geral.configure(amountused=valor)
@@ -136,6 +147,7 @@ class MinhaInterface:
             app = Gerar_Anuncios(
                 acces_token=token_de_acesso,
                 baixar_img=self.baixar_imagem.get(),
+                local_salvar_imagens=self.local_salvar_imagens,
                 planilha=local_planilha,
                 funcao_atualizar_barra_geral=self.atualizar_progresso_geral,
                 funcao_atualizar_barra_anuncio=self.atualizar_progresso_anuncio_atual

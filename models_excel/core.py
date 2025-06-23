@@ -5,7 +5,8 @@ import re
 from utils.utils import (
     texto_no_console,
     tela_aviso,
-    medir_tempo_execucao
+    medir_tempo_execucao,
+    selecionar_pasta
 )
 from utils.utils_acertar_nome import deixar_nome_ate_60_caracteres
 
@@ -15,12 +16,13 @@ from globals import PADROES_SUBS_NOME_ANUNCIO
 
 
 class Gerar_Anuncios:
-    def __init__(self, acces_token, planilha, funcao_atualizar_barra_geral, funcao_atualizar_barra_anuncio, baixar_img=True):
+    def __init__(self, acces_token, planilha, funcao_atualizar_barra_geral, funcao_atualizar_barra_anuncio, local_salvar_imagens, baixar_img=True):
         self.acces_token = acces_token
         self.planilha = planilha
         self.baixar_img = baixar_img
         self.funcao_atualizar_barra_geral = funcao_atualizar_barra_geral
         self.funcao_atualizar_barra_anuncio = funcao_atualizar_barra_anuncio
+        self.local_salvar_imagens = local_salvar_imagens
 
     def extrair_primeira_data(self, veiculo):
         match = re.search(r'\b(19|20)\d{2}-(19|20)\d{2}\b', veiculo)
@@ -192,7 +194,10 @@ class Gerar_Anuncios:
         planilha['comprimento embalagem'] = coluna_comprimento_embalagem
         planilha['qtd por embalagem'] = coluna_qtd_por_embalagem
 
-        planilha.to_excel('anuncios.xlsx', index=False)
+        texto_no_console('Selecione uma pasta para salvar os anúncios.')
+
+        local_salvar = selecionar_pasta(titulo='Local para salvar o arquivo Excel', msg='Pasta para salvar o Excel selecionada com sucesso.')
+        planilha.to_excel(f'{local_salvar}/anuncios.xlsx', index=False)
         texto_no_console('Planilha de anúncios gerada com sucesso!')
 
     def baixar_imagem(self, url, nome_arquivo):
@@ -200,7 +205,7 @@ class Gerar_Anuncios:
         try:
             resposta = requests.get(url)
             if resposta.status_code == 200:
-                with open(f'{nome_arquivo}.jpg', 'wb') as f:
+                with open(f'{self.local_salvar_imagens}/{nome_arquivo}.jpg', 'wb') as f:
                     f.write(resposta.content)
                 texto_no_console(f"Imagem salva como: {nome_arquivo}")
             else:

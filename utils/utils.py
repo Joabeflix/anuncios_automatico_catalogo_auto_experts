@@ -4,6 +4,7 @@ import os
 from tkinter import messagebox
 import re
 import time
+from tkinter.filedialog import askdirectory
 
 def texto_no_console(obj):
     separadores = ['_', '*', '-', '#']
@@ -90,6 +91,16 @@ def medir_tempo_execucao(funcao):
         texto_no_console(f"Tempo de demorado: {fim - inicio:.2f} segundos:")
         return resultado
     return wrapper
+
+
+def selecionar_pasta(titulo, msg=None):
+    pasta = askdirectory(title=titulo)
+    if pasta:
+        texto_no_console(f"{msg}")
+        return pasta
+    tela_aviso('Erro', 'Você precisa selecionar um local para salvar!', 'erro')
+    return selecionar_pasta(titulo=titulo, msg=msg)
+    
 
         
 
