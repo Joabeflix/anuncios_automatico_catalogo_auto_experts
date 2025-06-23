@@ -3,7 +3,6 @@ import numpy as np
 import os
 from tkinter import messagebox
 import re
-from utils.mapeamento_palavras_substituir import MAPEAMENTO_SUBSTITUICOES_NOME_ANUNCIOS
 import time
 
 def texto_no_console(obj):
@@ -28,9 +27,7 @@ def alterar_valor_json(caminho_json, chave, novo_valor):
     with open(file=caminho_json, mode='w', encoding='utf8') as arquivo:
         json.dump(dados, arquivo, ensure_ascii=False, indent=4)
 
-import json
-
-def pegar_valor_json_arquivo(caminho_arquivo, chave, padrao=None):
+def retorno_dados_json(caminho_json, chaves, se_nao_encontrar=None):
     """
     Lê um arquivo JSON e retorna o valor da chave fornecida.
 
@@ -43,18 +40,24 @@ def pegar_valor_json_arquivo(caminho_arquivo, chave, padrao=None):
         Valor correspondente à chave, ou valor padrão se não encontrado.
     """
     try:
-        with open(caminho_arquivo, 'r', encoding='utf-8') as f:
+        if isinstance(chaves, list):
+            with open(caminho_json, 'r', encoding='utf-8') as f:
+                dados = json.load(f)
+                return [dados.get(x, se_nao_encontrar) for x in chaves]
+
+
+        with open(caminho_json, 'r', encoding='utf-8') as f:
             dados = json.load(f)
             texto_no_console('Lendo o arquivo json')
-        texto_no_console(f'retorno === {dados.get(chave, padrao)}')
-        return dados.get(chave, padrao)
+        return dados.get(chaves, se_nao_encontrar)
+    
     except FileNotFoundError:
-        print(f"Arquivo '{caminho_arquivo}' não encontrado.")
+        print(f"Arquivo '{caminho_json}' não encontrado.")
     except json.JSONDecodeError:
-        print(f"Erro ao decodificar o arquivo JSON: '{caminho_arquivo}'")
+        print(f"Erro ao decodificar o arquivo JSON: '{caminho_json}'")
     except Exception as e:
         print(f"Erro inesperado: {e}")
-    return padrao
+    return se_nao_encontrar
 
 
 def tela_aviso(titulo, mensagem, tipo):
@@ -79,66 +82,6 @@ def limpar_prompt():
     os.system('cls')
 
 
-
-def deixar_nome_ate_60_caracteres(nome_produto, codigo_produto, marca):
-
-    palavras_para_substituir = MAPEAMENTO_SUBSTITUICOES_NOME_ANUNCIOS
-
-    def acertar_nomes(x):
-        return str(x).upper().replace("  ", " ")
-    
-    def verificar_tamanho(nome):
-        return True if len(nome) < 61 else False
-    
-    def retorno_final(x):
-        return x.title().rstrip().replace("///", "").replace("//", "").replace("   ", " ").replace("  ", " ")
-    
-    nome_produto = acertar_nomes(nome_produto)
-    codigo_produto = acertar_nomes(codigo_produto)
-    marca = acertar_nomes(marca)
-    
-    nome_novo = nome_produto.replace("  ", " ")
-
-    if verificar_tamanho(nome_novo):
-        return retorno_final(nome_novo)
-    
-    nome_novo = nome_novo.replace(codigo_produto, "")
-    nome_novo = nome_novo.replace("  ", " ")
-
-    if verificar_tamanho(nome_novo):
-        return retorno_final(nome_novo)
-    
-    nome_novo = nome_novo.replace(marca, "")
-    nome_novo = nome_novo.replace("  ", " ")
-
-    if verificar_tamanho(nome_novo):
-        return retorno_final(nome_novo)
-    
-    for palavra in palavras_para_substituir:
-        if palavra not in nome_novo:
-            continue
-        if verificar_tamanho(nome_novo):
-            return retorno_final(nome_novo)
-        nome_novo = nome_novo.replace(palavra, palavras_para_substituir.get(palavra))
-
-    if verificar_tamanho(nome_novo):
-        return retorno_final(nome_novo)
-    
-
-    def remover_conteudo_parenteses(texto):
-        """
-        Função para remover dados que temos entre parentezes dos nomes... ex: 
-        "Amortecedor De Suspensão Compatível Puma 7900 (Serie 10 / X10) 1981-2005 Diant / Tras"
-        vira:
-        "Amortecedor De Suspensão Compatível Puma 7900 981-2005 Diant / Tras"
-        """
-        return re.sub(r"\([^)]*\)", "", texto)
-
-    nome_novo = remover_conteudo_parenteses(nome_novo)
-
-    return retorno_final(nome_novo)
-
-
 def medir_tempo_execucao(funcao):
     def wrapper(*args, **kwargs):
         inicio = time.perf_counter()
@@ -151,11 +94,7 @@ def medir_tempo_execucao(funcao):
         
 
 if __name__ == "__main__":
-    @medir_tempo_execucao
-    def minha_funcao():
-        time.sleep(2)
-        print("Função finalizada.")
+    dados_puxar = ['atacadao', 'joabe', 'alves']
+    dados = retorno_dados_json(rf'configs/settings.json', chaves=dados_puxar)
 
-    minha_funcao()
-    
 

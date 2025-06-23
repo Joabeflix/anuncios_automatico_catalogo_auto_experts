@@ -1,5 +1,4 @@
-
-MAPEAMENTO_SUBSTITUICOES_NOME_ANUNCIOS = {
+{
     "DIREITO / ESQUERDO": "ESQ DIR",
     "ESQUERDO/DIREITO": "ESQ DIR",
     "ESQUERDO / DIREITO": "ESQ DIR",
@@ -9,7 +8,7 @@ MAPEAMENTO_SUBSTITUICOES_NOME_ANUNCIOS = {
     "TRASEIRO": "TRAS",
     "TRASEIRA": "TRAS",
     "DIREITA": "DIR",
-    "DIREITO": "DIR",
+    "DIREITO": "DR",
     "ESQUERDA": "ESQ",
     "ESQUERDO": "ESQ",
     "ESQ DIR": "",
@@ -75,7 +74,6 @@ MAPEAMENTO_SUBSTITUICOES_NOME_ANUNCIOS = {
     "3.0 16V": " ",
     "3.8 12V": " ",
     " VOLKSWAGEN ": " VWC ",
-    " VOLKSWAGEN ": " ",
     " CHEVROLET ": " ",
     " CITROEN ": " ",
     " FIAT ": " ",
@@ -92,7 +90,3 @@ MAPEAMENTO_SUBSTITUICOES_NOME_ANUNCIOS = {
     " DO ": " ",
     "  ": " "
 }
-
-
-
-

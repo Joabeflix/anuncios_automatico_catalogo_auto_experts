@@ -4,14 +4,14 @@ import re
 
 from utils.utils import (
     texto_no_console,
-    deixar_nome_ate_60_caracteres,
     tela_aviso,
     medir_tempo_execucao
 )
+from utils.utils_acertar_nome import deixar_nome_ate_60_caracteres
 
 from models_api.api_max import puxar_dados_produto_api, puxar_dados_veiculos_api
 from models_api.gerar_token import TokenGerador
-from models_excel.padroes_substituir_nomes_anuncios import PADROES
+from globals import PADROES_SUBS_NOME_ANUNCIO
 
 
 class Gerar_Anuncios:
@@ -69,6 +69,8 @@ class Gerar_Anuncios:
             dados_anuncio = puxar_dados_produto_api(
                 self.acces_token, codigo_produto=cod, dados_necessarios=dados_puxar
             )
+            if not dados_anuncio:
+                break
 
             if not dados_anuncio:
                 for coluna in [
@@ -208,7 +210,7 @@ class Gerar_Anuncios:
 
     def verificar_e_substituir_nome_padrao(self, nome_padrao):
         nome_padrao = str(nome_padrao).lower()
-        return PADROES.get(nome_padrao, nome_padrao)
+        return PADROES_SUBS_NOME_ANUNCIO.get(nome_padrao, nome_padrao)
 
 
 def teste():

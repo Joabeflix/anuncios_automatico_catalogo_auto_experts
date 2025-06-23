@@ -6,11 +6,10 @@ from utils.utils import texto_no_console, tela_aviso
 from tkinter.scrolledtext import ScrolledText
 import sys
 from models_excel.core import Gerar_Anuncios
-from models_api.api_max import puxar_dados_produto_api
 from models_api.gerar_token import TokenGerador
 import threading
-import time
 import platform
+from globals import TOKEN, TEMA
 
 class RedirecionarConsole:
     def __init__(self, text_widget):
@@ -26,15 +25,10 @@ class RedirecionarConsole:
 
 class MinhaInterface:
     def __init__(self):
-        self.root = ttk.Window(themename="vapor")
+        self.root = ttk.Window(themename=TEMA)
         self.root.title("Criar Anúncios AutoExperts")
         self.root.geometry("1057x493")
         
-        
-        if platform.system() == "Linux":
-            self.root.tk.call("tk", "scaling", 1.6)
-        elif platform.system() == "Windows":
-            self.root.tk.call("tk", "scaling", 1.0)
 
         """ Entrys """
         self.entrada_planilha = ttk.Entry(self.root, width=45, style='secondary')
@@ -136,7 +130,7 @@ class MinhaInterface:
         threading.Thread(target=self._gerar_anuncios, daemon=True).start()
 
     def _gerar_anuncios(self):
-        token_de_acesso = TokenGerador().ler_token()
+        token_de_acesso = TOKEN
         local_planilha = self.entrada_planilha.get()
         if local_planilha:
             app = Gerar_Anuncios(

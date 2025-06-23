@@ -2,9 +2,9 @@ import os
 import json
 import requests
 from dotenv import load_dotenv
-from utils.utils import texto_no_console
+from utils.utils import texto_no_console, tela_aviso
 from models_api.gerar_token import TokenGerador
-from models_api.mapeamentos import mapeamento_usar
+from models_api.mapeamentos_retorno_api import mapeamento_usar
 import time
 
 load_dotenv()
@@ -31,6 +31,9 @@ class APICliente:
 
         if response.status_code == 401:
             texto_no_console("Erro 401: Token inválido ou expirado.")
+            tela_aviso('Erro Token', 'Provavelmente o seu token de acesso é inválido ou está expirado... Vamos gerar um novo token.', 'erro')
+            gerar_token = TokenGerador().definir_novo_token()
+            tela_aviso('Resolvido', f'Geramos o novo token "{gerar_token}"\n\nReinicie o programa para carregar as novas configurações. \n\nSe mesmo assim o erro persistir, consultar o Joabe para validar melhor o erro.', 'informacao')
             return None
 
         if response.status_code == 200:
@@ -68,33 +71,34 @@ def puxar_dados_produto_api(access_token, codigo_produto, dados_necessarios=None
 
     url_path = 'produtos/partnumber'
     response = api_cliente.obter_dados_api(codigo_produto, url_path)
-
-    if not response:
-        return {}
-
-    try:
-        dados = response.json()
-    except json.JSONDecodeError:
-        texto_no_console("Resposta inválida da API.")
-        return {}
-
-    if not dados.get('data'):
-        # Tentativa de nova requisição
-        response = api_cliente.obter_dados_api(codigo_produto, url_path)
+    if response:
         if not response:
             return {}
-        dados = response.json()
 
-    if not dados.get('data'):
-        return {}
+        try:
+            dados = response.json()
+        except json.JSONDecodeError:
+            texto_no_console("Resposta inválida da API.")
+            return {}
 
-    retorno = {}
-    for chave in dados_necessarios:
-        mapeamento = mapeamento_usar(chave)
-        valor = filtro.filtrar_dados(dados, mapeamento['caminho'], mapeamento.get('chave_secundaria'))
-        retorno[chave] = valor
+        if not dados.get('data'):
+            # Tentativa de nova requisição
+            response = api_cliente.obter_dados_api(codigo_produto, url_path)
+            if not response:
+                return {}
+            dados = response.json()
 
-    return retorno
+        if not dados.get('data'):
+            return {}
+
+        retorno = {}
+        for chave in dados_necessarios:
+            mapeamento = mapeamento_usar(chave)
+            valor = filtro.filtrar_dados(dados, mapeamento['caminho'], mapeamento.get('chave_secundaria'))
+            retorno[chave] = valor
+
+        return retorno
+    return None
 
 def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barra_anuncio):
     api_cliente = APICliente(access_token)
@@ -168,6 +172,6 @@ def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barr
 
 
 if __name__ == "__main__":
-    access_token = TokenGerador().ler_token()
+    access_token = TokenGerador().retorno_token()
     dados_gerais = puxar_dados_produto_api(access_token=access_token, codigo_produto='HG 41111', dados_necessarios=['similares'])
     print(dados_gerais)
