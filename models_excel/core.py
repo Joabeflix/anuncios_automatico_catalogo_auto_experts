@@ -127,6 +127,7 @@ class Gerar_Anuncios:
             coluna_comprimento_embalagem.append(dados_anuncio['comprimento_embalagem'])
             coluna_qtd_por_embalagem.append(dados_anuncio['qtd_embalagem'])
 
+            @medir_tempo_execucao
             def gerar_aplicacao_veiculo():
                 texto_no_console(f'Gerando aplicação do código {dados_anuncio["part_number"]}')
                 lista_de_veiculos_crua = dados_anuncio['veiculos']
@@ -169,6 +170,10 @@ class Gerar_Anuncios:
                         texto_no_console(f"Erro ao montar os similares: {e}")
 
                 texto_no_console('Aplicação montada com sucesso!')
+
+                # Colocamos isso no console, temos o decorador acima que vai printar o tempo após finalizar a função
+                texto_no_console('Tempo demorado para gerar a aplicação:')
+
                 linhas_similares = f"\n\nCódigos similares:\n{'\n'.join(lista_similares)}" if lista_similares else ''
 
                 # Antes de retornar a aplicação completa... estamos inserindo outros dados em outras colunas
@@ -194,7 +199,7 @@ class Gerar_Anuncios:
             except:
                 pass
 
-            texto_no_console(f'Feito: {qtd_feita}/{qtd_produtos}')
+            texto_no_console(f'Feito: {qtd_feita}/{qtd_produtos}.')
             texto_no_console('-')
 
             if self.funcao_atualizar_barra_geral:
@@ -209,7 +214,7 @@ class Gerar_Anuncios:
         planilha['aplicacao ecommerce'] = coluna_descricao_completa_ecommerce
         planilha['aplicacao simplificada'] = coluna_descricao_simplificada
         planilha['aplicacao completa'] = coluna_descricao_completa
-        planilha['Similares'] = coluna_similares
+        planilha['similares'] = coluna_similares
         planilha['posicao'] = ["" if x == 'None' else x for x in coluna_posicao]
         planilha['lado'] = ["" if x == 'None' else x for x in coluna_lado]
         planilha['ncm'] = coluna_ncm
@@ -230,6 +235,8 @@ class Gerar_Anuncios:
             planilha.to_excel(f'{local_salvar}/anuncios.xlsx', index=False)
 
         texto_no_console('Planilha de anúncios gerada com sucesso!')
+        # Colocamos isso no console, temos o decorador acima que vai printar o tempo após finalizar a função
+        texto_no_console('Tempo demorado para gerar a planilha:')
 
     def baixar_imagem(self, url, nome_arquivo):
         texto_no_console(f'Baixando imagem {nome_arquivo}.')
@@ -238,7 +245,7 @@ class Gerar_Anuncios:
             if resposta.status_code == 200:
                 with open(f'{self.local_salvar_imagens}/{nome_arquivo}.jpg', 'wb') as f:
                     f.write(resposta.content)
-                texto_no_console(f"Imagem salva como: {nome_arquivo}")
+                texto_no_console(f"Imagem salva como: {nome_arquivo}.")
             else:
                 texto_no_console(f"Erro ao baixar imagem. Código HTTP: {resposta.status_code}")
         except Exception as e:

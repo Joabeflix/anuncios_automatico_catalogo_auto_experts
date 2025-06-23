@@ -1,0 +1,2720 @@
+{
+  "T.PUM.0006": {
+    "id": "d5ed5646-23a0-435f-81f2-fce60e27dafe",
+    "codigo": "T.PUM.0006",
+    "classificacao": "Caminhões",
+    "marca": "PUMA",
+    "nome": "7900",
+    "modelo": "-",
+    "inicioProducao": "1996-01-01T00:00:00",
+    "finalProducao": "1999-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "4300",
+      "configuracao": "4.3 L 8V SOHV L4",
+      "potenciaCv": "95"
+    },
+    "dataAtualizacao": "2025-06-10T09:30:51.502984-03:00"
+  },
+  "T.MBZ.0228": {
+    "id": "f2ce7d44-31a4-4bd2-ac0e-c9476b505a5b",
+    "codigo": "T.MBZ.0228",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "L 1114",
+    "modelo": "-",
+    "inicioProducao": "1987-06-01T00:00:00",
+    "finalProducao": "1989-06-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 352",
+      "cilindrada": "5675",
+      "configuracao": "5.7 L 12V SOHV L6",
+      "potenciaCv": "130"
+    },
+    "dataAtualizacao": "2025-06-05T14:29:04.275955-03:00"
+  },
+  "T.MBZ.0227": {
+    "id": "a6234374-dd74-4969-ac61-2635a20dd5f2",
+    "codigo": "T.MBZ.0227",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "L 1114",
+    "modelo": "-",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1989-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 352",
+      "cilindrada": "5675",
+      "configuracao": "5.7 L 12V SOHV L6",
+      "potenciaCv": "130"
+    },
+    "dataAtualizacao": "2025-06-10T13:33:35.404395-03:00"
+  },
+  "T.MBZ.0033": {
+    "id": "2914666c-74b6-427d-a65b-9fd505d75c3e",
+    "codigo": "T.MBZ.0033",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "914 C",
+    "modelo": "-",
+    "inicioProducao": "1998-10-01T00:00:00",
+    "finalProducao": "2006-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 904 LA",
+      "cilindrada": "4249",
+      "configuracao": "4,3 L 12V SOHV L4",
+      "potenciaCv": "136"
+    },
+    "dataAtualizacao": "2024-04-04T09:29:52.329482-03:00"
+  },
+  "T.MBZ.0034": {
+    "id": "ea5f1e84-8e13-4489-87cc-b99833daf4d7",
+    "codigo": "T.MBZ.0034",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "914",
+    "modelo": "-",
+    "inicioProducao": "1988-03-01T00:00:00",
+    "finalProducao": "2003-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 LA",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "136"
+    },
+    "dataAtualizacao": "2021-05-07T12:50:22.061686-03:00"
+  },
+  "T.MBZ.0032": {
+    "id": "a58ffe09-96b0-424e-ade3-a4252e2a50f0",
+    "codigo": "T.MBZ.0032",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "912",
+    "modelo": "-",
+    "inicioProducao": "1988-03-01T00:00:00",
+    "finalProducao": "2003-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 A",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "122"
+    },
+    "dataAtualizacao": "2021-05-07T12:50:21.376714-03:00"
+  },
+  "B.MBZ.0004": {
+    "id": "0f68eb04-102f-4e60-ad01-789c1eb1b89b",
+    "codigo": "B.MBZ.0004",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "LB/LO 814",
+    "modelo": "-",
+    "inicioProducao": "1997-06-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 LA",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "136"
+    },
+    "dataAtualizacao": "2025-06-17T15:23:30.059226-03:00"
+  },
+  "C.MIT.0062": {
+    "id": "f880cb0e-ed18-43f6-8759-beb8bc8ef4e5",
+    "codigo": "C.MIT.0062",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "MITSUBISHI",
+    "nome": "L200",
+    "modelo": "SPORT",
+    "inicioProducao": "1997-07-01T00:00:00",
+    "finalProducao": "2003-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2477",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "87"
+    },
+    "dataAtualizacao": "2024-06-27T09:54:35.236929-03:00"
+  },
+  "C.MIT.0051": {
+    "id": "aabf600b-9fd4-4f14-a291-d3d21adb6717",
+    "codigo": "C.MIT.0051",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "MITSUBISHI",
+    "nome": "L200",
+    "modelo": "GLS 4X4",
+    "inicioProducao": "1997-07-01T00:00:00",
+    "finalProducao": "2003-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2477",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "87"
+    },
+    "dataAtualizacao": "2024-07-01T09:49:24.87916-03:00"
+  },
+  "C.MIT.0047": {
+    "id": "15e2058a-1f05-4d8f-9739-8b5be0a46b77",
+    "codigo": "C.MIT.0047",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "MITSUBISHI",
+    "nome": "L200",
+    "modelo": "GL 4X4",
+    "inicioProducao": "1997-07-01T00:00:00",
+    "finalProducao": "2003-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2477",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "87"
+    },
+    "dataAtualizacao": "2024-07-01T09:47:26.444912-03:00"
+  },
+  "C.MIT.0044": {
+    "id": "5f62d640-ce20-495c-84c5-cf1995006a29",
+    "codigo": "C.MIT.0044",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "MITSUBISHI",
+    "nome": "L200",
+    "modelo": "GC",
+    "inicioProducao": "1997-07-01T00:00:00",
+    "finalProducao": "2003-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2477",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "87"
+    },
+    "dataAtualizacao": "2024-06-24T15:56:37.488337-03:00"
+  },
+  "C.MIT.0054": {
+    "id": "aba51ed9-6f72-45c8-a5fe-b047b8bcf48a",
+    "codigo": "C.MIT.0054",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "MITSUBISHI",
+    "nome": "L200",
+    "modelo": "L",
+    "inicioProducao": "1999-07-01T00:00:00",
+    "finalProducao": "2005-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2477",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "87"
+    },
+    "dataAtualizacao": "2024-09-25T16:12:56.212088-03:00"
+  },
+  "C.MIT.0043": {
+    "id": "842094c8-956a-4e6b-9e48-248b11295efb",
+    "codigo": "C.MIT.0043",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "MITSUBISHI",
+    "nome": "L200",
+    "modelo": "EVO",
+    "inicioProducao": "2003-07-01T00:00:00",
+    "finalProducao": "2004-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2477",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "87"
+    },
+    "dataAtualizacao": "2024-09-26T11:06:38.249327-03:00"
+  },
+  "C.MIT.0060": {
+    "id": "3a4164b5-cc5f-467f-ae8d-4f0477f76e2c",
+    "codigo": "C.MIT.0060",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "MITSUBISHI",
+    "nome": "L200",
+    "modelo": "R 4X4",
+    "inicioProducao": "1999-07-01T00:00:00",
+    "finalProducao": "2004-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2477",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "87"
+    },
+    "dataAtualizacao": "2024-09-25T16:15:12.889361-03:00"
+  },
+  "C.HYU.0197": {
+    "id": "88e8a104-6446-4584-88ea-cdad29feff56",
+    "codigo": "C.HYU.0197",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "HYUNDAI",
+    "nome": "HR",
+    "modelo": "LONGO CHASSIS BAIXO STD GL",
+    "inicioProducao": "2010-06-01T00:00:00",
+    "finalProducao": "2014-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2476",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "97"
+    },
+    "dataAtualizacao": "2024-11-07T07:54:02.737274-03:00"
+  },
+  "C.HYU.0196": {
+    "id": "8aa923c8-ee90-4a70-bd19-cc3e2940f20d",
+    "codigo": "C.HYU.0196",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "HYUNDAI",
+    "nome": "HR",
+    "modelo": "LONGO CHASSIS ALTO STD GL",
+    "inicioProducao": "2009-06-01T00:00:00",
+    "finalProducao": "2012-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2476",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "97"
+    },
+    "dataAtualizacao": "2024-11-07T11:16:42.152599-03:00"
+  },
+  "C.HYU.0199": {
+    "id": "ae016a16-e060-4380-9464-a1a6b93b79f4",
+    "codigo": "C.HYU.0199",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "HYUNDAI",
+    "nome": "HR",
+    "modelo": "LONGUE DECK STD",
+    "inicioProducao": "2007-06-01T00:00:00",
+    "finalProducao": "2011-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2476",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "97"
+    },
+    "dataAtualizacao": "2024-11-07T11:34:43.263842-03:00"
+  },
+  "C.MIT.0100": {
+    "id": "39be6fa6-ddde-42dc-9f02-79b713685656",
+    "codigo": "C.MIT.0100",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "MITSUBISHI",
+    "nome": "L200",
+    "modelo": "SPORT GLS",
+    "inicioProducao": "2003-01-01T00:00:00",
+    "finalProducao": "2007-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4D56",
+      "cilindrada": "2477",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "121"
+    },
+    "dataAtualizacao": "2024-01-15T16:05:06.050003-03:00"
+  },
+  "C.VWW.0427": {
+    "id": "ffda1ae4-9c8e-4637-8851-41a1b86c104e",
+    "codigo": "C.VWW.0427",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "RALLYE TOTAL FLEX",
+    "inicioProducao": "2008-07-01T00:00:00",
+    "finalProducao": "2012-07-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA111 VHT",
+      "cilindrada": "1598",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "101;104"
+    },
+    "dataAtualizacao": "2025-02-27T14:41:28.533865-03:00"
+  },
+  "C.VWW.0670": {
+    "id": "28c5ea00-18cf-4b6c-82cb-c41c08480ca9",
+    "codigo": "C.VWW.0670",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PARATI",
+    "modelo": "TRACK & FIELD",
+    "inicioProducao": "2005-09-01T00:00:00",
+    "finalProducao": "2008-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1800",
+      "cilindrada": "1781",
+      "configuracao": "1.8 L 8V SOHC L4",
+      "potenciaCv": "103;106"
+    },
+    "dataAtualizacao": "2024-06-26T15:23:55.629913-03:00"
+  },
+  "C.VWW.0428": {
+    "id": "24f1f577-6fda-4872-b93c-1a47d5c3cea0",
+    "codigo": "C.VWW.0428",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "RALLYE",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2016-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA111 VHT",
+      "cilindrada": "1598",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "101;104"
+    },
+    "dataAtualizacao": "2025-03-11T07:51:23.398677-03:00"
+  },
+  "C.VWW.0424": {
+    "id": "548fffcb-0d48-499f-9752-05f18f74031e",
+    "codigo": "C.VWW.0424",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "RALLYE TOTAL FLEX",
+    "inicioProducao": "2003-05-01T00:00:00",
+    "finalProducao": "2005-08-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1600",
+      "cilindrada": "1596",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "97;99"
+    },
+    "dataAtualizacao": "2025-04-07T08:14:41.218014-03:00"
+  },
+  "C.VWW.0429": {
+    "id": "005f0116-8d6f-4d5c-9ca6-a34954644ea0",
+    "codigo": "C.VWW.0429",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "RALLYE",
+    "inicioProducao": "2011-01-01T00:00:00",
+    "finalProducao": "2014-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA111 VHT",
+      "cilindrada": "1598",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "101;104"
+    },
+    "dataAtualizacao": "2023-11-17T14:14:22.112045-03:00"
+  },
+  "C.VWW.0658": {
+    "id": "549bb026-8eda-405a-9a2b-6877a4845526",
+    "codigo": "C.VWW.0658",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PARATI",
+    "modelo": "SURF",
+    "inicioProducao": "2005-09-01T00:00:00",
+    "finalProducao": "2008-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1800",
+      "cilindrada": "1781",
+      "configuracao": "1.8 L 8V SOHC L4",
+      "potenciaCv": "103;106"
+    },
+    "dataAtualizacao": "2025-03-05T09:16:43.713437-03:00"
+  },
+  "C.VWW.0422": {
+    "id": "b2572d85-4546-48ed-a2c2-21793b990edf",
+    "codigo": "C.VWW.0422",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "RALLYE I-MOTION",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2016-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA111 VHT",
+      "cilindrada": "1598",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "101;104"
+    },
+    "dataAtualizacao": "2025-03-11T07:50:36.606623-03:00"
+  },
+  "C.VWW.0629": {
+    "id": "bfdbf06e-b76b-43a4-b41a-613ca9770398",
+    "codigo": "C.VWW.0629",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PARATI",
+    "modelo": "CROSSOVER",
+    "inicioProducao": "1999-08-01T00:00:00",
+    "finalProducao": "2005-08-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 2000",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 8V SOHC L4",
+      "potenciaCv": "122"
+    },
+    "dataAtualizacao": "2025-03-31T08:21:21.039459-03:00"
+  },
+  "C.VWW.0609": {
+    "id": "3bec17b5-1562-41fe-b20a-66947ec827ac",
+    "codigo": "C.VWW.0609",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PARATI",
+    "modelo": "CITY TOTAL FLEX",
+    "inicioProducao": "2003-05-01T00:00:00",
+    "finalProducao": "2005-08-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1600",
+      "cilindrada": "1596",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "97;99"
+    },
+    "dataAtualizacao": "2023-11-22T09:25:00.088938-03:00"
+  },
+  "C.VWW.0423": {
+    "id": "94040c21-947a-437a-aef6-53d59ee6506c",
+    "codigo": "C.VWW.0423",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "RALLYE I-MOTION",
+    "inicioProducao": "2014-03-01T00:00:00",
+    "finalProducao": "2015-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA211",
+      "cilindrada": "1598",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "110;120"
+    },
+    "dataAtualizacao": "2023-11-21T09:22:59.282114-03:00"
+  },
+  "C.VWW.0667": {
+    "id": "36e282ff-7989-4ebe-b35f-0836a32605bc",
+    "codigo": "C.VWW.0667",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PARATI",
+    "modelo": "TRACK & FIELD FLEX",
+    "inicioProducao": "2003-05-01T00:00:00",
+    "finalProducao": "2005-08-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1600",
+      "cilindrada": "1596",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "97;99"
+    },
+    "dataAtualizacao": "2024-06-26T15:23:11.852208-03:00"
+  },
+  "C.VWW.0657": {
+    "id": "9eba6b09-0403-4394-8b1a-530045806c85",
+    "codigo": "C.VWW.0657",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PARATI",
+    "modelo": "SURF",
+    "inicioProducao": "2006-11-01T00:00:00",
+    "finalProducao": "2012-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1600",
+      "cilindrada": "1596",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "97;99"
+    },
+    "dataAtualizacao": "2025-02-26T15:00:26.819068-03:00"
+  },
+  "C.VWW.0669": {
+    "id": "a7c7015f-4fc5-45c2-90d3-f72a22ce617f",
+    "codigo": "C.VWW.0669",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PARATI",
+    "modelo": "TRACK & FIELD",
+    "inicioProducao": "2006-11-01T00:00:00",
+    "finalProducao": "2012-10-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1600",
+      "cilindrada": "1596",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "97;99"
+    },
+    "dataAtualizacao": "2025-02-26T14:59:33.847416-03:00"
+  },
+  "C.VWW.0668": {
+    "id": "1a230275-26e5-4f64-b450-76b755a8ffbc",
+    "codigo": "C.VWW.0668",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PARATI",
+    "modelo": "TRACK & FIELD",
+    "inicioProducao": "2005-09-01T00:00:00",
+    "finalProducao": "2006-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1600",
+      "cilindrada": "1596",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "97;99"
+    },
+    "dataAtualizacao": "2025-04-07T08:52:39.966793-03:00"
+  },
+  "C.VWW.0628": {
+    "id": "4f0808e9-2d7e-4ca9-ae0a-58e11224b01f",
+    "codigo": "C.VWW.0628",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PARATI",
+    "modelo": "CROSSOVER",
+    "inicioProducao": "2005-02-01T00:00:00",
+    "finalProducao": "2005-08-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1800",
+      "cilindrada": "1781",
+      "configuracao": "1.8 L 8V SOHC L4",
+      "potenciaCv": "103;106"
+    },
+    "dataAtualizacao": "2024-06-21T11:13:12.003681-03:00"
+  },
+  "C.VWW.0671": {
+    "id": "40f3cc0a-c40e-414c-9c7b-d85038a8a252",
+    "codigo": "C.VWW.0671",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PARATI",
+    "modelo": "TRACK & FIELD",
+    "inicioProducao": "1999-08-01T00:00:00",
+    "finalProducao": "2005-08-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 2000",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 8V SOHC L4",
+      "potenciaCv": "122"
+    },
+    "dataAtualizacao": "2025-03-28T16:41:42.298579-03:00"
+  },
+  "C.VWW.0484": {
+    "id": "2546fe2e-5126-47c5-b975-5bb661261d9e",
+    "codigo": "C.VWW.0484",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "TREND",
+    "inicioProducao": "2001-08-01T00:00:00",
+    "finalProducao": "2005-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA111",
+      "cilindrada": "999",
+      "configuracao": "1.0 L 8V SOHC L4",
+      "potenciaCv": "65"
+    },
+    "dataAtualizacao": "2023-11-17T13:29:33.839689-03:00"
+  },
+  "C.VWW.0426": {
+    "id": "c67305a8-c5bb-41d8-a47b-e8a5930f311d",
+    "codigo": "C.VWW.0426",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "RALLYE TOTAL FLEX",
+    "inicioProducao": "2006-11-01T00:00:00",
+    "finalProducao": "2008-06-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1600",
+      "cilindrada": "1596",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "97;99"
+    },
+    "dataAtualizacao": "2025-04-07T08:06:36.046177-03:00"
+  },
+  "C.VWW.0483": {
+    "id": "7c5b4f48-3251-4ea1-8cd3-16cab0432a3a",
+    "codigo": "C.VWW.0483",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "TREND",
+    "inicioProducao": "2001-08-01T00:00:00",
+    "finalProducao": "2005-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA111",
+      "cilindrada": "999",
+      "configuracao": "1.0 L 8V SOHC L4",
+      "potenciaCv": "65"
+    },
+    "dataAtualizacao": "2023-11-17T13:28:21.823836-03:00"
+  },
+  "C.VWW.0430": {
+    "id": "f8af2c45-e18d-49a4-b1d2-9f59fe5f8f56",
+    "codigo": "C.VWW.0430",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "RALLYE",
+    "inicioProducao": "2014-03-01T00:00:00",
+    "finalProducao": "2015-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA211",
+      "cilindrada": "1598",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "110;120"
+    },
+    "dataAtualizacao": "2023-11-21T09:26:34.580148-03:00"
+  },
+  "C.VWW.0425": {
+    "id": "7a12bf68-5af2-4d6c-940d-8832594f6814",
+    "codigo": "C.VWW.0425",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "GOL",
+    "modelo": "RALLYE TOTAL FLEX",
+    "inicioProducao": "2005-02-01T00:00:00",
+    "finalProducao": "2005-08-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1800",
+      "cilindrada": "1781",
+      "configuracao": "1.8 L 8V SOHC L4",
+      "potenciaCv": "103;106"
+    },
+    "dataAtualizacao": "2023-11-17T13:06:33.489686-03:00"
+  },
+  "B.MBZ.0164": {
+    "id": "42c30ad9-6f3f-492c-aaf0-26ff7a42cfa7",
+    "codigo": "B.MBZ.0164",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OH 1318",
+    "modelo": "-",
+    "inicioProducao": "1988-01-01T00:00:00",
+    "finalProducao": "1998-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 366 A",
+      "cilindrada": "5958",
+      "configuracao": "6.0 L 12V SOHV L6",
+      "potenciaCv": "170"
+    },
+    "dataAtualizacao": "2021-05-07T11:54:08.219149-03:00"
+  },
+  "B.MBZ.0161": {
+    "id": "dd61e17f-a763-46d9-a15b-82c43549ac07",
+    "codigo": "B.MBZ.0161",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OH 1313",
+    "modelo": "-",
+    "inicioProducao": "1980-04-01T00:00:00",
+    "finalProducao": "1987-04-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 352",
+      "cilindrada": "5675",
+      "configuracao": "5.7 L 12V SOHV L6",
+      "potenciaCv": "147"
+    },
+    "dataAtualizacao": "2025-06-18T14:56:16.917175-03:00"
+  },
+  "B.MBZ.0108": {
+    "id": "2eb71009-26d9-4907-a59c-58195e639ce7",
+    "codigo": "B.MBZ.0108",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1313",
+    "modelo": "-",
+    "inicioProducao": "1969-03-01T00:00:00",
+    "finalProducao": "1979-03-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 352",
+      "cilindrada": "5675",
+      "configuracao": "5.7 L 12V SOHV L6",
+      "potenciaCv": "131"
+    },
+    "dataAtualizacao": "2025-06-18T14:53:28.916847-03:00"
+  },
+  "B.MBZ.0110": {
+    "id": "f2432a39-3ddf-4f5a-9ae3-597e22c45f83",
+    "codigo": "B.MBZ.0110",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1318",
+    "modelo": "-",
+    "inicioProducao": "1988-01-01T00:00:00",
+    "finalProducao": "1998-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 366 LA",
+      "cilindrada": "5958",
+      "configuracao": "6.0 L 12V SOHV L6",
+      "potenciaCv": "170"
+    },
+    "dataAtualizacao": "2025-06-18T10:19:29.681933-03:00"
+  },
+  "B.MBZ.0123": {
+    "id": "90111518-f520-45db-929a-24da322da593",
+    "codigo": "B.MBZ.0123",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1620",
+    "modelo": "-",
+    "inicioProducao": "1993-10-01T00:00:00",
+    "finalProducao": "2003-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 366",
+      "cilindrada": "5958",
+      "configuracao": "6.0 L 12V SOHV L6",
+      "potenciaCv": "204"
+    },
+    "dataAtualizacao": "2025-06-18T14:54:34.021837-03:00"
+  },
+  "B.MBZ.0162": {
+    "id": "b6d16867-7f53-4cfc-addc-e76be3271d70",
+    "codigo": "B.MBZ.0162",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OH 1315",
+    "modelo": "-",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 366",
+      "cilindrada": "5958",
+      "configuracao": "6.0 L 12V SOHV L6",
+      "potenciaCv": "136"
+    },
+    "dataAtualizacao": "2021-05-07T11:54:07.326001-03:00"
+  },
+  "B.MBZ.0109": {
+    "id": "a3ae2c93-807a-4604-bad4-e7c364e9470c",
+    "codigo": "B.MBZ.0109",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1314",
+    "modelo": "-",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1988-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 352",
+      "cilindrada": "5675",
+      "configuracao": "5.7 L 12V SOHV L6",
+      "potenciaCv": "130"
+    },
+    "dataAtualizacao": "2021-05-07T11:53:50.672959-03:00"
+  },
+  "B.MBZ.0166": {
+    "id": "e519ee08-329f-42e7-84cc-19f39ac3fcfc",
+    "codigo": "B.MBZ.0166",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OH 1418",
+    "modelo": "EL",
+    "inicioProducao": "2003-01-01T00:00:00",
+    "finalProducao": "2007-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 904 LA",
+      "cilindrada": "4250",
+      "configuracao": "4.3 L 12V SOHV L4",
+      "potenciaCv": "177"
+    },
+    "dataAtualizacao": "2025-06-18T10:50:11.659738-03:00"
+  },
+  "B.MBZ.0175": {
+    "id": "c6b47981-db81-4af8-86d1-21f3af0668d3",
+    "codigo": "B.MBZ.0175",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OH 1520",
+    "modelo": "-",
+    "inicioProducao": "1989-07-01T00:00:00",
+    "finalProducao": "2000-07-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5",
+      "cilindrada": "9650",
+      "configuracao": "9.7 L 10V SOHV L5",
+      "potenciaCv": "187"
+    },
+    "dataAtualizacao": "2025-06-18T12:47:26.077796-03:00"
+  },
+  "B.MBZ.0167": {
+    "id": "86a34074-404d-4422-baa0-255a5a180a01",
+    "codigo": "B.MBZ.0167",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OH 1419",
+    "modelo": "-",
+    "inicioProducao": "1976-06-01T00:00:00",
+    "finalProducao": "1996-06-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5",
+      "cilindrada": "9650",
+      "configuracao": "9.7 L 10V SOHV L5",
+      "potenciaCv": "192"
+    },
+    "dataAtualizacao": "2023-08-15T02:11:46.400525-03:00"
+  },
+  "B.MBZ.0020": {
+    "id": "7fb1e68f-4527-4922-a69c-2e373839d908",
+    "codigo": "B.MBZ.0020",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "LO/OH 1517",
+    "modelo": "-",
+    "inicioProducao": "1976-01-01T00:00:00",
+    "finalProducao": "1986-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5",
+      "cilindrada": "9650",
+      "configuracao": "9.6 L 10V SOHV L5",
+      "potenciaCv": "170"
+    },
+    "dataAtualizacao": "2023-08-15T00:39:51.69253-03:00"
+  },
+  "B.MBZ.0160": {
+    "id": "f4e8abb7-db1a-49ef-bbe2-09b392ba70c9",
+    "codigo": "B.MBZ.0160",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF/OH/1316",
+    "modelo": "-",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1987-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 352 A",
+      "cilindrada": "5675",
+      "configuracao": "5.7 L 12V SOHV L6",
+      "potenciaCv": "156"
+    },
+    "dataAtualizacao": "2025-06-18T10:47:52.298292-03:00"
+  },
+  "B.MBZ.0171": {
+    "id": "fc21803a-d190-4052-a577-aed5a58905c9",
+    "codigo": "B.MBZ.0171",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OH 1517",
+    "modelo": "-",
+    "inicioProducao": "1976-01-01T00:00:00",
+    "finalProducao": "1979-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5",
+      "cilindrada": "9650",
+      "configuracao": "9.7 L 10V SOHV L5",
+      "potenciaCv": "170"
+    },
+    "dataAtualizacao": "2023-08-15T02:13:01.416957-03:00"
+  },
+  "B.MBZ.0169": {
+    "id": "dd6c563c-55f0-41eb-88aa-ff360af66037",
+    "codigo": "B.MBZ.0169",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OH 1420",
+    "modelo": "-",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1989-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 366",
+      "cilindrada": "5958",
+      "configuracao": "6.0 L 12V SOHV L6",
+      "potenciaCv": "211"
+    },
+    "dataAtualizacao": "2025-06-18T12:40:44.119083-03:00"
+  },
+  "B.MBZ.0173": {
+    "id": "423097eb-b36b-4b14-bab8-0b74d6e9262e",
+    "codigo": "B.MBZ.0173",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OH 1518",
+    "modelo": "-",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1989-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 352",
+      "cilindrada": "5675",
+      "configuracao": "5.7 L 12V SOHV L6",
+      "potenciaCv": "170"
+    },
+    "dataAtualizacao": "2025-06-18T12:46:44.877023-03:00"
+  },
+  "T.MBZ.0345": {
+    "id": "7eb193cf-8fcd-43ce-8bd7-164df8e04b8d",
+    "codigo": "T.MBZ.0345",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "LS 1630",
+    "modelo": "-",
+    "inicioProducao": "1990-05-01T00:00:00",
+    "finalProducao": "2000-05-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 449 LA",
+      "cilindrada": "9973",
+      "configuracao": "10.0 L 10V SOHV L5",
+      "potenciaCv": "301"
+    },
+    "dataAtualizacao": "2025-05-30T16:49:49.732612-03:00"
+  },
+  "T.MBZ.0356": {
+    "id": "d8370c85-2b8e-4f06-a995-70b295d7204d",
+    "codigo": "T.MBZ.0356",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "LS 1935",
+    "modelo": "-",
+    "inicioProducao": "1990-05-01T00:00:00",
+    "finalProducao": "2000-05-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 447 LA",
+      "cilindrada": "11967",
+      "configuracao": "12.0 L 12V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-05-28T11:07:18.090129-03:00"
+  },
+  "T.MBZ.0346": {
+    "id": "bed2aef2-8645-4cbf-87a1-9a89b523a3b3",
+    "codigo": "T.MBZ.0346",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "LS 1632",
+    "modelo": "-",
+    "inicioProducao": "1999-01-01T00:00:00",
+    "finalProducao": "2002-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 449 LA",
+      "cilindrada": "9973",
+      "configuracao": "10.0 L 10V SOHV L5",
+      "potenciaCv": "320"
+    },
+    "dataAtualizacao": "2025-06-06T15:33:42.884301-03:00"
+  },
+  "T.MBZ.0357": {
+    "id": "dca9a6ae-c893-4d0e-affe-bdc20027e49b",
+    "codigo": "T.MBZ.0357",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "LS 1938",
+    "modelo": "-",
+    "inicioProducao": "1998-10-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12,0 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2024-04-04T10:35:28.753987-03:00"
+  },
+  "T.MBZ.0255": {
+    "id": "cbe7e499-94be-428b-a474-f658edba3e6a",
+    "codigo": "T.MBZ.0255",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "L 1620",
+    "modelo": "-",
+    "inicioProducao": "1996-06-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 366 LA",
+      "cilindrada": "5958",
+      "configuracao": "6.0 L 12V SOHV L6",
+      "potenciaCv": "211"
+    },
+    "dataAtualizacao": "2025-05-28T09:47:51.128524-03:00"
+  },
+  "T.MBZ.0344": {
+    "id": "4683cf8e-ea0a-47fe-8e88-6852fd8ff9e4",
+    "codigo": "T.MBZ.0344",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "LS 1625",
+    "modelo": "-",
+    "inicioProducao": "1990-05-01T00:00:00",
+    "finalProducao": "2000-05-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 449 A",
+      "cilindrada": "9973",
+      "configuracao": "10.0 L 10V SOHV L5",
+      "potenciaCv": "250"
+    },
+    "dataAtualizacao": "2025-06-13T08:31:32.66606-03:00"
+  },
+  "B.MBZ.0002": {
+    "id": "319180c7-025d-4faa-b2aa-a874788d6d1e",
+    "codigo": "B.MBZ.0002",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1418",
+    "modelo": "CHASSI",
+    "inicioProducao": "2004-01-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 904 LA",
+      "cilindrada": "4250",
+      "configuracao": "4.3 L 12V SOHV L4",
+      "potenciaCv": "177"
+    },
+    "dataAtualizacao": "2025-06-17T15:22:41.063643-03:00"
+  },
+  "B.MBZ.0112": {
+    "id": "9fc31726-7aa8-4b59-be4a-327336292d7b",
+    "codigo": "B.MBZ.0112",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1519",
+    "modelo": "-",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 924 LA BLUETEC 5",
+      "cilindrada": "4800",
+      "configuracao": "4.8 L 12V SOHV L4",
+      "potenciaCv": "185"
+    },
+    "dataAtualizacao": "2023-08-15T01:42:15.590281-03:00"
+  },
+  "B.MBZ.0118": {
+    "id": "c591ef8d-8876-4b43-bab2-fd807e27baf5",
+    "codigo": "B.MBZ.0118",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1519",
+    "modelo": "-",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 924 LA BLUETEC 5",
+      "cilindrada": "4800",
+      "configuracao": "4.8 L 12V SOHV L4",
+      "potenciaCv": "185"
+    },
+    "dataAtualizacao": "2024-06-19T16:41:15.801063-03:00"
+  },
+  "B.MBZ.0115": {
+    "id": "67ca22db-5c30-4ab3-98d3-e56bf3c4544f",
+    "codigo": "B.MBZ.0115",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1519",
+    "modelo": "-",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 924 LA BLUETEC 5",
+      "cilindrada": "4800",
+      "configuracao": "4.8 L 12V SOHV L4",
+      "potenciaCv": "185"
+    },
+    "dataAtualizacao": "2024-06-19T16:40:06.811515-03:00"
+  },
+  "B.MBZ.0116": {
+    "id": "05a3b80f-1d5c-4369-8c13-34e31e6affd3",
+    "codigo": "B.MBZ.0116",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1519",
+    "modelo": "-",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 924 LA BLUETEC 5",
+      "cilindrada": "4800",
+      "configuracao": "4.8 L 12V SOHV L4",
+      "potenciaCv": "185"
+    },
+    "dataAtualizacao": "2024-06-19T16:40:28.956043-03:00"
+  },
+  "B.MBZ.0114": {
+    "id": "b5c74bfa-9f21-4271-ab9a-18bc34ea0b20",
+    "codigo": "B.MBZ.0114",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1519",
+    "modelo": "R",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 924 LA BLUETEC 5",
+      "cilindrada": "4800",
+      "configuracao": "4.8 L 12V SOHV L4",
+      "potenciaCv": "185"
+    },
+    "dataAtualizacao": "2024-06-19T16:39:34.53543-03:00"
+  },
+  "B.MBZ.0117": {
+    "id": "bf19c35d-5eef-40e6-9e21-e48889625a61",
+    "codigo": "B.MBZ.0117",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1519",
+    "modelo": "-",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 924 LA BLUETEC 5",
+      "cilindrada": "4800",
+      "configuracao": "4.8 L 12V SOHV L4",
+      "potenciaCv": "185"
+    },
+    "dataAtualizacao": "2024-06-20T12:03:02.520162-03:00"
+  },
+  "B.MBZ.0113": {
+    "id": "2b661aeb-b7d4-4984-8365-d6c6fa0dc965",
+    "codigo": "B.MBZ.0113",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1519",
+    "modelo": "R",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 924 LA BLUETEC 5",
+      "cilindrada": "4800",
+      "configuracao": "4.8 L 12V SOHV L4",
+      "potenciaCv": "185"
+    },
+    "dataAtualizacao": "2023-08-15T01:43:17.326868-03:00"
+  },
+  "B.MBZ.0119": {
+    "id": "5f14cf71-fb48-4b8c-871e-0b2592e452fa",
+    "codigo": "B.MBZ.0119",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1519",
+    "modelo": "-",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 924 LA BLUETEC 5",
+      "cilindrada": "4800",
+      "configuracao": "4.8 L 12V SOHV L4",
+      "potenciaCv": "185"
+    },
+    "dataAtualizacao": "2024-06-19T16:41:44.044892-03:00"
+  },
+  "B.MBZ.0111": {
+    "id": "23adff49-68f2-4320-9824-eda88c5387ac",
+    "codigo": "B.MBZ.0111",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1417",
+    "modelo": "-",
+    "inicioProducao": "1998-01-01T00:00:00",
+    "finalProducao": "2003-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 904 LA",
+      "cilindrada": "4250",
+      "configuracao": "4.3 L 12V SOHV L4",
+      "potenciaCv": "170"
+    },
+    "dataAtualizacao": "2024-07-19T13:23:01.140735-03:00"
+  },
+  "T.MBZ.0165": {
+    "id": "e85bf009-1464-4ecb-a2c8-e0f5975fb8f4",
+    "codigo": "T.MBZ.0165",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "AXOR",
+    "modelo": "2640 S",
+    "inicioProducao": "2005-06-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12.0 L 24V SOHV L6",
+      "potenciaCv": "401"
+    },
+    "dataAtualizacao": "2025-06-11T16:18:39.167027-03:00"
+  },
+  "T.MBZ.0188": {
+    "id": "f791e878-9b1c-403f-b3f5-a8887b95d1d6",
+    "codigo": "T.MBZ.0188",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "AXOR",
+    "modelo": "2533/48",
+    "inicioProducao": "2005-01-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "326"
+    },
+    "dataAtualizacao": "2025-06-11T16:33:08.728224-03:00"
+  },
+  "T.MBZ.0197": {
+    "id": "b109dcb8-349d-437e-9bdd-7d70c8187104",
+    "codigo": "T.MBZ.0197",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "AXOR",
+    "modelo": "2544/33",
+    "inicioProducao": "2005-06-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12.0 L 24V SOHV L6",
+      "potenciaCv": "428"
+    },
+    "dataAtualizacao": "2025-05-28T15:03:21.333274-03:00"
+  },
+  "T.MBZ.0162": {
+    "id": "2dfd0b09-a56e-4c50-90db-3cf982e8e008",
+    "codigo": "T.MBZ.0162",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "AXOR",
+    "modelo": "2540 S",
+    "inicioProducao": "2005-06-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12.0 L 24V SOHV L6",
+      "potenciaCv": "401"
+    },
+    "dataAtualizacao": "2025-05-28T12:43:02.084-03:00"
+  },
+  "T.MBZ.0209": {
+    "id": "b82077e4-c46d-45dd-a8ef-74cc2eaa6a4a",
+    "codigo": "T.MBZ.0209",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "AXOR",
+    "modelo": "2644 S",
+    "inicioProducao": "2005-06-01T00:00:00",
+    "finalProducao": "2011-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12.0 L 24V SOHV L6",
+      "potenciaCv": "439"
+    },
+    "dataAtualizacao": "2025-05-30T15:49:36.792772-03:00"
+  },
+  "T.IVE.0104": {
+    "id": "14af1c37-0dab-439d-8e03-ecdd0d40445a",
+    "codigo": "T.IVE.0104",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS RST",
+    "modelo": "570-S46 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "460"
+    },
+    "dataAtualizacao": "2025-06-03T08:22:17.718233-03:00"
+  },
+  "T.IVE.0067": {
+    "id": "e63d4df1-88f6-4baa-b7d9-b56363dba91e",
+    "codigo": "T.IVE.0067",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS 490",
+    "modelo": "490-S41/42 T",
+    "inicioProducao": "2008-02-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-05-30T16:48:01.149536-03:00"
+  },
+  "T.IVE.0072": {
+    "id": "3d06aec6-81ad-49a7-844a-ea68b215217f",
+    "codigo": "T.IVE.0072",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "450-S38 T",
+    "inicioProducao": "2004-08-01T00:00:00",
+    "finalProducao": "2008-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-06-04T10:18:49.984498-03:00"
+  },
+  "T.IVE.0074": {
+    "id": "64ce6d4d-07b7-4a5a-b96a-94bf40797f3d",
+    "codigo": "T.IVE.0074",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "450-S38 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2008-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-06-11T10:43:54.683027-03:00"
+  },
+  "T.IVE.0089": {
+    "id": "5df627c1-0265-46ba-a8ee-0d8cd893c896",
+    "codigo": "T.IVE.0089",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "570-S42 TZ",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T13:58:54.046361-03:00"
+  },
+  "T.IVE.0077": {
+    "id": "c1bde85f-a7c3-4cbd-a37f-8bd2fd80d3ce",
+    "codigo": "T.IVE.0077",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "450-S42 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2007-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T10:48:00.215868-03:00"
+  },
+  "T.IVE.0069": {
+    "id": "779b9e6c-7a63-4af7-9a9d-3e0698384d0e",
+    "codigo": "T.IVE.0069",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS 740",
+    "modelo": "740-S42 TZ",
+    "inicioProducao": "2008-02-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T10:41:33.701269-03:00"
+  },
+  "T.IVE.0075": {
+    "id": "c12dc445-3cb9-424c-92a2-d69d06f36209",
+    "codigo": "T.IVE.0075",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "450-S38 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2008-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-06-11T10:44:38.889555-03:00"
+  },
+  "T.IVE.0086": {
+    "id": "cb320de4-0089-43ef-abf3-45008e506ed7",
+    "codigo": "T.IVE.0086",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "570-S42 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T11:19:08.68783-03:00"
+  },
+  "T.IVE.0100": {
+    "id": "b25bfafe-bf1f-43e9-896f-e54ff87ca62e",
+    "codigo": "T.IVE.0100",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS RST",
+    "modelo": "570-S38 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-06-11T14:33:47.302762-03:00"
+  },
+  "T.IVE.0080": {
+    "id": "52b42bf9-d410-4c0c-9dd9-0ffbcedec8d1",
+    "codigo": "T.IVE.0080",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "490-S38 T",
+    "inicioProducao": "2008-02-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-06-11T11:03:25.865029-03:00"
+  },
+  "T.IVE.0102": {
+    "id": "36f0bc37-a32b-4823-94bc-e190b5b69c11",
+    "codigo": "T.IVE.0102",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS RST",
+    "modelo": "570-S41 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "415"
+    },
+    "dataAtualizacao": "2025-06-11T14:38:03.860642-03:00"
+  },
+  "T.IVE.0090": {
+    "id": "3a6513fa-d9c7-42fe-8f7d-07049166959b",
+    "codigo": "T.IVE.0090",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "740-S42 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T14:28:33.041709-03:00"
+  },
+  "T.IVE.0073": {
+    "id": "de92cdd8-ef5d-4727-a938-0e43db120429",
+    "codigo": "T.IVE.0073",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "450-S38 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2008-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-06-11T10:43:22.811641-03:00"
+  },
+  "T.IVE.0076": {
+    "id": "83e289d5-f2fa-4f21-8091-3c2ace1b3245",
+    "codigo": "T.IVE.0076",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "450-S42 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2007-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T10:45:44.75752-03:00"
+  },
+  "T.IVE.0088": {
+    "id": "ae13e74d-a599-4804-b9d0-0db849f9ae53",
+    "codigo": "T.IVE.0088",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "570-S42 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T13:55:25.823826-03:00"
+  },
+  "T.IVE.0101": {
+    "id": "5600ae2f-ad60-4ee0-abee-945b44bdb192",
+    "codigo": "T.IVE.0101",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS RST",
+    "modelo": "570-S38 NR",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-05-30T09:54:46.583871-03:00"
+  },
+  "T.IVE.0085": {
+    "id": "43eb465a-5afd-4c01-9d51-f7063da4371c",
+    "codigo": "T.IVE.0085",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "570-S42 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T11:14:12.221453-03:00"
+  },
+  "T.IVE.0079": {
+    "id": "05e28d7d-38d8-4c91-b231-76bb2192cef3",
+    "codigo": "T.IVE.0079",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "450-S42 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2007-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "13 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T10:59:39.270929-03:00"
+  },
+  "T.IVE.0084": {
+    "id": "0840814d-da2a-49df-b227-c2808dec4f8f",
+    "codigo": "T.IVE.0084",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "570-S38 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-06-11T11:11:55.069462-03:00"
+  },
+  "T.IVE.0087": {
+    "id": "32a8a2f3-a5ee-4274-9ad4-006cd43c63e6",
+    "codigo": "T.IVE.0087",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "570-S42 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T11:20:30.707005-03:00"
+  },
+  "T.IVE.0078": {
+    "id": "ab0008fb-500a-43c1-80ba-6d20deb3dc81",
+    "codigo": "T.IVE.0078",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "450-S42 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2007-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T10:50:58.745944-03:00"
+  },
+  "T.IVE.0082": {
+    "id": "e1c4e54e-186a-46a0-8bf5-e3a59aaade3e",
+    "codigo": "T.IVE.0082",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "570-S38 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-06-11T11:09:59.271616-03:00"
+  },
+  "T.IVE.0091": {
+    "id": "07698915-137d-4209-a397-9580aa95adc5",
+    "codigo": "T.IVE.0091",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "740-S42 TZ",
+    "inicioProducao": "2007-02-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T14:33:14.396265-03:00"
+  },
+  "T.IVE.0103": {
+    "id": "ef36f6e3-b269-4737-a532-e1eeac9b8ee9",
+    "codigo": "T.IVE.0103",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS RST",
+    "modelo": "570-S42 TA",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-10T13:53:25.155081-03:00"
+  },
+  "T.IVE.0083": {
+    "id": "7f4c5583-7aea-47bd-b0c4-f26e18755d76",
+    "codigo": "T.IVE.0083",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "570-S38 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12.9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-06-11T11:10:57.407173-03:00"
+  },
+  "T.IVE.0070": {
+    "id": "2d2fe881-2c4f-4452-8446-7d6dd2e932a7",
+    "codigo": "T.IVE.0070",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS 740",
+    "modelo": "740-S42 TZ",
+    "inicioProducao": "2008-02-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "420"
+    },
+    "dataAtualizacao": "2025-06-11T10:42:06.225618-03:00"
+  },
+  "T.IVE.0081": {
+    "id": "6552dde8-dad7-4598-93cf-50bb535c20b0",
+    "codigo": "T.IVE.0081",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS HD",
+    "modelo": "570-S38 T",
+    "inicioProducao": "2005-08-01T00:00:00",
+    "finalProducao": "2012-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CURSOR 13",
+      "cilindrada": "12882",
+      "configuracao": "12,9 L 24V SOHV L6",
+      "potenciaCv": "380"
+    },
+    "dataAtualizacao": "2025-06-11T11:03:48.850894-03:00"
+  },
+  "T.IVE.0053": {
+    "id": "de0af937-012d-41ab-a0cc-2439e3008dfa",
+    "codigo": "T.IVE.0053",
+    "classificacao": "Caminhões",
+    "marca": "IVECO",
+    "nome": "STRALIS 400",
+    "modelo": "200-S37",
+    "inicioProducao": "2002-06-01T00:00:00",
+    "finalProducao": "2007-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "8210.42K",
+      "cilindrada": "13798",
+      "configuracao": "13,8 L 24V SOHV L6",
+      "potenciaCv": "410"
+    },
+    "dataAtualizacao": "2024-11-29T10:34:24.212745-03:00"
+  },
+  "T.VWW.0022": {
+    "id": "02ec93a7-f94b-4a0d-b4d7-1728dbe2b42f",
+    "codigo": "T.VWW.0022",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "15-190",
+    "modelo": "-",
+    "inicioProducao": "2001-11-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2025-06-04T10:31:32.622308-03:00"
+  },
+  "T.VWW.0023": {
+    "id": "aba22df8-3497-42a6-94a2-0bf0b5c2938e",
+    "codigo": "T.VWW.0023",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "16-170",
+    "modelo": "-",
+    "inicioProducao": "1991-09-01T00:00:00",
+    "finalProducao": "1993-04-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 CT",
+      "cilindrada": "8270",
+      "configuracao": "8.3 L 12V SOHV L6",
+      "potenciaCv": "170"
+    },
+    "dataAtualizacao": "2025-05-30T13:45:29.834313-03:00"
+  },
+  "T.VWW.0014": {
+    "id": "5b220ad3-e7d9-46dd-9066-44d00f08bcb7",
+    "codigo": "T.VWW.0014",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "14-150",
+    "modelo": "-",
+    "inicioProducao": "1991-07-01T00:00:00",
+    "finalProducao": "1995-11-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "6450",
+      "configuracao": "6.5 L 12V SOHV L6",
+      "potenciaCv": "142"
+    },
+    "dataAtualizacao": "2025-05-30T17:14:51.837436-03:00"
+  },
+  "T.VWW.0011": {
+    "id": "93f7d96f-e132-4764-8b5e-b04edb954d3a",
+    "codigo": "T.VWW.0011",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "13-180",
+    "modelo": "-",
+    "inicioProducao": "2000-01-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "6450",
+      "configuracao": "6.5 L 12V SOHV L6",
+      "potenciaCv": "180"
+    },
+    "dataAtualizacao": "2025-05-28T11:19:50.977908-03:00"
+  },
+  "T.FOR.0075": {
+    "id": "e43c4322-bfe7-4209-bcd5-b01c111d6d3a",
+    "codigo": "T.FOR.0075",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1421",
+    "inicioProducao": "1999-12-01T00:00:00",
+    "finalProducao": "2002-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "205"
+    },
+    "dataAtualizacao": "2025-06-04T13:21:04.224424-03:00"
+  },
+  "T.VWW.0032": {
+    "id": "44d87a7f-0b41-4acb-8c21-f03f0a3205bf",
+    "codigo": "T.VWW.0032",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "17-210",
+    "modelo": "-",
+    "inicioProducao": "2000-11-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "6450",
+      "configuracao": "6.5 L 12V SOHV L6",
+      "potenciaCv": "206"
+    },
+    "dataAtualizacao": "2025-06-03T16:06:29.473889-03:00"
+  },
+  "T.FOR.0018": {
+    "id": "a291adc0-ee1b-45a9-833a-a8faad4166e6",
+    "codigo": "T.FOR.0018",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1419",
+    "inicioProducao": "1990-10-01T00:00:00",
+    "finalProducao": "1992-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "BSD 666",
+      "cilindrada": "6571",
+      "configuracao": "6.6 L 12V SOHV L6",
+      "potenciaCv": "189"
+    },
+    "dataAtualizacao": "2025-06-04T12:48:08.843183-03:00"
+  },
+  "T.VWW.0004": {
+    "id": "6a957a4f-7a49-4c38-aaef-fae3dfd4be23",
+    "codigo": "T.VWW.0004",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "12-140 H",
+    "modelo": "-",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1991-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "5880",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "134"
+    },
+    "dataAtualizacao": "2025-06-09T11:18:55.705569-03:00"
+  },
+  "T.FOR.0016": {
+    "id": "b1051567-c7da-457a-b526-14a00964235d",
+    "codigo": "T.FOR.0016",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1415",
+    "inicioProducao": "1986-07-01T00:00:00",
+    "finalProducao": "1992-04-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "FTO 6.6",
+      "cilindrada": "6571",
+      "configuracao": "6.6 L 12V SOHV L6",
+      "potenciaCv": "155"
+    },
+    "dataAtualizacao": "2024-11-18T14:47:55.915232-03:00"
+  },
+  "T.VWW.0009": {
+    "id": "3932f6fa-11cc-43f3-a956-d1ee6a607035",
+    "codigo": "T.VWW.0009",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "13-150",
+    "modelo": "-",
+    "inicioProducao": "2000-01-01T00:00:00",
+    "finalProducao": "2005-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "4300",
+      "configuracao": "4.3 L 8V SOHV L4",
+      "potenciaCv": "145"
+    },
+    "dataAtualizacao": "2025-05-30T16:05:12.403369-03:00"
+  },
+  "T.VWW.0005": {
+    "id": "e559bf6c-639a-4814-95a0-84c0e3c1aee0",
+    "codigo": "T.VWW.0005",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "12-140 T",
+    "modelo": "-",
+    "inicioProducao": "1992-01-01T00:00:00",
+    "finalProducao": "2000-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "4300",
+      "configuracao": "4.3 L 8V SOHV L4",
+      "potenciaCv": "135"
+    },
+    "dataAtualizacao": "2025-05-28T13:58:49.63442-03:00"
+  },
+  "T.VWW.0013": {
+    "id": "1231dc3f-ca23-4d5a-9bc4-bb6c71d191a3",
+    "codigo": "T.VWW.0013",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "14-140",
+    "modelo": "-",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1989-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "5880",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "138"
+    },
+    "dataAtualizacao": "2025-05-30T17:16:01.796593-03:00"
+  },
+  "T.FOR.0017": {
+    "id": "ba57efba-7e4e-4666-9f04-a7c70f6f28fe",
+    "codigo": "T.FOR.0017",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1418",
+    "inicioProducao": "1986-07-01T00:00:00",
+    "finalProducao": "1992-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "BSD 666",
+      "cilindrada": "6571",
+      "configuracao": "6.6 L 12V SOHV L6",
+      "potenciaCv": "182"
+    },
+    "dataAtualizacao": "2025-06-04T09:33:02.961381-03:00"
+  },
+  "T.VWW.0007": {
+    "id": "24fa37a4-205d-4ef4-a22f-ce2187b0c620",
+    "codigo": "T.VWW.0007",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "12-180",
+    "modelo": "-",
+    "inicioProducao": "1999-10-01T00:00:00",
+    "finalProducao": "2000-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "6450",
+      "configuracao": "6.5 L 12V SOHV L6",
+      "potenciaCv": "180"
+    },
+    "dataAtualizacao": "2025-06-09T11:19:50.839336-03:00"
+  },
+  "T.VWW.0021": {
+    "id": "5952a30b-5c3f-47a6-8e70-092ede75f466",
+    "codigo": "T.VWW.0021",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "15-180",
+    "modelo": "-",
+    "inicioProducao": "2000-01-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "6450",
+      "configuracao": "6.5 L 12V SOHV L6",
+      "potenciaCv": "180"
+    },
+    "dataAtualizacao": "2025-05-28T14:03:21.736602-03:00"
+  },
+  "T.VWW.0029": {
+    "id": "6db49bf1-8384-42ca-b06d-cd87f3e46fab",
+    "codigo": "T.VWW.0029",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "16-220",
+    "modelo": "-",
+    "inicioProducao": "1991-01-01T00:00:00",
+    "finalProducao": "2000-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 CTAA",
+      "cilindrada": "8270",
+      "configuracao": "8.3 L 12V SOHV L6",
+      "potenciaCv": "218"
+    },
+    "dataAtualizacao": "2025-06-09T11:27:23.236622-03:00"
+  },
+  "T.VWW.0019": {
+    "id": "223b6077-f74d-44a6-b3de-6f886e14bb14",
+    "codigo": "T.VWW.0019",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "14-220",
+    "modelo": "-",
+    "inicioProducao": "1991-10-01T00:00:00",
+    "finalProducao": "2000-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 CTAA",
+      "cilindrada": "8270",
+      "configuracao": "8.3 L 12V SOHV L6",
+      "potenciaCv": "214"
+    },
+    "dataAtualizacao": "2025-06-10T14:01:21.575348-03:00"
+  },
+  "T.FOR.0020": {
+    "id": "72b84f1f-42f7-4063-9739-42513396717f",
+    "codigo": "T.FOR.0020",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1514",
+    "inicioProducao": "1984-07-01T00:00:00",
+    "finalProducao": "1986-06-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "NA 6.6",
+      "cilindrada": "6571",
+      "configuracao": "6.6 L 12V SOHV L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2025-06-10T10:05:34.012119-03:00"
+  },
+  "T.VWW.0010": {
+    "id": "d7bc86f3-022c-43a3-879c-bc03930f1661",
+    "codigo": "T.VWW.0010",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "13-170",
+    "modelo": "-",
+    "inicioProducao": "2000-01-01T00:00:00",
+    "finalProducao": "2001-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2025-05-21T09:55:01.126643-03:00"
+  },
+  "T.VWW.0025": {
+    "id": "2f0b9848-5d8b-4f08-b1df-43a384caca20",
+    "codigo": "T.VWW.0025",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "16-200",
+    "modelo": "-",
+    "inicioProducao": "1997-11-01T00:00:00",
+    "finalProducao": "2000-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "208"
+    },
+    "dataAtualizacao": "2025-05-30T17:04:05.15552-03:00"
+  },
+  "T.FOR.0013": {
+    "id": "c96b95b3-c9da-43fb-b2d4-3bc0170b71af",
+    "codigo": "T.FOR.0013",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1317",
+    "inicioProducao": "2002-01-01T00:00:00",
+    "finalProducao": "2006-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2025-05-30T16:51:48.440272-03:00"
+  },
+  "T.VWW.0031": {
+    "id": "755cfae3-e5e1-423a-a037-87e9466b1763",
+    "codigo": "T.VWW.0031",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "17-210",
+    "modelo": "-",
+    "inicioProducao": "2000-01-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "215"
+    },
+    "dataAtualizacao": "2025-05-30T09:09:26.31106-03:00"
+  },
+  "T.FOR.0071": {
+    "id": "0faad921-1828-494b-b8eb-ade33409bddc",
+    "codigo": "T.FOR.0071",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1415",
+    "inicioProducao": "1992-04-01T00:00:00",
+    "finalProducao": "1995-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BT",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "160"
+    },
+    "dataAtualizacao": "2025-05-30T17:04:35.724855-03:00"
+  },
+  "T.VWW.0006": {
+    "id": "61b4b18a-1175-427e-8816-a45fcab3458f",
+    "codigo": "T.VWW.0006",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "12-170 BT",
+    "modelo": "-",
+    "inicioProducao": "1997-04-01T00:00:00",
+    "finalProducao": "2000-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "158"
+    },
+    "dataAtualizacao": "2025-05-30T17:13:10.855081-03:00"
+  },
+  "T.VWW.0028": {
+    "id": "df52f06b-838c-4b79-9384-b20e31049724",
+    "codigo": "T.VWW.0028",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "16-220",
+    "modelo": "-",
+    "inicioProducao": "1991-01-01T00:00:00",
+    "finalProducao": "2000-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 CT",
+      "cilindrada": "8270",
+      "configuracao": "8.3 L 12V SOHV L6",
+      "potenciaCv": "218"
+    },
+    "dataAtualizacao": "2025-06-10T13:54:57.094346-03:00"
+  },
+  "T.FOR.0011": {
+    "id": "28ccca02-b441-4c5f-9952-273602cb58b3",
+    "codigo": "T.FOR.0011",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1314",
+    "inicioProducao": "1984-07-01T00:00:00",
+    "finalProducao": "1986-06-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "NA 6.6",
+      "cilindrada": "6571",
+      "configuracao": "6.6 L 12V SOHV L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2025-06-10T10:04:39.769321-03:00"
+  },
+  "T.FOR.0026": {
+    "id": "ed6984dd-4348-4b3a-8804-74638cd89e19",
+    "codigo": "T.FOR.0026",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1615",
+    "inicioProducao": "1986-07-01T00:00:00",
+    "finalProducao": "1992-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "NA 6.6",
+      "cilindrada": "6571",
+      "configuracao": "6.6 L 12V SOHV L6",
+      "potenciaCv": "155"
+    },
+    "dataAtualizacao": "2025-06-04T12:54:32.333247-03:00"
+  },
+  "T.VWW.0017": {
+    "id": "50e65867-32da-46bf-8b57-cb050f72cb1e",
+    "codigo": "T.VWW.0017",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "14-200",
+    "modelo": "-",
+    "inicioProducao": "1991-07-01T00:00:00",
+    "finalProducao": "1994-07-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "6450",
+      "configuracao": "6.5 L 12V SOHV L6",
+      "potenciaCv": "195"
+    },
+    "dataAtualizacao": "2025-06-09T11:22:34.065585-03:00"
+  },
+  "T.VWW.0030": {
+    "id": "c82450fa-1c23-4ddd-a220-997f4ba7caeb",
+    "codigo": "T.VWW.0030",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "16-300",
+    "modelo": "-",
+    "inicioProducao": "1995-06-01T00:00:00",
+    "finalProducao": "2000-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 CTAA",
+      "cilindrada": "8270",
+      "configuracao": "8.3 L 12V SOHV L6",
+      "potenciaCv": "291"
+    },
+    "dataAtualizacao": "2025-06-09T11:28:19.085678-03:00"
+  },
+  "T.VWW.0015": {
+    "id": "64c3dec7-531f-4e09-b697-933fd6fa7731",
+    "codigo": "T.VWW.0015",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "14-170 BT",
+    "modelo": "-",
+    "inicioProducao": "1997-04-01T00:00:00",
+    "finalProducao": "2000-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "158"
+    },
+    "dataAtualizacao": "2025-06-03T16:21:30.761042-03:00"
+  },
+  "T.VWW.0084": {
+    "id": "4e660841-3ac1-4e6b-b5a9-4543933969f5",
+    "codigo": "T.VWW.0084",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "CONSTELLATION",
+    "modelo": "15-180",
+    "inicioProducao": "2006-04-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 12 / X12",
+      "cilindrada": "4745",
+      "configuracao": "4.8 L 8V SOHV L4",
+      "potenciaCv": "180"
+    },
+    "dataAtualizacao": "2025-05-28T13:44:35.201919-03:00"
+  },
+  "T.VWW.0020": {
+    "id": "72dc9a1f-1127-4965-8f16-bebb98c42bc7",
+    "codigo": "T.VWW.0020",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "15-170",
+    "modelo": "-",
+    "inicioProducao": "2000-01-01T00:00:00",
+    "finalProducao": "2001-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2025-06-09T11:23:30.862151-03:00"
+  },
+  "T.VWW.0012": {
+    "id": "44877c13-4bb3-4cc8-87b2-5fb60b029850",
+    "codigo": "T.VWW.0012",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "13-190",
+    "modelo": "-",
+    "inicioProducao": "2001-11-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "142"
+    },
+    "dataAtualizacao": "2025-06-09T11:20:45.455807-03:00"
+  },
+  "T.FOR.0014": {
+    "id": "8199a181-1e64-43bb-8491-13c544d1e3fa",
+    "codigo": "T.FOR.0014",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1317",
+    "inicioProducao": "1984-11-01T00:00:00",
+    "finalProducao": "1986-06-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "BSD 666",
+      "cilindrada": "6571",
+      "configuracao": "6.6 L 12V SOHV L6",
+      "potenciaCv": "165"
+    },
+    "dataAtualizacao": "2025-06-10T10:41:55.042535-03:00"
+  },
+  "T.VWW.0082": {
+    "id": "7ed92b1a-3f50-4c7a-80f0-04d695e5a5c7",
+    "codigo": "T.VWW.0082",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "CONSTELLATION",
+    "modelo": "13-180",
+    "inicioProducao": "2006-04-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 12 / X12",
+      "cilindrada": "4745",
+      "configuracao": "4.8 L 8V SOHV L4",
+      "potenciaCv": "180"
+    },
+    "dataAtualizacao": "2025-05-28T11:01:57.051055-03:00"
+  },
+  "T.FOR.0021": {
+    "id": "c4c6e36f-407b-4660-ab4d-198cde7079f9",
+    "codigo": "T.FOR.0021",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1517",
+    "inicioProducao": "2002-01-01T00:00:00",
+    "finalProducao": "2006-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BTAA",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2025-06-04T12:51:20.872474-03:00"
+  },
+  "T.FOR.0019": {
+    "id": "f65e1883-8c79-485c-8c64-08af9908451c",
+    "codigo": "T.FOR.0019",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1422",
+    "inicioProducao": "1991-09-01T00:00:00",
+    "finalProducao": "2000-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 CT",
+      "cilindrada": "8270",
+      "configuracao": "8.3 L 12V SOHV L6",
+      "potenciaCv": "215"
+    },
+    "dataAtualizacao": "2025-06-10T14:06:00.71128-03:00"
+  },
+  "T.FOR.0022": {
+    "id": "0ebb8690-5167-44e0-a207-96f76682f29e",
+    "codigo": "T.FOR.0022",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 1517",
+    "inicioProducao": "1984-11-01T00:00:00",
+    "finalProducao": "1986-06-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "BSD 666",
+      "cilindrada": "6571",
+      "configuracao": "6.6 L 12V SOHV L6",
+      "potenciaCv": "165"
+    },
+    "dataAtualizacao": "2025-06-10T10:02:54.403997-03:00"
+  },
+  "T.VWW.0033": {
+    "id": "25034133-1def-40ba-94e7-90f9cec028a7",
+    "codigo": "T.VWW.0033",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "17-220",
+    "modelo": "-",
+    "inicioProducao": "2000-01-01T00:00:00",
+    "finalProducao": "2006-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 CTAA",
+      "cilindrada": "8270",
+      "configuracao": "8.3 L 12V SOHV L6",
+      "potenciaCv": "218"
+    },
+    "dataAtualizacao": "2025-05-30T16:48:30.228966-03:00"
+  },
+  "T.VWW.0016": {
+    "id": "e78fe9f5-a464-495e-bbdb-bdd083033927",
+    "codigo": "T.VWW.0016",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "14-180",
+    "modelo": "-",
+    "inicioProducao": "1999-10-01T00:00:00",
+    "finalProducao": "2000-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "6450",
+      "configuracao": "6.5 L 12V SOHV L6",
+      "potenciaCv": "180"
+    },
+    "dataAtualizacao": "2025-06-09T11:21:39.339559-03:00"
+  },
+  "B.MBZ.0145": {
+    "id": "887e77c2-c1ee-4641-a936-701fc0a89ca0",
+    "codigo": "B.MBZ.0145",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1724",
+    "modelo": "L",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "238"
+    },
+    "dataAtualizacao": "2023-08-15T02:05:42.260913-03:00"
+  },
+  "B.MBZ.0153": {
+    "id": "f64eff0c-890c-4e0b-afec-6fca4fc51564",
+    "codigo": "B.MBZ.0153",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1724",
+    "modelo": "L",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "238"
+    },
+    "dataAtualizacao": "2025-06-18T10:39:58.365695-03:00"
+  },
+  "B.MBZ.0151": {
+    "id": "c8c31edf-31dd-4cc9-9525-ad65c4a16103",
+    "codigo": "B.MBZ.0151",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1724",
+    "modelo": "L",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "238"
+    },
+    "dataAtualizacao": "2025-06-18T10:38:52.604965-03:00"
+  },
+  "B.MBZ.0157": {
+    "id": "3dbecc7a-22d5-409e-840d-1d17a458d29d",
+    "codigo": "B.MBZ.0157",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1724",
+    "modelo": "L",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "238"
+    },
+    "dataAtualizacao": "2025-06-18T10:44:13.553022-03:00"
+  },
+  "B.MBZ.0147": {
+    "id": "034c4f79-e2c1-4d9b-a739-7b8d29db79c9",
+    "codigo": "B.MBZ.0147",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1724",
+    "modelo": "L",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "238"
+    },
+    "dataAtualizacao": "2025-06-18T10:34:06.148647-03:00"
+  },
+  "B.MBZ.0155": {
+    "id": "fdeb7a15-9a13-4d90-9a69-9d0bb175dc3c",
+    "codigo": "B.MBZ.0155",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1724",
+    "modelo": "L",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "238"
+    },
+    "dataAtualizacao": "2025-06-18T10:41:19.304587-03:00"
+  },
+  "B.MBZ.0149": {
+    "id": "0fc02fa2-7c9c-4275-8ad4-52da32a706b5",
+    "codigo": "B.MBZ.0149",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "OF 1724",
+    "modelo": "L",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "238"
+    },
+    "dataAtualizacao": "2025-06-18T10:37:55.93187-03:00"
+  }
+}

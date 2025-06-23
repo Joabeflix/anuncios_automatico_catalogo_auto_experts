@@ -101,30 +101,42 @@ def puxar_dados_produto_api(access_token, codigo_produto, dados_necessarios=None
         return retorno
     return None
 
+import json
+import time
+from utils.utils import texto_no_console
+
 def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barra_anuncio):
+    from models_api.api_max import APICliente
     api_cliente = APICliente(access_token)
     url_path = 'veiculos/codigo'
     veiculos_completos = []
+
+    caminho_json = rf'configs\veiculos_cache.json'
+
+    # Carregar JSON existente
+    with open(caminho_json, 'r', encoding='utf-8') as f:
+        cache_veiculos = json.load(f)
 
     total = len(lista_veiculos)
     feito = 0
 
     for item in lista_veiculos:
-        
-        
-        # Aqui na funcao (funcao_atualizar_barra_anuncios)
-        # estamos recebendo a funcaodo arquivo interface.py
-        # e essa função passamos o parametro para mudar 
-        # a interface de acordo que vai formulando a aplicacao
-        
         if funcao_atualizar_barra_anuncio:
             progresso = int((feito / total) * 100)
             funcao_atualizar_barra_anuncio(progresso)
-        
-        # Um time para evitar requisições muito rápidas
+
         time.sleep(0.1)
         codigo = item.get('codigo')
         if not codigo:
+            continue
+
+
+        # Aqui estamos verificando se ja não adicionamos o carro no cache, pois se tiver
+        # não vamos precisar fazer a requisição e assim vamos gerar o relatorio mais rapido
+        # de acordo que vamos adicionando informações nele
+        if codigo in cache_veiculos:
+            veiculos_completos.append(cache_veiculos[codigo])
+            feito += 1
             continue
 
         response = api_cliente.obter_dados_api(codigo, url_path)
@@ -159,15 +171,21 @@ def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barr
                 },
                 "dataAtualizacao": dados.get("dataAtualizacao")
             }
+
             veiculos_completos.append(veiculo)
-            feito+=1
+            cache_veiculos[codigo] = veiculo
+
+            feito += 1
 
         except Exception as e:
             texto_no_console(f"Erro ao processar veículo {codigo}: {e}")
             continue
 
-    funcao_atualizar_barra_anuncio(0)
+    with open(caminho_json, 'w', encoding='utf-8') as f:
+        json.dump(cache_veiculos, f, ensure_ascii=False, indent=2)
+
     return veiculos_completos
+
 
 
 

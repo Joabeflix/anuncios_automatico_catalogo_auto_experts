@@ -9,7 +9,7 @@ from tkinter.filedialog import askdirectory
 def texto_no_console(obj):
     separadores = ['_', '*', '-', '#']
     if obj in separadores:
-        print(obj * 120)
+        print(obj * 130)
         return None
     if isinstance(obj, list):
         for t in obj:
@@ -96,13 +96,13 @@ def medir_tempo_execucao(funcao):
         tempo_demorado_total = int(_tempo_demorado)
 
         if tempo_demorado_total < 60:
-            texto_no_console(f"Tempo demorado: {tempo_demorado_total} segundos.")
+            texto_no_console(f"Tempo: {tempo_demorado_total} segundos.")
             return resultado
         
         minutos = tempo_demorado_total // 60
         segundos = tempo_demorado_total % 60
 
-        texto_no_console(f"Tempo de demorado: {minutos} minutos e {segundos} segundos.")
+        texto_no_console(f"Tempo: {minutos} minutos e {segundos} segundos.")
         return resultado
     return wrapper
 
