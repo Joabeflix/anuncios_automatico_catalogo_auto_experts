@@ -1,10 +1,4 @@
-x = None
+from globals import MAPEAMENTO_FALTA_ATRIBUTO
 
-
-for y in range(1000):
-    print(y)
-    if x:
-        break
-
-
+print(MAPEAMENTO_FALTA_ATRIBUTO.get("['data'][0]['aplicacoes'][0]['grupoProduto']['nome']", ""))
 

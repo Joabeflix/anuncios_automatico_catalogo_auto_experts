@@ -6,6 +6,7 @@ from utils.utils import texto_no_console, tela_aviso
 from models_api.gerar_token import TokenGerador
 from models_api.mapeamentos_retorno_api import mapeamento_usar
 import time
+from globals import MAPEAMENTO_FALTA_ATRIBUTO
 
 load_dotenv()
 
@@ -49,7 +50,7 @@ class FiltroJSON:
         try:
             resultado = eval(f"data{filtro_json}")
         except Exception as e:
-            texto_no_console(f"O produto não tem o atributo {filtro_json}")
+            texto_no_console(f"{MAPEAMENTO_FALTA_ATRIBUTO.get(filtro_json, "")}")
             return ""
 
         if item_filtro:
@@ -121,7 +122,7 @@ def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barr
             funcao_atualizar_barra_anuncio(progresso)
         
         # Um time para evitar requisições muito rápidas
-        time.sleep(0.05)
+        time.sleep(0.1)
         codigo = item.get('codigo')
         if not codigo:
             continue

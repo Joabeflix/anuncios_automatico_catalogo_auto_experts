@@ -1,0 +1,17 @@
+{
+    "['data'][0]['aplicacoes'][0]['descricao']": "O produto não tem aplicação disponível.",
+    "['data'][0]['marca']['nome']": "O produto não tem marca disponível.",
+    "['data'][0]['aplicacoes'][0]['descricaoFrota']": "O produto não tem aplicação simplificada disponível.",
+    "['data'][0]['especificacoes']": "O produto não tem informações técnicas disponíveis.",
+    "['data'][0]['imagens'][0]['url']": "O produto não tem imagem disponível.",
+    "['data']": "O produto não tem dados disponíveis.",
+    "['data'][0]['partNumber']": "O produto não tem código (PartNumber) disponível.",
+    "['data'][0]['dataCadastro']": "O produto não tem data de cadastro disponível.",
+    "['data'][0]['dataAtualizacao']": "O produto não tem data de atualização disponível.",
+    "['data'][0]['similares']": "O produto não tem produtos similares disponíveis.",
+    "['data'][0]['aplicacoes'][0]['grupoProduto']['nome']": "O produto não tem nome de grupo de produto disponível.",
+    "['data'][0]['aplicacoes'][0]['mercado']['nome']": "O produto não tem mercado de aplicação disponível.",
+    "['data'][0]['aplicacoes'][0]['veiculos']": "O produto não tem nenhuma aplicação disponível.",
+    "['data'][0]['status']": "O produto não tem status disponível.",
+    "['data'][0]['ativoCatalogo']": "O produto não informa se está ativo no catálogo."
+}

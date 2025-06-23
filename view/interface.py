@@ -8,8 +8,8 @@ import sys
 from models_excel.core import Gerar_Anuncios
 from models_api.gerar_token import TokenGerador
 import threading
-import platform
 from globals import TOKEN, TEMA
+import webbrowser
 
 class RedirecionarConsole:
     def __init__(self, text_widget):
@@ -52,6 +52,18 @@ class MinhaInterface:
         """ Labels """
         self.label_console = ttk.Label(self.root, text="Informações:", font=("Segoe UI", 17, "bold"), foreground="white")
         self.label_console.place(x=10, y=42)
+
+        self.label_link_github = ttk.Label(
+            self.root, 
+            text='Auto Experts',
+            foreground='green',
+            cursor='hand2',
+            font=("Arial", 12, "underline")
+            )
+        self.label_link_github.place(x=10, y=470)
+
+        self.label_link_github.bind("<Button-1>", lambda e: self.abrir_catalogo_autoexperts())
+
 
         """ Buttons """
         self.botao_selecionar_excel = ttk.Button(
@@ -103,6 +115,10 @@ class MinhaInterface:
         self.console = ScrolledText(self.root, width=85, height=20, wrap=tk.WORD, font=("Arial", 12))
         self.console.place(x=10, y=84)
         sys.stdout = RedirecionarConsole(self.console)
+
+
+    def abrir_catalogo_autoexperts(self):
+        webbrowser.open_new("https://autoexperts.parts/pt/br")
 
     def definir_local_salvar_imagem(self):
         if self.baixar_imagem.get():

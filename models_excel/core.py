@@ -43,8 +43,10 @@ class Gerar_Anuncios:
         coluna_nome_anuncio = []
         coluna_ean = []
         coluna_nome_ate_60 = []
+        coluna_descricao_completa_ecommerce = []
         coluna_descricao_completa = []
         coluna_descricao_simplificada = []
+        coluna_similares = []
         coluna_posicao = []
         coluna_lado = []
 
@@ -56,6 +58,7 @@ class Gerar_Anuncios:
         coluna_largura_embalagem = []
         coluna_comprimento_embalagem = []
         coluna_qtd_por_embalagem = []
+        
 
         dados_puxar = [
             'nome', 'grupo_produto', 'aplicacao', 'marca',
@@ -68,17 +71,31 @@ class Gerar_Anuncios:
         qtd_feita = 1
 
         for cod in coluna_codigo:
+            texto_no_console(f'Gerando dados do código {cod}.')
             dados_anuncio = puxar_dados_produto_api(
                 self.acces_token, codigo_produto=cod, dados_necessarios=dados_puxar
             )
-            if not dados_anuncio:
-                break
 
             if not dados_anuncio:
-                for coluna in [
-                    coluna_nome_anuncio, coluna_ean, coluna_nome_ate_60,
-                    coluna_descricao_completa, coluna_posicao, coluna_lado
-                ]:
+                todas_colunas = [
+                    coluna_nome_anuncio,
+                    coluna_ean,
+                    coluna_nome_ate_60,
+                    coluna_descricao_completa_ecommerce,
+                    coluna_descricao_simplificada,
+                    coluna_posicao,
+                    coluna_lado,
+                    coluna_ncm,
+                    coluna_garantia,
+                    coluna_peso,
+                    coluna_altura_embalagem,
+                    coluna_largura_embalagem,
+                    coluna_comprimento_embalagem,
+                    coluna_qtd_por_embalagem,
+                    coluna_descricao_completa,
+                    coluna_similares
+                ]
+                for coluna in todas_colunas:
                     coluna.append('Não encontrado API')
                 qtd_feita += 1
                 continue
@@ -95,7 +112,7 @@ class Gerar_Anuncios:
             nome_anuncio = " ".join(_nome_anuncio.replace('None', ' ').split()).title()
 
             nome_ate_60 = deixar_nome_ate_60_caracteres(nome_anuncio, codigo_produto, marca)
-            texto_no_console(f'Cód: {cod} - Nome gerado: {nome_ate_60}')
+            texto_no_console(f'Nome gerado: {nome_ate_60}')
 
             coluna_nome_anuncio.append(nome_anuncio)
             coluna_ean.append(dados_anuncio['ean'])
@@ -138,7 +155,7 @@ class Gerar_Anuncios:
                         cilindrada = motorizacao.get('cilindrada', '')
                         configuracao = motorizacao.get('configuracao', '')
                         potencia = motorizacao.get('potenciaCv', '')
-                        anos = f"{ano_aplicacao['anoInicial']}-{ano_aplicacao['anoFinal']}"
+                        anos = f"{ano_aplicacao.get('anoInicial', '')}-{ano_aplicacao.get('anoFinal', '')}"
                         linha = f"{marca} {nome} {modelo} {anos} - Motor: {motor_nome} {cilindrada}cc {configuracao} {potencia}cv"
                         linhas_aplicacao.append(linha.strip())
                     except Exception as e:
@@ -153,6 +170,13 @@ class Gerar_Anuncios:
 
                 texto_no_console('Aplicação montada com sucesso!')
                 linhas_similares = f"\n\nCódigos similares:\n{'\n'.join(lista_similares)}" if lista_similares else ''
+
+                # Antes de retornar a aplicação completa... estamos inserindo outros dados em outras colunas
+                # ex: coluna só da aplicação... e tmb coluna só de similares
+                coluna_descricao_completa.append("\n".join(linhas_aplicacao))
+                coluna_similares.append("\n".join(lista_similares))
+
+
                 return f'{parte_de_cima_aplicacao}{"\n".join(linhas_aplicacao)}{linhas_similares}'
 
             aplicacao_completa = gerar_aplicacao_veiculo()
@@ -161,7 +185,7 @@ class Gerar_Anuncios:
                 f"Código Produto: {codigo_produto}\n\nCompatível com os veículos:{veiculo_titulo}"
             )
 
-            coluna_descricao_completa.append(aplicacao_completa)
+            coluna_descricao_completa_ecommerce.append(aplicacao_completa)
             coluna_descricao_simplificada.append(aplicacao_simplificada)
 
             try:
@@ -182,8 +206,10 @@ class Gerar_Anuncios:
         planilha['nome anuncio completo'] = coluna_nome_anuncio
         planilha['nome anuncio < 60'] = coluna_nome_ate_60
         planilha['ean'] = coluna_ean
-        planilha['aplicacao completa'] = coluna_descricao_completa
+        planilha['aplicacao ecommerce'] = coluna_descricao_completa_ecommerce
         planilha['aplicacao simplificada'] = coluna_descricao_simplificada
+        planilha['aplicacao completa'] = coluna_descricao_completa
+        planilha['Similares'] = coluna_similares
         planilha['posicao'] = ["" if x == 'None' else x for x in coluna_posicao]
         planilha['lado'] = ["" if x == 'None' else x for x in coluna_lado]
         planilha['ncm'] = coluna_ncm
@@ -197,7 +223,12 @@ class Gerar_Anuncios:
         texto_no_console('Selecione uma pasta para salvar os anúncios.')
 
         local_salvar = selecionar_pasta(titulo='Local para salvar o arquivo Excel', msg='Pasta para salvar o Excel selecionada com sucesso.')
-        planilha.to_excel(f'{local_salvar}/anuncios.xlsx', index=False)
+        try:
+            planilha.to_excel(f'{local_salvar}/anuncios.xlsx', index=False)
+        except PermissionError as e:
+            tela_aviso('Planilha aberta.', 'Provavelmente você está com uma planilha de outra geração aberta, feche a planilha antes de fechar esse informativo, para salvar. Caso contrário vai ter que rodar o programa novamente.', 'erro')
+            planilha.to_excel(f'{local_salvar}/anuncios.xlsx', index=False)
+
         texto_no_console('Planilha de anúncios gerada com sucesso!')
 
     def baixar_imagem(self, url, nome_arquivo):

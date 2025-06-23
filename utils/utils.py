@@ -85,10 +85,24 @@ def limpar_prompt():
 
 def medir_tempo_execucao(funcao):
     def wrapper(*args, **kwargs):
+
         inicio = time.perf_counter()
         resultado = funcao(*args, **kwargs)
         fim = time.perf_counter()
-        texto_no_console(f"Tempo de demorado: {fim - inicio:.2f} segundos:")
+        _tempo_demorado = f"{fim - inicio:.0f}"
+
+
+
+        tempo_demorado_total = int(_tempo_demorado)
+
+        if tempo_demorado_total < 60:
+            texto_no_console(f"Tempo demorado: {tempo_demorado_total} segundos.")
+            return resultado
+        
+        minutos = tempo_demorado_total // 60
+        segundos = tempo_demorado_total % 60
+
+        texto_no_console(f"Tempo de demorado: {minutos} minutos e {segundos} segundos.")
         return resultado
     return wrapper
 
