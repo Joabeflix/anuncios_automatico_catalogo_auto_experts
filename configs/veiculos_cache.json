@@ -2716,5 +2716,1319 @@
       "potenciaCv": "238"
     },
     "dataAtualizacao": "2025-06-18T10:37:55.93187-03:00"
+  },
+  "B.MBZ.0087": {
+    "id": "6d11976e-3c47-414a-b241-3a55822acdd9",
+    "codigo": "B.MBZ.0087",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "U 1826",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2023-08-15T01:28:25.480436-03:00"
+  },
+  "B.MBZ.0100": {
+    "id": "e0bded67-5c8a-4607-bc76-e1283530c60e",
+    "codigo": "B.MBZ.0100",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "R 1830",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "310"
+    },
+    "dataAtualizacao": "2025-06-18T10:01:42.648079-03:00"
+  },
+  "B.MBZ.0048": {
+    "id": "e9316f38-3c87-46c7-8def-0be0ec36a0cf",
+    "codigo": "B.MBZ.0048",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "RSE",
+    "inicioProducao": "1993-01-01T00:00:00",
+    "finalProducao": "1993-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/6",
+      "cilindrada": "1158",
+      "configuracao": "12 L 12V SOHV L6",
+      "potenciaCv": null
+    },
+    "dataAtualizacao": "2025-06-17T15:43:45.912373-03:00"
+  },
+  "B.MBZ.0036": {
+    "id": "af4ab255-8ca2-445d-bd67-80cf38c1900c",
+    "codigo": "B.MBZ.0036",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 370",
+    "modelo": "R",
+    "inicioProducao": "1986-01-01T00:00:00",
+    "finalProducao": "1987-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5 A",
+      "cilindrada": "9650",
+      "configuracao": "9.7 L 10V SOHV L5",
+      "potenciaCv": "200"
+    },
+    "dataAtualizacao": "2024-10-08T10:21:02.417972-03:00"
+  },
+  "B.MBZ.0041": {
+    "id": "cc23b614-0590-4beb-8c32-d32f289a6250",
+    "codigo": "B.MBZ.0041",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "R BR-400",
+    "inicioProducao": "1992-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5",
+      "cilindrada": "9650",
+      "configuracao": "9.6 L 10V SOHV L5",
+      "potenciaCv": "238"
+    },
+    "dataAtualizacao": "2025-06-17T15:37:13.477254-03:00"
+  },
+  "B.MBZ.0091": {
+    "id": "26e6be57-05f5-41ce-8582-51f5e6b866d7",
+    "codigo": "B.MBZ.0091",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "UDA 3736",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2023-08-15T01:33:24.796881-03:00"
+  },
+  "B.MBZ.0038": {
+    "id": "328d5d26-30cb-486d-b05d-60ecc45e46c4",
+    "codigo": "B.MBZ.0038",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 370",
+    "modelo": "RSD",
+    "inicioProducao": "1985-12-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/6 LA",
+      "cilindrada": "1158",
+      "configuracao": "12 L 12V SOHV L6",
+      "potenciaCv": "320"
+    },
+    "dataAtualizacao": "2024-10-08T09:28:49.623398-03:00"
+  },
+  "B.MBZ.0065": {
+    "id": "a0737628-f1c4-45d6-bd78-c486026bcecc",
+    "codigo": "B.MBZ.0065",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RSD 2036",
+    "inicioProducao": "2001-01-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "360"
+    },
+    "dataAtualizacao": "2025-06-18T09:05:52.841653-03:00"
+  },
+  "B.MBZ.0058": {
+    "id": "0437a325-b922-4e59-afe8-75c2a038b2ef",
+    "codigo": "B.MBZ.0058",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "RSE",
+    "inicioProducao": "1992-05-01T00:00:00",
+    "finalProducao": "2002-05-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-17T16:06:10.831241-03:00"
+  },
+  "B.MBZ.0044": {
+    "id": "53c0da3b-9b05-4d88-ab7c-6cbe0b9a6bb8",
+    "codigo": "B.MBZ.0044",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "R",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1991-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5",
+      "cilindrada": "9650",
+      "configuracao": "9.6 L 10V SOHV L5",
+      "potenciaCv": "238"
+    },
+    "dataAtualizacao": "2025-06-17T15:39:31.37893-03:00"
+  },
+  "B.MBZ.0097": {
+    "id": "abc6ab48-8d29-4625-abde-8b41c1fda5a1",
+    "codigo": "B.MBZ.0097",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "R 1830",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "310"
+    },
+    "dataAtualizacao": "2025-06-18T09:41:49.238402-03:00"
+  },
+  "B.MBZ.0035": {
+    "id": "ca33c03a-9359-4d7c-b8d4-d36710f6937c",
+    "codigo": "B.MBZ.0035",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 370",
+    "modelo": "R/RS/RSD",
+    "inicioProducao": "1984-01-01T00:00:00",
+    "finalProducao": "1987-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/6 A",
+      "cilindrada": "11580",
+      "configuracao": "12 L 12V SOHV L6",
+      "potenciaCv": "285"
+    },
+    "dataAtualizacao": "2024-10-08T10:46:07.198308-03:00"
+  },
+  "B.MBZ.0080": {
+    "id": "00735937-ebae-45bc-a539-bb941ff962f3",
+    "codigo": "B.MBZ.0080",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RSD 2436",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "360"
+    },
+    "dataAtualizacao": "2023-08-15T01:19:32.328176-03:00"
+  },
+  "B.MBZ.0099": {
+    "id": "4a00a486-26b9-4f54-a3ea-71f89bbef7b2",
+    "codigo": "B.MBZ.0099",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M 1826",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2025-06-18T10:00:27.39776-03:00"
+  },
+  "B.MBZ.0049": {
+    "id": "c2a9bbf9-aa3d-4225-87ac-2a94e455c306",
+    "codigo": "B.MBZ.0049",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "RS",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1993-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/6",
+      "cilindrada": "1158",
+      "configuracao": "12 L 12V SOHV L6",
+      "potenciaCv": "285"
+    },
+    "dataAtualizacao": "2025-06-17T15:44:55.776138-03:00"
+  },
+  "B.MBZ.0039": {
+    "id": "f946a302-4b47-40e2-8c63-d4ad14d54fad",
+    "codigo": "B.MBZ.0039",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 370",
+    "modelo": "RS",
+    "inicioProducao": "1985-01-01T00:00:00",
+    "finalProducao": "1987-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/6 A",
+      "cilindrada": "11580",
+      "configuracao": "12 L 12V SOHV L6",
+      "potenciaCv": "285"
+    },
+    "dataAtualizacao": "2024-10-08T10:35:54.967679-03:00"
+  },
+  "B.MBZ.0069": {
+    "id": "c882ce5b-76c3-4e96-bef4-9eb7126f6fe8",
+    "codigo": "B.MBZ.0069",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M 1726",
+    "inicioProducao": "2006-01-01T00:00:00",
+    "finalProducao": "2012-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 906 LA",
+      "cilindrada": "6374",
+      "configuracao": "6.4 L 18V SOHV L6",
+      "potenciaCv": "260"
+    },
+    "dataAtualizacao": "2025-06-18T09:22:03.204782-03:00"
+  },
+  "B.MBZ.0059": {
+    "id": "765a8968-d4c3-4017-a758-4620f60a004a",
+    "codigo": "B.MBZ.0059",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "RSL",
+    "inicioProducao": "1992-05-01T00:00:00",
+    "finalProducao": "2002-05-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 447 LA",
+      "cilindrada": "11967",
+      "configuracao": "12.0 L 12V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-18T08:37:11.859637-03:00"
+  },
+  "B.MBZ.0186": {
+    "id": "47145fca-ff1e-4377-95e3-5d6b77b83c80",
+    "codigo": "B.MBZ.0186",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "PLAT",
+    "inicioProducao": "1994-01-01T00:00:00",
+    "finalProducao": "1994-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 449",
+      "cilindrada": "10000",
+      "configuracao": "10 L 10V SOHV L5",
+      "potenciaCv": "245"
+    },
+    "dataAtualizacao": "2025-06-18T12:59:25.921677-03:00"
+  },
+  "B.MBZ.0084": {
+    "id": "36bd7599-7999-42a3-989e-017b9f9fb935",
+    "codigo": "B.MBZ.0084",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RSDD 2741",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "410"
+    },
+    "dataAtualizacao": "2023-08-15T01:24:42.557806-03:00"
+  },
+  "B.MBZ.0079": {
+    "id": "67c6de4f-09b0-44c3-8fe2-e09041a0f657",
+    "codigo": "B.MBZ.0079",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RS",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-18T09:31:11.192138-03:00"
+  },
+  "B.MBZ.0057": {
+    "id": "3ccb0771-a13b-4c97-b3bd-32c29770fc1a",
+    "codigo": "B.MBZ.0057",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "RSD",
+    "inicioProducao": "1992-05-01T00:00:00",
+    "finalProducao": "2002-05-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-17T16:05:04.823396-03:00"
+  },
+  "B.MBZ.0183": {
+    "id": "ac1af656-0b9f-4e7e-8366-c32c4469f383",
+    "codigo": "B.MBZ.0183",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "PLAT",
+    "inicioProducao": "1994-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5",
+      "cilindrada": "-",
+      "configuracao": "12 L 10V SOHV L5",
+      "potenciaCv": "285"
+    },
+    "dataAtualizacao": "2025-06-18T12:57:26.258516-03:00"
+  },
+  "B.MBZ.0101": {
+    "id": "563bbaa0-db27-48bc-a473-49ef6c3f67ca",
+    "codigo": "B.MBZ.0101",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RS 1836",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-18T10:04:01.027923-03:00"
+  },
+  "B.MBZ.0062": {
+    "id": "fdfebe26-c67a-47a5-b653-0ac021ec3815",
+    "codigo": "B.MBZ.0062",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "R 1830",
+    "inicioProducao": "2005-01-01T00:00:00",
+    "finalProducao": "2012-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "305"
+    },
+    "dataAtualizacao": "2025-06-18T08:53:48.217253-03:00"
+  },
+  "B.MBZ.0047": {
+    "id": "54861898-66a3-4587-b4b9-16bdc54a11ba",
+    "codigo": "B.MBZ.0047",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "RSD",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1993-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 447 LA",
+      "cilindrada": "12000",
+      "configuracao": "12 L 12V SOHV L6",
+      "potenciaCv": "360"
+    },
+    "dataAtualizacao": "2025-06-17T15:43:06.069677-03:00"
+  },
+  "B.MBZ.0103": {
+    "id": "6c29478a-bbc3-484e-922d-717dc47aec7f",
+    "codigo": "B.MBZ.0103",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M 1826",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2025-06-18T10:12:50.206999-03:00"
+  },
+  "B.MBZ.0040": {
+    "id": "1b019fa9-d552-40b1-bc79-401e73b11c71",
+    "codigo": "B.MBZ.0040",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "-",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1997-09-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 366",
+      "cilindrada": "5958",
+      "configuracao": "6.0 L 12V SOHV L6",
+      "potenciaCv": "204"
+    },
+    "dataAtualizacao": "2025-06-17T15:36:28.503431-03:00"
+  },
+  "B.MBZ.0081": {
+    "id": "2dfad9d3-295c-4707-abdd-d963fe770e35",
+    "codigo": "B.MBZ.0081",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RSD 2436",
+    "inicioProducao": "2008-01-01T00:00:00",
+    "finalProducao": "2012-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-18T09:32:03.175187-03:00"
+  },
+  "B.MBZ.0046": {
+    "id": "cbf7474c-3edd-413d-b656-d006224a88fa",
+    "codigo": "B.MBZ.0046",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "RSD BR 400",
+    "inicioProducao": "1992-01-01T00:00:00",
+    "finalProducao": "1993-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/6",
+      "cilindrada": "1158",
+      "configuracao": "12 L 12V SOHV L6",
+      "potenciaCv": "320"
+    },
+    "dataAtualizacao": "2025-06-17T15:42:29.225951-03:00"
+  },
+  "B.MBZ.0083": {
+    "id": "06af6bf5-8784-422e-83d8-e08fbd7c1402",
+    "codigo": "B.MBZ.0083",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RSD",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "408"
+    },
+    "dataAtualizacao": "2025-06-18T09:32:41.389239-03:00"
+  },
+  "B.MBZ.0074": {
+    "id": "b2f7adaf-4684-4428-bcf8-963643da5158",
+    "codigo": "B.MBZ.0074",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "MDA 3736",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2023-08-15T01:12:12.019288-03:00"
+  },
+  "B.MBZ.0092": {
+    "id": "450c5d7e-ca68-48ce-a01e-4253c10e701b",
+    "codigo": "B.MBZ.0092",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "UDA",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-18T09:36:19.806887-03:00"
+  },
+  "B.MBZ.0063": {
+    "id": "2814b8d4-f659-428c-87db-e99685ac06c5",
+    "codigo": "B.MBZ.0063",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RS 1636",
+    "inicioProducao": "2001-05-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "329"
+    },
+    "dataAtualizacao": "2025-06-18T09:02:38.761119-03:00"
+  },
+  "B.MBZ.0098": {
+    "id": "31befe5f-6925-455a-9a82-d2df627adc87",
+    "codigo": "B.MBZ.0098",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M 1826",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2025-06-18T09:59:30.483975-03:00"
+  },
+  "B.MBZ.0085": {
+    "id": "f0f08337-b8c1-4682-bb9e-b02b511c98c0",
+    "codigo": "B.MBZ.0085",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "U 1725",
+    "inicioProducao": "2001-05-01T00:00:00",
+    "finalProducao": "2006-04-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 906 LA",
+      "cilindrada": "6374",
+      "configuracao": "6.4 L 18V SOHV L6",
+      "potenciaCv": "245"
+    },
+    "dataAtualizacao": "2025-06-18T09:33:28.962037-03:00"
+  },
+  "B.MBZ.0086": {
+    "id": "f30de498-692c-47c7-b690-22aceca575d0",
+    "codigo": "B.MBZ.0086",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "U 1726",
+    "inicioProducao": "2006-05-01T00:00:00",
+    "finalProducao": "2012-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 906 LA",
+      "cilindrada": "6374",
+      "configuracao": "6.4 L 18V SOHV L6",
+      "potenciaCv": "260"
+    },
+    "dataAtualizacao": "2025-06-18T09:34:02.045452-03:00"
+  },
+  "B.MBZ.0075": {
+    "id": "1e72040c-c3f0-4994-b071-f7cd03a9c54e",
+    "codigo": "B.MBZ.0075",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "R 1632",
+    "inicioProducao": "2001-05-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "305"
+    },
+    "dataAtualizacao": "2025-06-18T09:25:35.988268-03:00"
+  },
+  "B.MBZ.0089": {
+    "id": "d7ad2560-b7e6-4c69-a078-ebe1e7678d02",
+    "codigo": "B.MBZ.0089",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "UA",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-18T09:34:58.941097-03:00"
+  },
+  "B.MBZ.0050": {
+    "id": "cedcb799-9151-4de1-871b-a91407858b52",
+    "codigo": "B.MBZ.0050",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "UL",
+    "inicioProducao": "1993-07-01T00:00:00",
+    "finalProducao": "2003-07-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 366",
+      "cilindrada": "5958",
+      "configuracao": "6.0 L 12V SOHV L6",
+      "potenciaCv": "204"
+    },
+    "dataAtualizacao": "2025-06-17T15:46:35.882555-03:00"
+  },
+  "B.MBZ.0090": {
+    "id": "e2bb937c-78de-49bd-bc16-dde59aa84e2a",
+    "codigo": "B.MBZ.0090",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "U",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2025-06-18T09:35:33.898716-03:00"
+  },
+  "B.MBZ.0054": {
+    "id": "abd88ecd-dc76-45eb-ba89-77fb363ba3b5",
+    "codigo": "B.MBZ.0054",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "-",
+    "inicioProducao": "1994-01-01T00:00:00",
+    "finalProducao": "1994-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 447 LA",
+      "cilindrada": "11967",
+      "configuracao": "12.0 L 12V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-17T16:01:37.823307-03:00"
+  },
+  "B.MBZ.0070": {
+    "id": "a0c8ac1b-5535-49d9-aae3-3edd61e9ce6c",
+    "codigo": "B.MBZ.0070",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M 1826 BUGGY",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2023-08-15T01:07:17.527873-03:00"
+  },
+  "B.MBZ.0042": {
+    "id": "291f19ec-f72b-440f-94ab-372dbf897442",
+    "codigo": "B.MBZ.0042",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "R",
+    "inicioProducao": "1986-03-01T00:00:00",
+    "finalProducao": "1990-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5",
+      "cilindrada": "9650",
+      "configuracao": "9.6 L 10V SOHV L5",
+      "potenciaCv": "238"
+    },
+    "dataAtualizacao": "2025-06-17T15:37:44.633293-03:00"
+  },
+  "B.MBZ.0043": {
+    "id": "832c7342-7c9b-47b3-804b-1910b35bc1c0",
+    "codigo": "B.MBZ.0043",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "R",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1997-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5",
+      "cilindrada": "9650",
+      "configuracao": "9.7 L 10V SOHV L5",
+      "potenciaCv": "230"
+    },
+    "dataAtualizacao": "2025-06-17T15:38:55.167069-03:00"
+  },
+  "B.MBZ.0071": {
+    "id": "144cbc0e-2478-493f-a372-00e398e33975",
+    "codigo": "B.MBZ.0071",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M 1826",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2025-06-18T09:22:51.840697-03:00"
+  },
+  "B.MBZ.0051": {
+    "id": "6a03242f-0cf6-4554-9a3d-60315fd8610b",
+    "codigo": "B.MBZ.0051",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "UL",
+    "inicioProducao": "1993-07-01T00:00:00",
+    "finalProducao": "2003-07-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 366",
+      "cilindrada": "5958",
+      "configuracao": "6.0 L 12V SOHV L6",
+      "potenciaCv": "204"
+    },
+    "dataAtualizacao": "2025-06-17T15:55:56.59604-03:00"
+  },
+  "B.MBZ.0095": {
+    "id": "6a26d74b-dd7f-4809-b482-4da732141a9d",
+    "codigo": "B.MBZ.0095",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "MA 2836",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2024-06-20T12:00:37.408237-03:00"
+  },
+  "B.MBZ.0053": {
+    "id": "f85c8434-3db7-4b2b-9f81-4ca2fd542eae",
+    "codigo": "B.MBZ.0053",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "UP ARTICULADO",
+    "inicioProducao": "1995-01-01T00:00:00",
+    "finalProducao": "1997-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 449 LA",
+      "cilindrada": "10000",
+      "configuracao": "10 L 10V SOHV L5",
+      "potenciaCv": "299"
+    },
+    "dataAtualizacao": "2025-06-17T15:59:56.540406-03:00"
+  },
+  "B.MBZ.0094": {
+    "id": "4e07108b-8401-49ff-9502-d5098df267ac",
+    "codigo": "B.MBZ.0094",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "U 1826",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2025-06-18T09:39:17.695827-03:00"
+  },
+  "B.MBZ.0102": {
+    "id": "4e4e8717-eee8-4d4a-a528-b590da2370b5",
+    "codigo": "B.MBZ.0102",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M 1826",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2025-06-18T10:11:50.008796-03:00"
+  },
+  "B.MBZ.0077": {
+    "id": "5a8d2223-8db1-4c17-94dd-088ee8a2905b",
+    "codigo": "B.MBZ.0077",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "R",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "306"
+    },
+    "dataAtualizacao": "2025-06-18T09:27:35.719903-03:00"
+  },
+  "B.MBZ.0060": {
+    "id": "d3238475-087e-485c-aad8-d3a512a719f3",
+    "codigo": "B.MBZ.0060",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "RS",
+    "inicioProducao": "1992-01-01T00:00:00",
+    "finalProducao": "2002-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 447 LA",
+      "cilindrada": "11967",
+      "configuracao": "12.0 L 12V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2021-05-07T11:53:35.368601-03:00"
+  },
+  "B.MBZ.0093": {
+    "id": "ec11584b-0a3f-4ad0-9abc-f891a48a1b75",
+    "codigo": "B.MBZ.0093",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M 1826",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2024-06-19T16:34:33.735201-03:00"
+  },
+  "B.MBZ.0072": {
+    "id": "87be9567-6923-49a6-b3f3-3c02020db9b4",
+    "codigo": "B.MBZ.0072",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M BUGGY",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "256"
+    },
+    "dataAtualizacao": "2025-06-18T09:23:47.056397-03:00"
+  },
+  "B.MBZ.0096": {
+    "id": "915e19ac-113d-4b47-9ad4-2dcb8d0d1ac1",
+    "codigo": "B.MBZ.0096",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "UDA 3736",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "-",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-18T09:40:15.90878-03:00"
+  },
+  "B.MBZ.0082": {
+    "id": "95987134-c5a9-49c3-9809-dbc9e1d47293",
+    "codigo": "B.MBZ.0082",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RSD 2441",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "410"
+    },
+    "dataAtualizacao": "2023-08-15T01:22:05.018517-03:00"
+  },
+  "B.MBZ.0067": {
+    "id": "5d60d80a-11ed-4897-a855-f8f6d34317ae",
+    "codigo": "B.MBZ.0067",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "ARTICULADO",
+    "inicioProducao": "2006-01-01T00:00:00",
+    "finalProducao": "2012-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "305"
+    },
+    "dataAtualizacao": "2025-06-18T09:08:30.129148-03:00"
+  },
+  "B.MBZ.0056": {
+    "id": "d2549f8b-ad4d-4a0b-b9ff-f550c1d19839",
+    "codigo": "B.MBZ.0056",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "RSD",
+    "inicioProducao": "1992-05-01T00:00:00",
+    "finalProducao": "2002-05-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 447 LA",
+      "cilindrada": "11967",
+      "configuracao": "12.0 L 12V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2023-04-12T15:21:55.752193-03:00"
+  },
+  "B.MBZ.0088": {
+    "id": "5b58a413-e72f-44ef-beed-893a154cefb1",
+    "codigo": "B.MBZ.0088",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "UA 2836",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2023-08-15T01:29:39.690913-03:00"
+  },
+  "B.MBZ.0055": {
+    "id": "33e667d9-ad70-44b1-bd4c-63236ff21f36",
+    "codigo": "B.MBZ.0055",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "R",
+    "inicioProducao": "1993-03-01T00:00:00",
+    "finalProducao": "2003-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 449 A",
+      "cilindrada": "9973",
+      "configuracao": "10 L 10V SOHV L5",
+      "potenciaCv": "245"
+    },
+    "dataAtualizacao": "2025-06-17T16:04:17.578048-03:00"
+  },
+  "B.MBZ.0076": {
+    "id": "48647506-69d7-49a5-91d0-dd72020bda84",
+    "codigo": "B.MBZ.0076",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "R 1830",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 926 LA BLUETEC 5",
+      "cilindrada": "7200",
+      "configuracao": "7.2 L 18V SOHV L6",
+      "potenciaCv": "310"
+    },
+    "dataAtualizacao": "2023-08-15T01:14:33.817487-03:00"
+  },
+  "B.MBZ.0045": {
+    "id": "d528cbc2-5d24-4e7f-863a-46348df8cd21",
+    "codigo": "B.MBZ.0045",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "RS BR-400",
+    "inicioProducao": "1992-01-01T00:00:00",
+    "finalProducao": "1993-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/6",
+      "cilindrada": "1158",
+      "configuracao": "12 L 12V SOHV L6",
+      "potenciaCv": "285"
+    },
+    "dataAtualizacao": "2025-06-17T15:41:46.792694-03:00"
+  },
+  "B.MBZ.0052": {
+    "id": "0476a322-42d0-441d-8a05-e0c2389e8663",
+    "codigo": "B.MBZ.0052",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 371",
+    "modelo": "UP",
+    "inicioProducao": "1987-01-01T00:00:00",
+    "finalProducao": "1991-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/5",
+      "cilindrada": "9650",
+      "configuracao": "9.7 L 10V SOHV L5",
+      "potenciaCv": "187"
+    },
+    "dataAtualizacao": "2025-06-17T15:57:39.026959-03:00"
+  },
+  "B.MBZ.0185": {
+    "id": "2cc1bd6f-7160-4433-8f29-259383f87a6d",
+    "codigo": "B.MBZ.0185",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "UP PLAT",
+    "inicioProducao": "1995-01-01T00:00:00",
+    "finalProducao": "1998-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 449 LA",
+      "cilindrada": "10000",
+      "configuracao": "10 L 10V SOHV L5",
+      "potenciaCv": "252"
+    },
+    "dataAtualizacao": "2025-06-18T12:58:46.299727-03:00"
+  },
+  "B.MBZ.0037": {
+    "id": "ca813981-49d8-4c59-96b5-365fc5eab7a2",
+    "codigo": "B.MBZ.0037",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 370",
+    "modelo": "RSD",
+    "inicioProducao": "1985-01-01T00:00:00",
+    "finalProducao": "1987-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 355/6 A",
+      "cilindrada": "11580",
+      "configuracao": "12 L 10V SOHV L5",
+      "potenciaCv": "285"
+    },
+    "dataAtualizacao": "2024-10-08T10:41:09.247492-03:00"
+  },
+  "B.MBZ.0073": {
+    "id": "57520704-bd2e-4c47-888e-b0837dcdb864",
+    "codigo": "B.MBZ.0073",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "MA 2836",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-18T09:24:56.567369-03:00"
+  },
+  "B.MBZ.0064": {
+    "id": "cbb3d5f6-c02f-4810-bb2c-fffbd6541f13",
+    "codigo": "B.MBZ.0064",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RS 1836",
+    "inicioProducao": "2005-01-01T00:00:00",
+    "finalProducao": "2012-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2025-06-18T09:04:26.736336-03:00"
+  },
+  "B.MBZ.0184": {
+    "id": "94b58f9b-63d5-498a-8656-0c00578ea39e",
+    "codigo": "B.MBZ.0184",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 400",
+    "modelo": "UPA PLAT",
+    "inicioProducao": "1995-07-01T00:00:00",
+    "finalProducao": "2005-07-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 449 LA",
+      "cilindrada": "9973",
+      "configuracao": "10 L 10V SOHV L5",
+      "potenciaCv": "300"
+    },
+    "dataAtualizacao": "2025-06-18T12:58:14.252127-03:00"
+  },
+  "B.MBZ.0061": {
+    "id": "a4fcff14-bebe-4174-b88b-b74615c059d4",
+    "codigo": "B.MBZ.0061",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M 1728",
+    "inicioProducao": "2001-05-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 906 LA",
+      "cilindrada": "6374",
+      "configuracao": "6.4 L 18V SOHV L6",
+      "potenciaCv": "245"
+    },
+    "dataAtualizacao": "2025-06-18T08:38:09.789596-03:00"
+  },
+  "B.MBZ.0078": {
+    "id": "5712b904-125a-47b3-8e36-df4a68ed8a24",
+    "codigo": "B.MBZ.0078",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RS 1836",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA BLUETEC 5",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "354"
+    },
+    "dataAtualizacao": "2023-08-15T01:17:01.315297-03:00"
+  },
+  "B.MBZ.0068": {
+    "id": "3a6768a1-e183-4604-93dd-44f7e64cf862",
+    "codigo": "B.MBZ.0068",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "M 1725",
+    "inicioProducao": "2001-05-01T00:00:00",
+    "finalProducao": "2012-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 906 LA",
+      "cilindrada": "6374",
+      "configuracao": "6.4 L 18V SOHV L6",
+      "potenciaCv": "260"
+    },
+    "dataAtualizacao": "2025-06-18T09:21:18.769593-03:00"
+  },
+  "B.MBZ.0066": {
+    "id": "d5a266e6-6888-44ab-8678-5437ac35f843",
+    "codigo": "B.MBZ.0066",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "O 500",
+    "modelo": "RSD 2236",
+    "inicioProducao": "2005-01-01T00:00:00",
+    "finalProducao": "2012-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 457 LA",
+      "cilindrada": "11967",
+      "configuracao": "12 L 24V SOHV L6",
+      "potenciaCv": "360"
+    },
+    "dataAtualizacao": "2025-06-18T09:07:46.929474-03:00"
   }
 }
