@@ -124,8 +124,6 @@ def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barr
         if funcao_atualizar_barra_anuncio:
             progresso = int((feito / total) * 100)
             funcao_atualizar_barra_anuncio(progresso)
-
-        time.sleep(0.1)
         codigo = item.get('codigo')
         if not codigo:
             continue
@@ -140,6 +138,7 @@ def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barr
             continue
 
         response = api_cliente.obter_dados_api(codigo, url_path)
+        time.sleep(0.2)
         if not response:
             continue
 
