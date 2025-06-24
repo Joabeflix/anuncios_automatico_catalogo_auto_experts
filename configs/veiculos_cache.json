@@ -66851,6 +66851,24 @@
     },
     "dataAtualizacao": "2024-12-02T15:29:56.013069-03:00"
   },
+  "C.NIS.0168": {
+    "id": "a289c411-2b77-46b7-a9bf-be9a5da9133c",
+    "codigo": "C.NIS.0168",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "NISSAN",
+    "nome": "TIIDA",
+    "modelo": "SL HATCH",
+    "inicioProducao": "2010-07-01T00:00:00",
+    "finalProducao": "2013-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "MR18DE",
+      "cilindrada": "1797",
+      "configuracao": "1.8 L 16V DOHC L4",
+      "potenciaCv": "125;126"
+    },
+    "dataAtualizacao": "2024-02-05T12:41:08.089683-03:00"
+  },
   "C.CHE.0685": {
     "id": "348785e9-195e-4de8-8057-4bc5d5b1db31",
     "codigo": "C.CHE.0685",
@@ -75166,23 +75184,5 @@
       "potenciaCv": "90"
     },
     "dataAtualizacao": "2023-12-20T10:00:30.374266-03:00"
-  },
-  "C.NIS.0168": {
-    "id": "a289c411-2b77-46b7-a9bf-be9a5da9133c",
-    "codigo": "C.NIS.0168",
-    "classificacao": "Automóveis e Utilitários Leves",
-    "marca": "NISSAN",
-    "nome": "TIIDA",
-    "modelo": "SL HATCH",
-    "inicioProducao": "2010-07-01T00:00:00",
-    "finalProducao": "2013-12-31T00:00:00",
-    "mercado": "Brasil",
-    "motorizacao": {
-      "nome": "MR18DE",
-      "cilindrada": "1797",
-      "configuracao": "1.8 L 16V DOHC L4",
-      "potenciaCv": "125;126"
-    },
-    "dataAtualizacao": "2024-02-05T12:41:08.089683-03:00"
   }
 }

@@ -1,4 +1,3 @@
-import os
 import json
 import requests
 from dotenv import load_dotenv
@@ -101,19 +100,15 @@ def puxar_dados_produto_api(access_token, codigo_produto, dados_necessarios=None
         return retorno
     return None
 
-import json
-import time
-from utils.utils import texto_no_console
 
 def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barra_anuncio):
-    from models_api.api_max import APICliente
+
     api_cliente = APICliente(access_token)
     url_path = 'veiculos/codigo'
     veiculos_completos = []
 
     caminho_json = rf'configs\veiculos_cache.json'
 
-    # Carregar JSON existente
     with open(caminho_json, 'r', encoding='utf-8') as f:
         cache_veiculos = json.load(f)
 
@@ -133,11 +128,13 @@ def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barr
         # não vamos precisar fazer a requisição e assim vamos gerar o relatorio mais rapido
         # de acordo que vamos adicionando informações nele
         if codigo in cache_veiculos:
+            texto_no_console('[debug] CACHE')
             veiculos_completos.append(cache_veiculos[codigo])
             feito += 1
             continue
 
         response = api_cliente.obter_dados_api(codigo, url_path)
+        texto_no_console('[debug] API')
         time.sleep(0.2)
         if not response:
             continue
