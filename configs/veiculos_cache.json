@@ -75184,5 +75184,2147 @@
       "potenciaCv": "90"
     },
     "dataAtualizacao": "2023-12-20T10:00:30.374266-03:00"
+  },
+  "T.VWW.0161": {
+    "id": "2c85dec6-0e70-41ab-a4b2-c957929d5cb4",
+    "codigo": "T.VWW.0161",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "DELIVERY",
+    "modelo": "8-160",
+    "inicioProducao": "2011-01-01T00:00:00",
+    "finalProducao": "2020-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "160"
+    },
+    "dataAtualizacao": "2024-04-23T09:11:32.963527-03:00"
+  },
+  "T.VWW.0162": {
+    "id": "37bad2cb-fe4b-4abd-bffc-102e54f5f012",
+    "codigo": "T.VWW.0162",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "DELIVERY",
+    "modelo": "8-160",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": "2020-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "160"
+    },
+    "dataAtualizacao": "2024-04-23T09:13:59.609019-03:00"
+  },
+  "T.VWW.0153": {
+    "id": "f825e74b-6315-4add-b448-ac4c8048e99d",
+    "codigo": "T.VWW.0153",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "DELIVERY",
+    "modelo": "10-160  PLUS",
+    "inicioProducao": "2013-08-01T00:00:00",
+    "finalProducao": "2018-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "160"
+    },
+    "dataAtualizacao": "2024-07-18T17:08:30.029201-03:00"
+  },
+  "T.VWW.0154": {
+    "id": "0ba432c7-032a-4089-be9e-a2e412569f19",
+    "codigo": "T.VWW.0154",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "DELIVERY",
+    "modelo": "10-160",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2020-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "160"
+    },
+    "dataAtualizacao": "2024-04-23T09:07:14.494192-03:00"
+  },
+  "T.VWW.0160": {
+    "id": "54ec9946-47f0-40ac-97fe-3e62e8446d66",
+    "codigo": "T.VWW.0160",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "DELIVERY",
+    "modelo": "8-150 E",
+    "inicioProducao": "2005-10-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SPRINT EURO 3",
+      "cilindrada": "2980",
+      "configuracao": "3.0 L 12V SOHC L4",
+      "potenciaCv": "143"
+    },
+    "dataAtualizacao": "2025-05-27T08:43:33.014629-03:00"
+  },
+  "T.VWW.0159": {
+    "id": "d084d7a6-c659-47a7-805b-61123bd76679",
+    "codigo": "T.VWW.0159",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "DELIVERY",
+    "modelo": "8-150 E PLUS",
+    "inicioProducao": "2010-01-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "INTERACT 4",
+      "cilindrada": "3900",
+      "configuracao": "3.9 L 16V SOHV L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2025-05-28T10:13:47.362721-03:00"
+  },
+  "T.FOR.0067": {
+    "id": "ea196125-a08b-49f8-98d6-09bccb2ebad4",
+    "codigo": "T.FOR.0067",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 816",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": "2013-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISB 4.5",
+      "cilindrada": "4506",
+      "configuracao": "4.5 L 16V SOHV L4",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2021-05-07T12:46:54.990893-03:00"
+  },
+  "T.UNV.0001": {
+    "id": "a6674f76-4160-4675-b748-e6ecab1e9851",
+    "codigo": "T.UNV.0001",
+    "classificacao": "Caminhões",
+    "marca": "UNIVERSAL",
+    "nome": "Caminhões",
+    "modelo": "UNIVERSAL",
+    "inicioProducao": "1960-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "UNIVERSAL",
+      "cilindrada": "-",
+      "configuracao": "N/A",
+      "potenciaCv": "N/A"
+    },
+    "dataAtualizacao": "2021-05-07T13:32:02.796598-03:00"
+  },
+  "T.AGL.0034": {
+    "id": "78b95f5c-6f6b-4f46-a690-1628790796dc",
+    "codigo": "T.AGL.0034",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "8700",
+    "modelo": "-",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": "2015-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "152"
+    },
+    "dataAtualizacao": "2021-05-07T12:45:46.317153-03:00"
+  },
+  "T.AGL.0030": {
+    "id": "aaa6b77f-5596-4a14-9294-ee5110c64803",
+    "codigo": "T.AGL.0030",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "8700",
+    "modelo": "LX",
+    "inicioProducao": "2015-10-01T00:00:00",
+    "finalProducao": "2017-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2021-05-07T12:45:44.554161-03:00"
+  },
+  "B.AGL.0034": {
+    "id": "0b4c33d5-d2ce-4c0a-a3c1-5654dedb5a2e",
+    "codigo": "B.AGL.0034",
+    "classificacao": "Ônibus",
+    "marca": "AGRALE",
+    "nome": "MA 8.7",
+    "modelo": "-",
+    "inicioProducao": "2010-10-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "152"
+    },
+    "dataAtualizacao": "2024-07-19T13:33:44.712212-03:00"
+  },
+  "T.AGL.0032": {
+    "id": "f611b25a-3993-4a06-a091-9ad229eef427",
+    "codigo": "T.AGL.0032",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "8700",
+    "modelo": "S",
+    "inicioProducao": "2015-10-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2021-05-07T12:45:45.403192-03:00"
+  },
+  "T.AGL.0039": {
+    "id": "b5002aba-50b8-4662-8178-0b459e722abd",
+    "codigo": "T.AGL.0039",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "A 8700",
+    "modelo": "-",
+    "inicioProducao": "2015-10-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2022-06-23T14:14:17.083758-03:00"
+  },
+  "T.AGL.0033": {
+    "id": "38f0745b-77fb-4cd3-adf9-f524c2a42c97",
+    "codigo": "T.AGL.0033",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "8700",
+    "modelo": "TR",
+    "inicioProducao": "2011-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2024-07-18T14:26:06.166748-03:00"
+  },
+  "B.AGL.0037": {
+    "id": "9d448550-fc14-46d8-96af-8e60879e7634",
+    "codigo": "B.AGL.0037",
+    "classificacao": "Ônibus",
+    "marca": "AGRALE",
+    "nome": "MA 9.2E",
+    "modelo": "-",
+    "inicioProducao": "2004-01-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 12 / X12",
+      "cilindrada": "4745",
+      "configuracao": "4.8 L 8V SOHV L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2025-06-17T13:39:32.679479-03:00"
+  },
+  "B.VWW.0083": {
+    "id": "8f998db3-b0e1-4a9c-9c38-94594b248eba",
+    "codigo": "B.VWW.0083",
+    "classificacao": "Ônibus",
+    "marca": "VOLKSWAGEN",
+    "nome": "9.160 ODS",
+    "modelo": "-",
+    "inicioProducao": "2016-11-01T00:00:00",
+    "finalProducao": "2018-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3800",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2025-06-24T13:30:11.098951-03:00"
+  },
+  "B.VWW.0080": {
+    "id": "c5cd0592-92ad-4a81-93d4-bb7176ffff80",
+    "codigo": "B.VWW.0080",
+    "classificacao": "Ônibus",
+    "marca": "VOLKSWAGEN",
+    "nome": "9.160 OD",
+    "modelo": "-",
+    "inicioProducao": "2014-11-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2025-06-24T13:27:55.32276-03:00"
+  },
+  "B.VWW.0081": {
+    "id": "557e94eb-2fad-4774-85b7-483c63b4c363",
+    "codigo": "B.VWW.0081",
+    "classificacao": "Ônibus",
+    "marca": "VOLKSWAGEN",
+    "nome": "9.160 OD",
+    "modelo": "-",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3800",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2024-06-20T11:46:27.586559-03:00"
+  },
+  "B.VWW.0079": {
+    "id": "e4785f67-769b-4658-b5b6-66282ab149b8",
+    "codigo": "B.VWW.0079",
+    "classificacao": "Ônibus",
+    "marca": "VOLKSWAGEN",
+    "nome": "9.160 OD PLUS",
+    "modelo": "-",
+    "inicioProducao": "2014-04-01T00:00:00",
+    "finalProducao": "2018-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2025-06-24T13:27:00.544263-03:00"
+  },
+  "B.VWW.0078": {
+    "id": "b935e246-b4ad-449f-bb55-fef1ce5e24e0",
+    "codigo": "B.VWW.0078",
+    "classificacao": "Ônibus",
+    "marca": "VOLKSWAGEN",
+    "nome": "9.160 OD PLUS",
+    "modelo": "-",
+    "inicioProducao": "2012-03-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2025-06-24T13:26:07.168885-03:00"
+  },
+  "T.AGL.0019": {
+    "id": "5ff43fb0-f59b-44b2-a69f-039ecbf4fdad",
+    "codigo": "T.AGL.0019",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "6500",
+    "modelo": "-",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": "2020-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "125"
+    },
+    "dataAtualizacao": "2021-07-21T14:05:26.382068-03:00"
+  },
+  "T.AGL.0020": {
+    "id": "af5bcbd0-d083-4e85-b085-a7a120ff6996",
+    "codigo": "T.AGL.0020",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "6500",
+    "modelo": "-",
+    "inicioProducao": "2012-01-01T00:00:00",
+    "finalProducao": "2020-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 3.8",
+      "cilindrada": "3760",
+      "configuracao": "3.8 L 16V SOHV L4",
+      "potenciaCv": "152"
+    },
+    "dataAtualizacao": "2021-07-21T14:05:55.522322-03:00"
+  },
+  "T.VWW.0152": {
+    "id": "f2a8f0d1-b27d-40b2-b09a-53f4a0d9246d",
+    "codigo": "T.VWW.0152",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "DELIVERY",
+    "modelo": "9-150",
+    "inicioProducao": "2010-06-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "INTERACT 4",
+      "cilindrada": "3900",
+      "configuracao": "3.9 L 16V SOHV L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2025-06-09T11:46:49.842899-03:00"
+  },
+  "B.AGL.0032": {
+    "id": "316eab10-5935-4f5a-a119-a06c45ea4f7e",
+    "codigo": "B.AGL.0032",
+    "classificacao": "Ônibus",
+    "marca": "AGRALE",
+    "nome": "MA 8.5",
+    "modelo": "SUPER",
+    "inicioProducao": "1996-09-01T00:00:00",
+    "finalProducao": "2005-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "6 BT",
+      "cilindrada": "5899",
+      "configuracao": "5.9 L 12V SOHV L6",
+      "potenciaCv": "162"
+    },
+    "dataAtualizacao": "2025-06-17T13:26:53.117571-03:00"
+  },
+  "B.AGL.0033": {
+    "id": "27ca2792-a27a-4d16-9f2d-a3010c199a8f",
+    "codigo": "B.AGL.0033",
+    "classificacao": "Ônibus",
+    "marca": "AGRALE",
+    "nome": "MA 8.5T",
+    "modelo": "-",
+    "inicioProducao": "1996-09-01T00:00:00",
+    "finalProducao": "2005-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "4300",
+      "configuracao": "4.3 L 8V SOHV L4",
+      "potenciaCv": "145"
+    },
+    "dataAtualizacao": "2025-06-17T13:31:27.278015-03:00"
+  },
+  "B.AGL.0031": {
+    "id": "691a8568-b8b0-4eaf-85bd-b41695911a04",
+    "codigo": "B.AGL.0031",
+    "classificacao": "Ônibus",
+    "marca": "AGRALE",
+    "nome": "MA 8.5",
+    "modelo": "-",
+    "inicioProducao": "2005-01-01T00:00:00",
+    "finalProducao": "2011-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 12 / X12",
+      "cilindrada": "4745",
+      "configuracao": "4.8 L 8V SOHV L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2025-06-17T13:21:56.047632-03:00"
+  },
+  "B.AGL.0030": {
+    "id": "d2d1ee4d-8642-417c-a94d-ad974a974f5b",
+    "codigo": "B.AGL.0030",
+    "classificacao": "Ônibus",
+    "marca": "AGRALE",
+    "nome": "MA 8.5E",
+    "modelo": "-",
+    "inicioProducao": "2005-01-01T00:00:00",
+    "finalProducao": "2011-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 12 / X12",
+      "cilindrada": "4745",
+      "configuracao": "4.8 L 8V SOHV L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2025-06-17T13:17:00.375531-03:00"
+  },
+  "T.VWW.0167": {
+    "id": "2751cbea-4670-4e24-8b38-567839d034a3",
+    "codigo": "T.VWW.0167",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "DELIVERY",
+    "modelo": "6-160",
+    "inicioProducao": "2017-09-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 2.8",
+      "cilindrada": "2800",
+      "configuracao": "2.8 L 16V SOHV L4",
+      "potenciaCv": "156"
+    },
+    "dataAtualizacao": "2023-10-25T13:58:11.87196-03:00"
+  },
+  "T.VWW.0168": {
+    "id": "16b8fb25-822d-41f6-b96c-4fc3b8824b97",
+    "codigo": "T.VWW.0168",
+    "classificacao": "Caminhões",
+    "marca": "VOLKSWAGEN",
+    "nome": "DELIVERY",
+    "modelo": "6-160",
+    "inicioProducao": "2017-09-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "ISF 2.8",
+      "cilindrada": "2800",
+      "configuracao": "2.8 L 16V SOHV L4",
+      "potenciaCv": "156"
+    },
+    "dataAtualizacao": "2023-10-25T13:58:58.861012-03:00"
+  },
+  "C.CHE.0127": {
+    "id": "d4b011f9-8356-4b66-a2a9-5e2a73c0ce26",
+    "codigo": "C.CHE.0127",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "C-20",
+    "modelo": "-",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1995-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "124"
+    },
+    "dataAtualizacao": "2024-07-16T17:22:40.294653-03:00"
+  },
+  "C.CHE.0484": {
+    "id": "08088f70-2da0-4489-98a5-e533db7628b9",
+    "codigo": "C.CHE.0484",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CUSTOM S TURBO",
+    "inicioProducao": "1992-03-01T00:00:00",
+    "finalProducao": "1996-08-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4T",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "120"
+    },
+    "dataAtualizacao": "2024-11-05T23:36:24.142116-03:00"
+  },
+  "C.CHE.1170": {
+    "id": "44fd8292-4afa-4f38-a671-3a2ce6cc346c",
+    "codigo": "C.CHE.1170",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "LUXE",
+    "inicioProducao": "1992-11-01T00:00:00",
+    "finalProducao": "1995-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "92"
+    },
+    "dataAtualizacao": "2023-10-31T10:29:06.303053-03:00"
+  },
+  "C.CHE.1161": {
+    "id": "095742b3-5188-40ed-ab52-4a3747953010",
+    "codigo": "C.CHE.1161",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1992-01-01T00:00:00",
+    "finalProducao": "1996-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "MAXION",
+      "cilindrada": "3990",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "92"
+    },
+    "dataAtualizacao": "2023-10-31T10:20:26.763025-03:00"
+  },
+  "C.CHE.0480": {
+    "id": "0388c1fb-3faf-4f8b-af5f-d76a2d83f327",
+    "codigo": "C.CHE.0480",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CUSTOM LUXE TURBO",
+    "inicioProducao": "1992-03-01T00:00:00",
+    "finalProducao": "1996-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4T PLUS",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "135"
+    },
+    "dataAtualizacao": "2024-10-28T13:18:43.971139-03:00"
+  },
+  "T.FOR.0171": {
+    "id": "4072f302-3cf4-4e3f-be69-0cbeb8e30491",
+    "codigo": "T.FOR.0171",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "F-4000",
+    "modelo": "-",
+    "inicioProducao": "1984-10-01T00:00:00",
+    "finalProducao": "1994-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "85"
+    },
+    "dataAtualizacao": "2025-05-26T22:50:00.919766-03:00"
+  },
+  "C.CHE.0476": {
+    "id": "1a51c6e3-88ad-4fd0-afa6-894d0f1c6ee2",
+    "codigo": "C.CHE.0476",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CHAMP TB",
+    "inicioProducao": "1994-03-01T00:00:00",
+    "finalProducao": "1994-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4T PLUS",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "135"
+    },
+    "dataAtualizacao": "2024-11-05T23:33:43.74037-03:00"
+  },
+  "C.CHE.0485": {
+    "id": "69d57332-0b01-4858-b0bf-5c8fed349105",
+    "codigo": "C.CHE.0485",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CUSTOM S TURBO",
+    "inicioProducao": "1992-03-01T00:00:00",
+    "finalProducao": "1995-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4T PLUS",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "135"
+    },
+    "dataAtualizacao": "2024-11-05T23:36:45.513509-03:00"
+  },
+  "C.CHE.0477": {
+    "id": "8cf2058f-3182-4300-95c8-7cd7c45521f8",
+    "codigo": "C.CHE.0477",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CHAMP",
+    "inicioProducao": "1994-03-01T00:00:00",
+    "finalProducao": "1994-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4T PLUS",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "135"
+    },
+    "dataAtualizacao": "2024-11-05T23:34:04.874439-03:00"
+  },
+  "C.CHE.0134": {
+    "id": "8e06b77a-92ec-4387-a443-162cc7714d36",
+    "codigo": "C.CHE.0134",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "C-20",
+    "modelo": "STD",
+    "inicioProducao": "1996-01-01T00:00:00",
+    "finalProducao": "1999-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "POWERTECH",
+      "cilindrada": "4095",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "225"
+    },
+    "dataAtualizacao": "2024-11-04T18:09:20.577667-03:00"
+  },
+  "C.CHE.0129": {
+    "id": "19b3b1f7-4c26-4746-bd20-1596b0ba913a",
+    "codigo": "C.CHE.0129",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "C-20",
+    "modelo": "4X4",
+    "inicioProducao": "1989-01-01T00:00:00",
+    "finalProducao": "1991-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "124"
+    },
+    "dataAtualizacao": "2024-11-04T18:08:03.566672-03:00"
+  },
+  "C.CHE.0011": {
+    "id": "c58c3402-38ed-4f4d-a390-019faa1cb950",
+    "codigo": "C.CHE.0011",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "A-20",
+    "modelo": "CUSTOM S",
+    "inicioProducao": "1985-01-01T00:00:00",
+    "finalProducao": "1997-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2024-10-29T14:47:48.574754-03:00"
+  },
+  "C.CHE.1157": {
+    "id": "5a428b39-49b3-417c-8676-ea7dd1a5ce05",
+    "codigo": "C.CHE.1157",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "-",
+    "inicioProducao": "1966-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "121"
+    },
+    "dataAtualizacao": "2023-10-31T10:15:55.464601-03:00"
+  },
+  "C.CHE.1163": {
+    "id": "f202a006-3f9c-4e57-a1bd-feb43145d1a6",
+    "codigo": "C.CHE.1163",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "CUSTOM S",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2023-10-31T10:22:52.370526-03:00"
+  },
+  "C.FOR.0366": {
+    "id": "dccb93c6-1ebb-4c3d-b925-bd9011a674d9",
+    "codigo": "C.FOR.0366",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "S CAB",
+    "inicioProducao": "1995-03-01T00:00:00",
+    "finalProducao": "1998-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "E-MAX",
+      "cilindrada": "4851",
+      "configuracao": "4.9 L 12V SOHC L6",
+      "potenciaCv": "204"
+    },
+    "dataAtualizacao": "2025-03-26T17:02:13.674126-03:00"
+  },
+  "T.FOR.0172": {
+    "id": "364ff17a-bc14-4832-a8a9-11f3267828a7",
+    "codigo": "T.FOR.0172",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "F-4000",
+    "modelo": "-",
+    "inicioProducao": "1993-12-01T00:00:00",
+    "finalProducao": "1996-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "87"
+    },
+    "dataAtualizacao": "2025-06-03T08:41:57.155977-03:00"
+  },
+  "C.CHE.0013": {
+    "id": "792abd97-4a55-48e4-9773-ffa93968fdab",
+    "codigo": "C.CHE.0013",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "A-20",
+    "modelo": "CUSTOM S",
+    "inicioProducao": "1989-01-01T00:00:00",
+    "finalProducao": "1991-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2024-11-06T13:44:59.671514-03:00"
+  },
+  "C.FOR.0354": {
+    "id": "b9a0b846-6c6a-476b-a748-e94d4fe0ebf1",
+    "codigo": "C.FOR.0354",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "4X4",
+    "inicioProducao": "1996-02-01T00:00:00",
+    "finalProducao": "1998-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "4300",
+      "configuracao": "4.3 L 8V SOHV L4",
+      "potenciaCv": "135"
+    },
+    "dataAtualizacao": "2024-08-26T09:54:28.269381-03:00"
+  },
+  "C.CHE.0481": {
+    "id": "90e02afc-cf5b-4a62-9cc0-f3a8e89685ed",
+    "codigo": "C.CHE.0481",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CUSTOM LUXE TURBO",
+    "inicioProducao": "1996-03-01T00:00:00",
+    "finalProducao": "1996-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4T PLUS",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "135"
+    },
+    "dataAtualizacao": "2024-11-05T23:35:19.481317-03:00"
+  },
+  "C.CHE.0008": {
+    "id": "78137e5e-b7f0-4db6-967e-e58b8f0615c4",
+    "codigo": "C.CHE.0008",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "A-20",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1991-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2024-11-04T17:43:17.577789-03:00"
+  },
+  "C.CHE.0131": {
+    "id": "3176bbb3-5b34-491a-b97d-bb066661e5d8",
+    "codigo": "C.CHE.0131",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "C-20",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1996-01-01T00:00:00",
+    "finalProducao": "1996-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "POWERTECH",
+      "cilindrada": "4095",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "225"
+    },
+    "dataAtualizacao": "2024-02-22T17:13:38.534441-03:00"
+  },
+  "C.CHE.0130": {
+    "id": "62468b19-686f-4d59-8a10-fcabf0782fea",
+    "codigo": "C.CHE.0130",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "C-20",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1991-01-01T00:00:00",
+    "finalProducao": "1995-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "124"
+    },
+    "dataAtualizacao": "2024-11-04T18:08:24.304914-03:00"
+  },
+  "C.CHE.0489": {
+    "id": "f1283185-d043-4a37-95d3-6491c46fc668",
+    "codigo": "C.CHE.0489",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "LX",
+    "inicioProducao": "1994-03-01T00:00:00",
+    "finalProducao": "1998-08-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4T",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "120"
+    },
+    "dataAtualizacao": "2024-11-05T23:37:49.62174-03:00"
+  },
+  "C.CHE.0483": {
+    "id": "903e1e63-97ee-48e9-bf8d-3d0356ca2ef1",
+    "codigo": "C.CHE.0483",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1992-03-01T00:00:00",
+    "finalProducao": "1996-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "92"
+    },
+    "dataAtualizacao": "2024-11-05T23:36:01.998877-03:00"
+  },
+  "C.CHE.0107": {
+    "id": "688aae5f-dfbc-47b6-b47d-05cf7a2e924e",
+    "codigo": "C.CHE.0107",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "BONANZA",
+    "modelo": "CUSTOM L TB",
+    "inicioProducao": "1992-03-01T00:00:00",
+    "finalProducao": "1994-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4T",
+      "cilindrada": "4000",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "120"
+    },
+    "dataAtualizacao": "2024-11-04T18:05:52.350287-03:00"
+  },
+  "C.FOR.0362": {
+    "id": "85f7c2e6-f7c9-44f6-92d7-eb58457d1e9d",
+    "codigo": "C.FOR.0362",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L",
+    "inicioProducao": "1992-09-01T00:00:00",
+    "finalProducao": "1995-02-28T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "91"
+    },
+    "dataAtualizacao": "2025-05-13T16:59:56.781353-03:00"
+  },
+  "C.FOR.0370": {
+    "id": "58bcfb14-3ce5-401c-9856-15fa166c8f4c",
+    "codigo": "C.FOR.0370",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "XLT",
+    "inicioProducao": "1996-02-01T00:00:00",
+    "finalProducao": "1998-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "HS4",
+      "cilindrada": "2495",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "116"
+    },
+    "dataAtualizacao": "2025-03-26T17:03:50.968993-03:00"
+  },
+  "C.CHE.0009": {
+    "id": "afae884b-77fa-43b3-8529-d9d8068f00dd",
+    "codigo": "C.CHE.0009",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "A-20",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1991-01-01T00:00:00",
+    "finalProducao": "1991-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2024-11-04T17:43:43.529318-03:00"
+  },
+  "C.CHE.0478": {
+    "id": "96990abb-0308-47e4-87b9-f29e04c30a3e",
+    "codigo": "C.CHE.0478",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CONQUEST TURBO",
+    "inicioProducao": "1996-01-01T00:00:00",
+    "finalProducao": "1996-08-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4T PLUS",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V OHV L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2025-04-25T16:57:51.569934-03:00"
+  },
+  "C.FOR.0365": {
+    "id": "d6fcb268-7885-472f-8ace-5aac99e19b00",
+    "codigo": "C.FOR.0365",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "LWB",
+    "inicioProducao": "1992-04-01T00:00:00",
+    "finalProducao": "1995-11-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "E-MAX",
+      "cilindrada": "4913",
+      "configuracao": "4.9 L 12V SOHC L6",
+      "potenciaCv": "147"
+    },
+    "dataAtualizacao": "2025-03-26T17:00:38.210108-03:00"
+  },
+  "C.CHE.0114": {
+    "id": "a083719f-e553-4627-bcb4-2147d5ed78d0",
+    "codigo": "C.CHE.0114",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "BONANZA",
+    "modelo": "CUSTOM S",
+    "inicioProducao": "1992-03-01T00:00:00",
+    "finalProducao": "1995-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "92"
+    },
+    "dataAtualizacao": "2023-11-23T10:22:12.589756-03:00"
+  },
+  "C.FOR.0368": {
+    "id": "3b3727c2-0760-45e3-8d58-79ff149d29c0",
+    "codigo": "C.FOR.0368",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "S.CAB",
+    "inicioProducao": "1992-04-01T00:00:00",
+    "finalProducao": "1995-11-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "E-MAX",
+      "cilindrada": "4913",
+      "configuracao": "4.9 L 12V SOHC L6",
+      "potenciaCv": "147"
+    },
+    "dataAtualizacao": "2025-03-26T16:57:04.441581-03:00"
+  },
+  "C.FOR.0367": {
+    "id": "9f13cb92-a92a-415a-a3ae-55ecffc6e709",
+    "codigo": "C.FOR.0367",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "S.CAB 4X4",
+    "inicioProducao": "1996-02-01T00:00:00",
+    "finalProducao": "1998-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "4300",
+      "configuracao": "4.3 L 8V SOHV L4",
+      "potenciaCv": "135"
+    },
+    "dataAtualizacao": "2024-08-26T09:54:28.269387-03:00"
+  },
+  "C.CHE.0112": {
+    "id": "e1ca1892-5829-4420-8210-87fbf29f5aa6",
+    "codigo": "C.CHE.0112",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "BONANZA",
+    "modelo": "CUSTOM S",
+    "inicioProducao": "1989-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "121"
+    },
+    "dataAtualizacao": "2023-10-27T13:25:46.881982-03:00"
+  },
+  "C.CHE.0111": {
+    "id": "d7f9cd26-fb9f-42f9-bd87-2d599cee73b9",
+    "codigo": "C.CHE.0111",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "BONANZA",
+    "modelo": "CUSTOM S TB",
+    "inicioProducao": "1992-03-01T00:00:00",
+    "finalProducao": "1995-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4T",
+      "cilindrada": "4000",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "120"
+    },
+    "dataAtualizacao": "2024-10-28T13:27:56.026983-03:00"
+  },
+  "C.CHE.1166": {
+    "id": "c1570f24-94bc-459b-9cf2-f05576d38dd9",
+    "codigo": "C.CHE.1166",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "CUSTOM",
+    "inicioProducao": "1992-11-01T00:00:00",
+    "finalProducao": "1995-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "92"
+    },
+    "dataAtualizacao": "2023-10-31T13:40:21.067522-03:00"
+  },
+  "C.CHE.0479": {
+    "id": "cc7cd0a4-02ab-4080-9292-d26504095e88",
+    "codigo": "C.CHE.0479",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CONQUEST",
+    "inicioProducao": "1992-03-01T00:00:00",
+    "finalProducao": "1994-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "92"
+    },
+    "dataAtualizacao": "2024-11-05T23:34:50.010793-03:00"
+  },
+  "C.CHE.1162": {
+    "id": "5faa67b3-5951-4011-883c-a4ebad2d5b93",
+    "codigo": "C.CHE.1162",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1992-11-01T00:00:00",
+    "finalProducao": "1995-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "92"
+    },
+    "dataAtualizacao": "2023-10-31T10:21:39.350609-03:00"
+  },
+  "C.CHE.0109": {
+    "id": "9151d32d-a8e7-4c24-ac77-5af6a407a1f3",
+    "codigo": "C.CHE.0109",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "BONANZA",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1992-03-01T00:00:00",
+    "finalProducao": "1995-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "92"
+    },
+    "dataAtualizacao": "2023-11-08T11:13:30.975868-03:00"
+  },
+  "C.FOR.0357": {
+    "id": "62427916-c427-431a-85cb-6f11cfff1ec0",
+    "codigo": "C.FOR.0357",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L 4X4",
+    "inicioProducao": "1996-02-01T00:00:00",
+    "finalProducao": "1998-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "4300",
+      "configuracao": "4.3 L 8V SOHV L4",
+      "potenciaCv": "135"
+    },
+    "dataAtualizacao": "2024-08-26T09:54:28.269381-03:00"
+  },
+  "C.CHE.1158": {
+    "id": "bc88c116-c6f0-40f2-888c-45382608c410",
+    "codigo": "C.CHE.1158",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "-",
+    "inicioProducao": "1966-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "121"
+    },
+    "dataAtualizacao": "2023-10-31T10:16:57.563303-03:00"
+  },
+  "T.FOR.0169": {
+    "id": "3d0c3625-7218-4ff8-aae3-8572394535b7",
+    "codigo": "T.FOR.0169",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "F-4000",
+    "modelo": "-",
+    "inicioProducao": "1996-11-01T00:00:00",
+    "finalProducao": "2005-08-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4 BTAA 8V",
+      "cilindrada": "3917",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "141"
+    },
+    "dataAtualizacao": "2025-05-26T22:50:32.45654-03:00"
+  },
+  "C.CHE.0010": {
+    "id": "f59424d3-6b97-45f3-b797-a3c9fe9581a2",
+    "codigo": "C.CHE.0010",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "A-20",
+    "modelo": "CUSTOM S CAB DUP",
+    "inicioProducao": "1985-01-01T00:00:00",
+    "finalProducao": "1996-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2024-11-04T17:44:07.782766-03:00"
+  },
+  "C.FOR.0364": {
+    "id": "79622aad-108f-45e3-a64f-6161387381c4",
+    "codigo": "C.FOR.0364",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L",
+    "inicioProducao": "1995-03-01T00:00:00",
+    "finalProducao": "1998-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "E-MAX",
+      "cilindrada": "4851",
+      "configuracao": "4.9 L 12V SOHC L6",
+      "potenciaCv": "204"
+    },
+    "dataAtualizacao": "2025-03-26T16:59:43.399709-03:00"
+  },
+  "C.CHE.0133": {
+    "id": "de93d5f2-d0c9-4fa4-a4be-94e79092431b",
+    "codigo": "C.CHE.0133",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "C-20",
+    "modelo": "STD",
+    "inicioProducao": "1994-01-01T00:00:00",
+    "finalProducao": "1995-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "124"
+    },
+    "dataAtualizacao": "2024-11-04T18:08:45.736168-03:00"
+  },
+  "T.FOR.0174": {
+    "id": "0d12a73a-e8be-43e3-aa7a-18af8f3c5487",
+    "codigo": "T.FOR.0174",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "F-4000",
+    "modelo": "-",
+    "inicioProducao": "1996-05-01T00:00:00",
+    "finalProducao": "1998-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "4300",
+      "configuracao": "4.3 L 8V SOHV L4",
+      "potenciaCv": "135"
+    },
+    "dataAtualizacao": "2025-05-30T13:57:40.416282-03:00"
+  },
+  "C.FOR.0355": {
+    "id": "954c77e4-b30a-4527-b63e-7fdf7ea91cb2",
+    "codigo": "C.FOR.0355",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "4X4",
+    "inicioProducao": "1992-04-01T00:00:00",
+    "finalProducao": "1995-02-28T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3922",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "122"
+    },
+    "dataAtualizacao": "2024-11-14T22:32:44.61179-03:00"
+  },
+  "C.CHE.0113": {
+    "id": "db99d050-255d-46cc-9b85-4d669777e0b7",
+    "codigo": "C.CHE.0113",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "BONANZA",
+    "modelo": "CUSTOM S",
+    "inicioProducao": "1989-01-01T00:00:00",
+    "finalProducao": "1994-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2024-11-04T18:06:58.632329-03:00"
+  },
+  "C.CHE.0487": {
+    "id": "f6a8b726-5123-4052-8280-9e66859c3238",
+    "codigo": "C.CHE.0487",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CUSTOM S",
+    "inicioProducao": "1992-03-01T00:00:00",
+    "finalProducao": "1995-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "S4",
+      "cilindrada": "3998",
+      "configuracao": "4.0 L 8V SOHC L4",
+      "potenciaCv": "92"
+    },
+    "dataAtualizacao": "2024-01-10T15:57:57.676076-03:00"
+  },
+  "C.CHE.0108": {
+    "id": "e76996de-69c6-4607-a0ff-18013faab77c",
+    "codigo": "C.CHE.0108",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "BONANZA",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1991-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "121"
+    },
+    "dataAtualizacao": "2024-11-04T18:06:14.134082-03:00"
+  },
+  "C.CHE.1159": {
+    "id": "00200b8d-c314-4b2a-846c-924915cb3ec8",
+    "codigo": "C.CHE.1159",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1966-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "121"
+    },
+    "dataAtualizacao": "2023-10-31T10:17:59.251066-03:00"
+  },
+  "C.CHE.0110": {
+    "id": "1f828e86-4861-4d1d-9866-008f922e18cb",
+    "codigo": "C.CHE.0110",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "BONANZA",
+    "modelo": "CUSTOM S LUXE",
+    "inicioProducao": "1991-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2024-11-04T18:06:36.200196-03:00"
+  },
+  "C.CHE.1160": {
+    "id": "1cd132dd-c981-4ca5-bb4e-a6547d49b7aa",
+    "codigo": "C.CHE.1160",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1995-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2023-10-31T10:19:12.309585-03:00"
+  },
+  "C.CHE.0001": {
+    "id": "6ac77920-e793-4895-8bb7-82e568a33630",
+    "codigo": "C.CHE.0001",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "A-10",
+    "modelo": "CUSTOM CAB DUP",
+    "inicioProducao": "1986-01-01T00:00:00",
+    "finalProducao": "1989-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2025-05-13T17:25:42.507922-03:00"
+  },
+  "C.FOR.0359": {
+    "id": "9144c50c-bf34-4b50-b806-25cb22d476f9",
+    "codigo": "C.FOR.0359",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L",
+    "inicioProducao": "1979-01-01T00:00:00",
+    "finalProducao": "1992-09-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "86"
+    },
+    "dataAtualizacao": "2025-05-13T16:58:55.686391-03:00"
+  },
+  "C.CHE.0488": {
+    "id": "500a8dec-1f1b-40e6-b6b3-e73cae7ee778",
+    "codigo": "C.CHE.0488",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "D 20",
+    "inicioProducao": "1985-01-01T00:00:00",
+    "finalProducao": "1991-02-28T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "Q20B",
+      "cilindrada": "3871",
+      "configuracao": "3.9 L 8V SOHC L4",
+      "potenciaCv": "86,4"
+    },
+    "dataAtualizacao": "2024-11-05T23:37:28.217581-03:00"
+  },
+  "C.CHE.0482": {
+    "id": "14b72c43-6a26-4aad-b212-3d7b26b52e40",
+    "codigo": "C.CHE.0482",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CUSTOM LUXE",
+    "inicioProducao": "1985-01-01T00:00:00",
+    "finalProducao": "1992-02-28T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "Q20B",
+      "cilindrada": "3871",
+      "configuracao": "3.9 L 8V SOHC L4",
+      "potenciaCv": "86,4"
+    },
+    "dataAtualizacao": "2025-03-07T14:16:35.028908-03:00"
+  },
+  "C.CHE.1168": {
+    "id": "dffc0615-a89d-4a7d-b1e7-534892a5210b",
+    "codigo": "C.CHE.1168",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "L",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1993-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "151",
+      "cilindrada": "2474",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "97"
+    },
+    "dataAtualizacao": "2023-10-31T10:26:43.957076-03:00"
+  },
+  "C.CHE.0003": {
+    "id": "96b16a8f-1158-450f-bf04-581c7aac2e0e",
+    "codigo": "C.CHE.0003",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "A-10",
+    "modelo": "S",
+    "inicioProducao": "1981-01-01T00:00:00",
+    "finalProducao": "1989-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "250",
+      "cilindrada": "4093",
+      "configuracao": "4.1 L 12V SOHC L6",
+      "potenciaCv": "140"
+    },
+    "dataAtualizacao": "2025-05-13T17:22:36.144857-03:00"
+  },
+  "C.CHE.0486": {
+    "id": "b9bae3f2-b35b-46d2-a465-28b1a9cd8317",
+    "codigo": "C.CHE.0486",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "D-20",
+    "modelo": "CUSTOM S",
+    "inicioProducao": "1985-01-01T00:00:00",
+    "finalProducao": "1992-02-28T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "Q20B",
+      "cilindrada": "3871",
+      "configuracao": "3.9 L 8V SOHC L4",
+      "potenciaCv": "86,4"
+    },
+    "dataAtualizacao": "2025-03-07T14:15:50.623144-03:00"
+  },
+  "C.FOR.0358": {
+    "id": "f5d7c131-3ada-45ac-8862-ed7bfa86b847",
+    "codigo": "C.FOR.0358",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L",
+    "inicioProducao": "1979-01-01T00:00:00",
+    "finalProducao": "1992-08-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "86"
+    },
+    "dataAtualizacao": "2025-05-13T16:49:40.557828-03:00"
+  },
+  "C.FOR.0361": {
+    "id": "cef98c16-fdfc-49d2-8f10-c6cb33e88d50",
+    "codigo": "C.FOR.0361",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L",
+    "inicioProducao": "1979-01-01T00:00:00",
+    "finalProducao": "1992-08-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "87"
+    },
+    "dataAtualizacao": "2025-05-13T16:48:22.111846-03:00"
+  },
+  "C.CHE.1165": {
+    "id": "75e93ed1-63ba-4433-9de1-a4e42b4f5ea9",
+    "codigo": "C.CHE.1165",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "CHEVROLET",
+    "nome": "VERANEIO",
+    "modelo": "CUSTOM",
+    "inicioProducao": "1966-01-01T00:00:00",
+    "finalProducao": "1992-10-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "Q20B",
+      "cilindrada": "3871",
+      "configuracao": "3.9 L 8V SOHC L4",
+      "potenciaCv": "86,4"
+    },
+    "dataAtualizacao": "2023-10-31T10:24:14.139221-03:00"
+  },
+  "T.FOR.0158": {
+    "id": "5e0909c9-d9fa-4054-962f-f273a1527c4b",
+    "codigo": "T.FOR.0158",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "F-2000",
+    "modelo": "-",
+    "inicioProducao": "1980-10-01T00:00:00",
+    "finalProducao": "1983-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "83"
+    },
+    "dataAtualizacao": "2025-06-04T10:28:58.482407-03:00"
+  },
+  "T.MBZ.0027": {
+    "id": "c2bfb62e-d465-417b-81b2-bba78ea23985",
+    "codigo": "T.MBZ.0027",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "710",
+    "modelo": "-",
+    "inicioProducao": "1995-09-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 A",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "110"
+    },
+    "dataAtualizacao": "2023-10-17T12:12:06.495623-03:00"
+  },
+  "T.MBZ.0229": {
+    "id": "59b38cf0-97f7-42ed-9ff0-8450c6af9c4a",
+    "codigo": "T.MBZ.0229",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "L 1114",
+    "modelo": "-",
+    "inicioProducao": "1994-10-01T00:00:00",
+    "finalProducao": "2004-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 LA",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "136"
+    },
+    "dataAtualizacao": "2023-04-12T14:30:03.667339-03:00"
+  },
+  "T.MBZ.0288": {
+    "id": "a2a02cd2-8e9b-457d-b768-9a1cbb69202f",
+    "codigo": "T.MBZ.0288",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "L 709",
+    "modelo": "-",
+    "inicioProducao": "1984-03-01T00:00:00",
+    "finalProducao": "1993-02-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "115"
+    },
+    "dataAtualizacao": "2025-06-11T17:12:17.638577-03:00"
+  },
+  "T.MBZ.0289": {
+    "id": "10a932e5-ea59-43d8-9184-9445b70e8899",
+    "codigo": "T.MBZ.0289",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "L 709",
+    "modelo": "-",
+    "inicioProducao": "1988-01-01T00:00:00",
+    "finalProducao": "1993-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "90"
+    },
+    "dataAtualizacao": "2025-06-11T17:14:44.207889-03:00"
+  },
+  "T.AGL.0010": {
+    "id": "3057003c-44ef-446b-8ae3-a8032f50274a",
+    "codigo": "T.AGL.0010",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "1600",
+    "modelo": "A",
+    "inicioProducao": "1985-10-01T00:00:00",
+    "finalProducao": "1995-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "-",
+      "cilindrada": "2470",
+      "configuracao": "2.5 L 8V SOHC L4",
+      "potenciaCv": "75"
+    },
+    "dataAtualizacao": "2025-06-04T11:00:07.51054-03:00"
+  },
+  "T.AGL.0013": {
+    "id": "0c4d3f3d-13f4-4be2-afd0-0beb128340b0",
+    "codigo": "T.AGL.0013",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "1800",
+    "modelo": "D",
+    "inicioProducao": "1988-10-01T00:00:00",
+    "finalProducao": "1998-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "88"
+    },
+    "dataAtualizacao": "2025-06-03T08:26:30.233988-03:00"
+  },
+  "T.AGL.0014": {
+    "id": "78fda039-ad70-48a0-b377-868541a31845",
+    "codigo": "T.AGL.0014",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "1800",
+    "modelo": "D",
+    "inicioProducao": "1988-10-01T00:00:00",
+    "finalProducao": "1998-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "Q20B",
+      "cilindrada": "3871",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "86,4"
+    },
+    "dataAtualizacao": "2025-06-03T08:25:53.461607-03:00"
+  },
+  "T.AGL.0012": {
+    "id": "67b57f01-ab68-42b8-9339-e54fb79b18b1",
+    "codigo": "T.AGL.0012",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "1600",
+    "modelo": "D",
+    "inicioProducao": "1985-10-01T00:00:00",
+    "finalProducao": "1995-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "88"
+    },
+    "dataAtualizacao": "2025-06-04T10:08:51.271581-03:00"
+  },
+  "T.FOR.0178": {
+    "id": "969d8a63-1b24-4f45-b4f9-b6d95a69d1c7",
+    "codigo": "T.FOR.0178",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "F-400",
+    "modelo": "-",
+    "inicioProducao": "1975-01-01T00:00:00",
+    "finalProducao": "1977-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "272",
+      "cilindrada": "4457",
+      "configuracao": "4.5 L 16V OHC V8",
+      "potenciaCv": "165"
+    },
+    "dataAtualizacao": "2025-06-04T13:57:56.842041-03:00"
+  },
+  "T.FOR.0170": {
+    "id": "6a22c6a5-429a-4d16-90e4-5e58fa0b1058",
+    "codigo": "T.FOR.0170",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "F-4000",
+    "modelo": "-",
+    "inicioProducao": "1978-07-01T00:00:00",
+    "finalProducao": "1983-06-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "D 226-4",
+      "cilindrada": "4160",
+      "configuracao": "4.2 L 8V SOHV L4",
+      "potenciaCv": "86"
+    },
+    "dataAtualizacao": "2025-05-28T11:16:38.486495-03:00"
+  },
+  "T.AGL.0011": {
+    "id": "c4c21b03-5eb2-4151-bb7b-35275fda6b33",
+    "codigo": "T.AGL.0011",
+    "classificacao": "Caminhões",
+    "marca": "AGRALE",
+    "nome": "1600",
+    "modelo": "D",
+    "inicioProducao": "1985-10-01T00:00:00",
+    "finalProducao": "1995-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "2942",
+      "configuracao": "3.0 L 6V SOHV L3",
+      "potenciaCv": "62"
+    },
+    "dataAtualizacao": "2025-06-04T11:00:57.129147-03:00"
+  },
+  "T.MBZ.0287": {
+    "id": "c99496a0-16e1-4ac9-9a76-b52158106ce7",
+    "codigo": "T.MBZ.0287",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "L 709",
+    "modelo": "37/42",
+    "inicioProducao": "1988-03-01T00:00:00",
+    "finalProducao": "1998-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "90"
+    },
+    "dataAtualizacao": "2025-06-11T17:10:24.63313-03:00"
+  },
+  "C.FOR.0360": {
+    "id": "f2fe2866-be5e-43b2-8849-cbceca6b726a",
+    "codigo": "C.FOR.0360",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L",
+    "inicioProducao": "1979-01-01T00:00:00",
+    "finalProducao": "1992-08-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "86"
+    },
+    "dataAtualizacao": "2025-05-13T16:47:47.424776-03:00"
+  },
+  "B.UNV.0001": {
+    "id": "a086262c-0e5e-4696-8184-69e194881afc",
+    "codigo": "B.UNV.0001",
+    "classificacao": "Ônibus",
+    "marca": "UNIVERSAL",
+    "nome": "Ônibus",
+    "modelo": "UNIVERSAL",
+    "inicioProducao": "1960-01-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "UNIVERSAL",
+      "cilindrada": "-",
+      "configuracao": "N/A",
+      "potenciaCv": "N/A"
+    },
+    "dataAtualizacao": "2020-10-07T01:20:34.201573-03:00"
+  },
+  "B.MBZ.0009": {
+    "id": "0fb0785b-efd7-4e9c-b8b9-0242b257820f",
+    "codigo": "B.MBZ.0009",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "LO 610",
+    "modelo": "-",
+    "inicioProducao": "2001-07-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 LA",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "115"
+    },
+    "dataAtualizacao": "2025-06-17T15:26:58.245595-03:00"
+  },
+  "B.MBZ.0001": {
+    "id": "ed2e2135-85bd-48dc-8ee3-3c6cf18b510f",
+    "codigo": "B.MBZ.0001",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "LO 915",
+    "modelo": "CHASSI",
+    "inicioProducao": "2004-01-01T00:00:00",
+    "finalProducao": "2011-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 904 LA",
+      "cilindrada": "4250",
+      "configuracao": "4.3 L 12V SOHV L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2025-06-17T15:11:58.940485-03:00"
+  },
+  "B.MBZ.0012": {
+    "id": "0e4a4e86-69b6-4d3e-8289-ece2c5157dda",
+    "codigo": "B.MBZ.0012",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "LO 812",
+    "modelo": "-",
+    "inicioProducao": "2003-01-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 LA",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "115"
+    },
+    "dataAtualizacao": "2025-06-17T15:28:59.043111-03:00"
+  },
+  "B.MBZ.0011": {
+    "id": "bc098660-d94f-4949-b7bc-54ef71b72237",
+    "codigo": "B.MBZ.0011",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "LO 712",
+    "modelo": "-",
+    "inicioProducao": "2003-01-01T00:00:00",
+    "finalProducao": "2012-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 LA",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "116"
+    },
+    "dataAtualizacao": "2025-06-17T15:28:27.447205-03:00"
+  },
+  "B.MBZ.0013": {
+    "id": "10fc3263-ba17-4037-8551-90dcf98d0d1f",
+    "codigo": "B.MBZ.0013",
+    "classificacao": "Ônibus",
+    "marca": "MERCEDES BENZ",
+    "nome": "LO 812",
+    "modelo": "-",
+    "inicioProducao": "1988-03-01T00:00:00",
+    "finalProducao": "1998-03-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "122"
+    },
+    "dataAtualizacao": "2023-09-11T10:44:35.095953-03:00"
+  },
+  "T.MBZ.0028": {
+    "id": "341833b9-b600-465f-937e-890d812f66a6",
+    "codigo": "T.MBZ.0028",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "710",
+    "modelo": "-",
+    "inicioProducao": "2001-07-01T00:00:00",
+    "finalProducao": "2007-06-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 LA",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "115"
+    },
+    "dataAtualizacao": "2025-05-27T08:40:30.681502-03:00"
+  },
+  "T.FOR.0109": {
+    "id": "00e036b2-32b8-46ae-ab22-881fc6705310",
+    "codigo": "T.FOR.0109",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "CARGO",
+    "modelo": "C 815",
+    "inicioProducao": "2000-11-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "4 BTAA 8V",
+      "cilindrada": "3917",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2025-05-28T13:26:20.423042-03:00"
+  },
+  "B.AGL.0025": {
+    "id": "8caeabb6-8eeb-4156-b392-ee659d604360",
+    "codigo": "B.AGL.0025",
+    "classificacao": "Ônibus",
+    "marca": "AGRALE",
+    "nome": "MA 7.5T",
+    "modelo": "AUT.",
+    "inicioProducao": "1996-01-01T00:00:00",
+    "finalProducao": "2005-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 10 / X10",
+      "cilindrada": "4300",
+      "configuracao": "4.3 L 8V SOHV L4",
+      "potenciaCv": "145"
+    },
+    "dataAtualizacao": "2025-06-17T13:08:05.935351-03:00"
+  },
+  "B.AGL.0024": {
+    "id": "6e02a345-12b9-4153-895a-5e775eaf0ded",
+    "codigo": "B.AGL.0024",
+    "classificacao": "Ônibus",
+    "marca": "AGRALE",
+    "nome": "MA 7.5E",
+    "modelo": "-",
+    "inicioProducao": "2005-01-01T00:00:00",
+    "finalProducao": "2005-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 12 / X12",
+      "cilindrada": "4745",
+      "configuracao": "4.8 L 8V SOHV L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2025-06-17T12:58:58.512485-03:00"
+  },
+  "T.MBZ.0381": {
+    "id": "47b7775e-9d9b-433b-8f9a-260468dbf483",
+    "codigo": "T.MBZ.0381",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "712 E",
+    "modelo": "-",
+    "inicioProducao": "2003-01-01T00:00:00",
+    "finalProducao": "2011-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 LA",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "116"
+    },
+    "dataAtualizacao": "2025-06-05T15:29:08.124158-03:00"
+  },
+  "T.MBZ.0030": {
+    "id": "c1491a10-ac90-42d6-8766-1333c81c6ee3",
+    "codigo": "T.MBZ.0030",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "712 C",
+    "modelo": "-",
+    "inicioProducao": "1998-10-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 904 LA",
+      "cilindrada": "4250",
+      "configuracao": "4.3 L 12V SOHV L4",
+      "potenciaCv": "122"
+    },
+    "dataAtualizacao": "2025-05-30T14:33:02.33282-03:00"
+  },
+  "T.MBZ.0031": {
+    "id": "53aa276d-a089-492a-b914-4b19884a0eed",
+    "codigo": "T.MBZ.0031",
+    "classificacao": "Caminhões",
+    "marca": "MERCEDES BENZ",
+    "nome": "712",
+    "modelo": "-",
+    "inicioProducao": "1992-04-01T00:00:00",
+    "finalProducao": "2002-04-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "OM 364 A",
+      "cilindrada": "3972",
+      "configuracao": "4.0 L 8V SOHV L4",
+      "potenciaCv": "90"
+    },
+    "dataAtualizacao": "2025-05-28T14:27:30.464606-03:00"
   }
 }

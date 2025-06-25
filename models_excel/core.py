@@ -138,13 +138,6 @@ class Gerar_Anuncios:
                     funcao_atualizar_barra_anuncio=self.funcao_atualizar_barra_anuncio
                 )
 
-                parte_de_cima_aplicacao = (
-                    f"Produto: {dados_anuncio['nome']}\n"
-                    f"Marca: {dados_anuncio['marca']}\n"
-                    f"Código Produto: {dados_anuncio['part_number']}\n\n"
-                    "Compatível com os veículos:\n"
-                )
-
                 linhas_aplicacao = []
                 for veiculo, ano_aplicacao in zip(lista_veiculos_api, lista_de_veiculos_crua):
                     try:
@@ -158,7 +151,11 @@ class Gerar_Anuncios:
                         potencia = motorizacao.get('potenciaCv', '')
                         anos = f"{ano_aplicacao.get('anoInicial', '')}-{ano_aplicacao.get('anoFinal', '')}"
                         linha = f"{marca} {nome} {modelo} {anos} - Motor: {motor_nome} {cilindrada}cc {configuracao} {potencia}cv"
+
+                        if linha.strip() in linhas_aplicacao:
+                            continue
                         linhas_aplicacao.append(linha.strip())
+
                     except Exception as e:
                         texto_no_console(f"Erro ao montar aplicação para veículo: {e}")
 
@@ -182,13 +179,13 @@ class Gerar_Anuncios:
                 coluna_similares.append("\n".join(lista_similares))
 
 
-                return f'{parte_de_cima_aplicacao}{"\n".join(linhas_aplicacao)}{linhas_similares}'
+                return f'{"\n".join(linhas_aplicacao)}{linhas_similares}'
 
-            aplicacao_completa = gerar_aplicacao_veiculo()
             aplicacao_simplificada = (
                 f"Produto: {dados_anuncio['nome']}\nMarca: {marca}\n"
-                f"Código Produto: {codigo_produto}\n\nCompatível com os veículos:{veiculo_titulo}"
+                f"Código Produto: {codigo_produto}\n\nCompatível com os veículos:\n{veiculo_titulo}"
             )
+            aplicacao_completa = f'{aplicacao_simplificada}\n\n\n\nAplicação detalhada:\n{gerar_aplicacao_veiculo()}'
 
             coluna_descricao_completa_ecommerce.append(aplicacao_completa)
             coluna_descricao_simplificada.append(aplicacao_simplificada)
