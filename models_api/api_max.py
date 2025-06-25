@@ -124,13 +124,11 @@ def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barr
         # não vamos precisar fazer a requisição e assim vamos gerar o relatorio mais rapido
         # de acordo que vamos adicionando informações nele
         if codigo in cache_veiculos:
-            texto_no_console('[debug] CACHE')
             veiculos_completos.append(cache_veiculos[codigo])
             feito += 1
             continue
 
         response = api_cliente.obter_dados_api(codigo, url_path)
-        texto_no_console('[debug] API')
         time.sleep(0.2)
         if not response:
             continue
@@ -185,4 +183,3 @@ def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barr
 if __name__ == "__main__":
     access_token = TokenGerador().retorno_token()
     dados_gerais = puxar_dados_produto_api(access_token=access_token, codigo_produto='HG 41111', dados_necessarios=['similares'])
-    print(dados_gerais)

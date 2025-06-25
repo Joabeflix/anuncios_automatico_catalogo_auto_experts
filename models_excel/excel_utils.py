@@ -1,0 +1,46 @@
+import pandas as pd
+
+class Exel:
+    def __init__(self, arquivo_excel):
+        self.arquivo_excel=arquivo_excel
+
+
+    def abrir(self, nome_aba=None):
+        if nome_aba:
+            return pd.read_excel(self.arquivo_excel, sheet_name=nome_aba)
+        return pd.read_excel(self.arquivo_excel)
+
+    def salvar(self, planilha, nome_salvar):
+        planilha.to_excel(nome_salvar, index=False)
+     
+    
+    def adicionar_colunas(self, planilha, nome_salvar, dados_inserir={}):
+        if dados_inserir:
+            for coluna in dados_inserir.keys():
+                planilha[coluna] = dados_inserir.get(coluna)
+
+            self.salvar(planilha=planilha, nome_salvar=nome_salvar)
+                
+    
+
+
+
+
+
+
+if __name__ == "__main__":
+    local_arquivo = r'models_excel\teste.xlsx'
+    planilha_funcoes = Exel(arquivo_excel=local_arquivo)
+    planilha = planilha_funcoes.abrir()
+
+    dados_inserir = {
+        "COLUNA x": [
+            1, 2, 3, 4
+        ],
+        "COLUNA_Y": [
+            "JOABE", "ALVES", "LUZ", "LINDO"
+        ]
+    }
+
+    planilha_funcoes.adicionar_colunas(planilha=planilha, dados_inserir=dados_inserir)
+
