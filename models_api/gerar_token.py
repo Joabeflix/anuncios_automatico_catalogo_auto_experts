@@ -1,10 +1,8 @@
 import os
-from dotenv import load_dotenv
 import requests
 import json
 from utils.utils import *
 from globals import CLIENTKEY, CLIENTSECRET
-load_dotenv()
 
 class TokenGerador:
     def __init__(self):

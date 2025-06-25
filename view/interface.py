@@ -1,12 +1,11 @@
 import ttkbootstrap as ttk
 import tkinter as tk
 from ttkbootstrap.constants import *
-from tkinter.filedialog import askopenfilename, askdirectory
+from tkinter.filedialog import askopenfilename
 from utils.utils import texto_no_console, tela_aviso, selecionar_pasta
 from tkinter.scrolledtext import ScrolledText
 import sys
 from models_excel.core import Gerar_Anuncios
-from models_api.gerar_token import TokenGerador
 import threading
 from globals import TOKEN, TEMA
 import webbrowser

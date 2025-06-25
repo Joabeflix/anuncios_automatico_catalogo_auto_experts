@@ -2,7 +2,6 @@ import json
 import numpy as np
 import os
 from tkinter import messagebox
-import re
 import time
 from tkinter.filedialog import askdirectory
 

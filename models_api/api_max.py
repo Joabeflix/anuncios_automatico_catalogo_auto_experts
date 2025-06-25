@@ -1,14 +1,10 @@
 import json
 import requests
-from dotenv import load_dotenv
 from utils.utils import texto_no_console, tela_aviso
 from models_api.gerar_token import TokenGerador
 from models_api.mapeamentos_retorno_api import mapeamento_usar
 import time
 from globals import MAPEAMENTO_FALTA_ATRIBUTO
-
-load_dotenv()
-
 
 class APICliente:
     BASE_URL = 'https://api.intelliauto.com.br/v1'
