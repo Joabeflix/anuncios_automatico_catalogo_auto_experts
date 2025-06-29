@@ -4,13 +4,14 @@ from utils.utils import texto_no_console, tela_aviso
 from models_api.gerar_token import TokenGerador
 from models_api.mapeamentos_retorno_api import mapeamento_usar
 import time
-from globals import MAPEAMENTO_FALTA_ATRIBUTO
+from globals import MAPEAMENTO_FALTA_ATRIBUTO, TOKEN
+import sys
 
 class APICliente:
     BASE_URL = 'https://api.intelliauto.com.br/v1'
 
-    def __init__(self, access_token):
-        self.access_token = access_token
+    def __init__(self):
+        self.access_token = TOKEN
 
     def obter_dados_api(self, obj, url_path):
         url = f'{self.BASE_URL}/{url_path}/{obj}'
@@ -29,9 +30,10 @@ class APICliente:
             texto_no_console("Erro 401: Token inválido ou expirado.")
             tela_aviso('Erro Token', 'Provavelmente o seu token de acesso é inválido ou está expirado... Vamos gerar um novo token.', 'erro')
             gerar_token = TokenGerador().definir_novo_token()
-            tela_aviso('Resolvido', f'Geramos o novo token "{gerar_token}"\n\nReinicie o programa para carregar as novas configurações. \n\nSe mesmo assim o erro persistir, consultar o Joabe para validar melhor o erro.', 'informacao')
+            tela_aviso('Resolvido', f'Geramos o novo token "{gerar_token}"\n\n\nSe mesmo assim o erro persistir, consultar o Joabe para validar melhor o erro.', 'informacao')
+            tela_aviso('Aviso.', 'Reinicie o programa!!!', 'informacao')
+            sys.exit()
             return None
-
         if response.status_code == 200:
             return response
 
@@ -58,15 +60,16 @@ class FiltroJSON:
         return resultado
 
 
-def puxar_dados_produto_api(access_token, codigo_produto, dados_necessarios=None):
+def puxar_dados_produto_api(codigo_produto, dados_necessarios=None):
     if dados_necessarios is None:
         dados_necessarios = []
 
-    api_cliente = APICliente(access_token)
+    api_cliente = APICliente()
     filtro = FiltroJSON()
 
     url_path = 'produtos/partnumber'
     response = api_cliente.obter_dados_api(codigo_produto, url_path)
+
     if response:
         if not response:
             return {}
@@ -97,9 +100,9 @@ def puxar_dados_produto_api(access_token, codigo_produto, dados_necessarios=None
     return None
 
 
-def puxar_dados_veiculos_api(access_token, lista_veiculos, funcao_atualizar_barra_anuncio):
+def puxar_dados_veiculos_api(lista_veiculos, funcao_atualizar_barra_anuncio):
 
-    api_cliente = APICliente(access_token)
+    api_cliente = APICliente()
     url_path = 'veiculos/codigo'
     veiculos_completos = []
 

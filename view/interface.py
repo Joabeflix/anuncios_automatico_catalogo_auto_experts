@@ -7,7 +7,7 @@ from tkinter.scrolledtext import ScrolledText
 import sys
 from models_excel.core import Gerar_Anuncios
 import threading
-from globals import TOKEN, TEMA
+from globals import TEMA
 import webbrowser
 
 class RedirecionarConsole:
@@ -156,11 +156,9 @@ class MinhaInterface:
         threading.Thread(target=self._gerar_anuncios, daemon=True).start()
 
     def _gerar_anuncios(self):
-        token_de_acesso = TOKEN
         local_planilha = self.entrada_planilha.get()
         if local_planilha:
             app = Gerar_Anuncios(
-                acces_token=token_de_acesso,
                 baixar_img=self.baixar_imagem.get(),
                 local_salvar_imagens=self.local_salvar_imagens,
                 planilha=local_planilha,
@@ -178,6 +176,16 @@ class MinhaInterface:
     def iniciar(self):
         self.root.mainloop()
         texto_no_console('Programa iniciado com sucesso.')
+
+
+
+
+
+
+        self.root.destroy()
+
+
+
 
 if __name__ == "__main__":
     app = MinhaInterface()

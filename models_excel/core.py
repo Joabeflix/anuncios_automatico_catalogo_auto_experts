@@ -18,14 +18,12 @@ from models_excel.excel_utils import Exel
 class Gerar_Anuncios:
     def __init__(
         self,
-        acces_token,
         planilha,
         funcao_atualizar_barra_geral,
         funcao_atualizar_barra_anuncio,
         local_salvar_imagens,
         baixar_img=True
     ):
-        self.acces_token = acces_token
         self.planilha = planilha
         self.baixar_img = baixar_img
         self.funcao_atualizar_barra_geral = funcao_atualizar_barra_geral
@@ -81,7 +79,6 @@ class Gerar_Anuncios:
             texto_no_console(f'Gerando dados do código {cod}.')
 
             dados_anuncio_api = puxar_dados_produto_api(
-                self.acces_token,
                 codigo_produto=cod,
                 dados_necessarios=dados_puxar
             )
@@ -99,7 +96,6 @@ class Gerar_Anuncios:
                 lista_de_veiculos_crua = dados_anuncio_api['veiculos']
 
                 lista_veiculos_api = puxar_dados_veiculos_api(
-                    access_token=self.acces_token,
                     lista_veiculos=lista_de_veiculos_crua,
                     funcao_atualizar_barra_anuncio=self.funcao_atualizar_barra_anuncio
                 )
@@ -234,9 +230,7 @@ class Gerar_Anuncios:
         return PADROES_SUBS_NOME_ANUNCIO.get(nome_padrao, nome_padrao)
 
 if __name__ == "__main__":
-    acces_token = TokenGerador().ler_token()
     app = Gerar_Anuncios(
-        acces_token=acces_token,
         planilha='plan.xlsx',
         funcao_atualizar_barra_geral=None,
         funcao_atualizar_barra_anuncio=None,

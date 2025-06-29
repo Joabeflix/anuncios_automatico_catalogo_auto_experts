@@ -1,6 +1,4 @@
-import os
 import requests
-import json
 from utils.utils import *
 from globals import CLIENTKEY, CLIENTSECRET
 
@@ -29,7 +27,7 @@ class TokenGerador:
         token = self._gerar_token()
         alterar_valor_json(rf'configs\configuracoes.json', 'token', token)
         return token
-
+    
     """
     def ler_token(self):
 
