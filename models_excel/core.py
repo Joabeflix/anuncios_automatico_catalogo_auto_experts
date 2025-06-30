@@ -237,3 +237,4 @@ if __name__ == "__main__":
         local_salvar_imagens='imgs'
     )
     app.gerar_planilha()
+
