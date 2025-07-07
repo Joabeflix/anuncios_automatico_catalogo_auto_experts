@@ -6,6 +6,7 @@ from models_api.mapeamentos_retorno_api import mapeamento_usar
 import time
 from globals import MAPEAMENTO_FALTA_ATRIBUTO, TOKEN
 import sys
+import os
 
 class APICliente:
     BASE_URL = 'https://api.intelliauto.com.br/v1'
@@ -101,15 +102,21 @@ def puxar_dados_produto_api(codigo_produto, dados_necessarios=None):
 
 
 def puxar_dados_veiculos_api(lista_veiculos, funcao_atualizar_barra_anuncio):
-
     api_cliente = APICliente()
     url_path = 'veiculos/codigo'
     veiculos_completos = []
 
-    caminho_json = rf'configs\veiculos_cache.json'
+    caminho_json = r'configs\veiculos_cache.json'
 
-    with open(caminho_json, 'r', encoding='utf-8') as f:
-        cache_veiculos = json.load(f)
+    try:
+        with open(caminho_json, 'r', encoding='utf-8') as f:
+            cache_veiculos = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        cache_veiculos = {}
+
+        os.makedirs(os.path.dirname(caminho_json), exist_ok=True)
+        with open(caminho_json, 'w', encoding='utf-8') as f:
+            json.dump(cache_veiculos, f, indent=4, ensure_ascii=False)
 
     total = len(lista_veiculos)
     feito = 0

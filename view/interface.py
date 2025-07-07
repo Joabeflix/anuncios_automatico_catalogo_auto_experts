@@ -63,6 +63,8 @@ class MinhaInterface:
 
         self.label_link_github.bind("<Button-1>", lambda e: self.abrir_catalogo_autoexperts())
 
+        self.label_meu_nome = ttk.Label(self.root, text="By - Joabe", ).place(x=114, y=474)
+
 
         """ Buttons """
         self.botao_selecionar_excel = ttk.Button(
