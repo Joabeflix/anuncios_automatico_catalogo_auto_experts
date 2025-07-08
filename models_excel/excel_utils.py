@@ -1,4 +1,5 @@
 import pandas as pd
+from datetime import datetime
 
 class Exel:
     def __init__(self, arquivo_excel):
@@ -11,7 +12,8 @@ class Exel:
         return pd.read_excel(self.arquivo_excel)
 
     def salvar(self, planilha, nome_salvar):
-        planilha.to_excel(nome_salvar, index=False)
+        data_hora = datetime.now().strftime('%d_%m_%y_%H_%M')
+        planilha.to_excel(f'{nome_salvar}_{data_hora}.xlsx', index=False)
      
     
     def adicionar_colunas(self, planilha, nome_salvar, dados_inserir={}):

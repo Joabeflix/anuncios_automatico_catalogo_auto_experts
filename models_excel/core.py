@@ -86,7 +86,7 @@ class Gerar_Anuncios:
             if not dados_anuncio_api:
     
                 for coluna in dados_inserir.keys():
-                    dados_inserir[coluna] = "Sem dados"
+                    dados_inserir[coluna].append("sem dados / código errado")
                 qtd_feita += 1
                 continue
 
@@ -150,21 +150,23 @@ class Gerar_Anuncios:
 
             nome_anuncio = " ".join(_nome_anuncio.replace('None', ' ').split()).title()
             nome_ate_60 = deixar_nome_ate_60_caracteres(nome_anuncio, dados_anuncio_api['part_number'], dados_anuncio_api['marca'])
-            aplicacao_simplificada = (
+
+            aplicacao_completa_inicio = (
                 f"Produto: {dados_anuncio_api['nome']}\nMarca: {dados_anuncio_api['marca']}\n"
                 f"Código Produto: {dados_anuncio_api['part_number']}\n\nCompatível com os veículos:\n{dados_anuncio_api['aplicacao']}"
             )
-            aplicacao_completa = (f'{aplicacao_simplificada}\n\n\n\nAplicação detalhada:\n{gerar_aplicacao_veiculo()}')
+            aplicacao_completa = (f'{aplicacao_completa_inicio}\n\n\n\nAplicação detalhada:\n{gerar_aplicacao_veiculo()}')
 
             dados_anuncio_api["nome_anuncio"] = nome_anuncio
             dados_anuncio_api["nome_ate_60"] = nome_ate_60
             dados_anuncio_api["descricao_completa_ecommerce"] = aplicacao_completa
-            dados_anuncio_api["descricao_simplificada"] = aplicacao_simplificada
+            dados_anuncio_api["descricao_simplificada"] = dados_anuncio_api['aplicacao']
 
             texto_no_console(f'Nome gerado: {nome_ate_60}')
 
             for coluna in dados_inserir.keys():
-                dados_inserir[coluna].append(dados_anuncio_api[coluna])
+                dados = dados_anuncio_api[coluna]
+                dados_inserir[coluna].append(dados)
 
             try:
                 if self.baixar_img:
@@ -195,7 +197,7 @@ class Gerar_Anuncios:
             salvar_dados = planilha_funcoes.adicionar_colunas(
                 planilha=planilha_aberta,
                 dados_inserir=dados_inserir,
-                nome_salvar=f'{local_salvar}/anun.xlsx'
+                nome_salvar=f'{local_salvar}/planilha_anúncios'
             )
         except PermissionError as e:
             tela_aviso(
@@ -206,7 +208,7 @@ class Gerar_Anuncios:
             salvar_dados = planilha_funcoes.adicionar_colunas(
                 planilha=planilha_aberta,
                 dados_inserir=dados_inserir,
-                nome_salvar=f'{local_salvar}/anun.xlsx'
+                nome_salvar=f'{local_salvar}/planilha_anúncios'
             )
 
         texto_no_console('Planilha de anúncios gerada com sucesso!')

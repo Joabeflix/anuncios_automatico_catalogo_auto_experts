@@ -67948,5 +67948,347 @@
       "potenciaCv": "86"
     },
     "dataAtualizacao": "2025-05-13T16:58:55.686391-03:00"
+  },
+  "M.SWN.0015": {
+    "id": "49671fd6-bdef-4e48-9fad-985af5ba925c",
+    "codigo": "M.SWN.0015",
+    "classificacao": "Motos",
+    "marca": "SUNDOWN",
+    "nome": "WEB 100",
+    "modelo": "EVO",
+    "inicioProducao": "2002-01-01T00:00:00",
+    "finalProducao": "2011-06-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "-",
+      "cilindrada": "97",
+      "configuracao": "0.1 L 2V OHC MONOCILÍNDRICO",
+      "potenciaCv": "7,5"
+    },
+    "dataAtualizacao": "2025-02-13T10:05:33.638355-03:00"
+  },
+  "M.SWN.0016": {
+    "id": "b12f69e1-bd67-458c-9cb1-908872e804c9",
+    "codigo": "M.SWN.0016",
+    "classificacao": "Motos",
+    "marca": "SUNDOWN",
+    "nome": "WEB 100",
+    "modelo": "-",
+    "inicioProducao": "2002-01-01T00:00:00",
+    "finalProducao": "2010-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "-",
+      "cilindrada": "97",
+      "configuracao": "0.1 L 2V OHC MONOCILÍNDRICO",
+      "potenciaCv": "7,5"
+    },
+    "dataAtualizacao": "2025-02-13T10:05:08.720053-03:00"
+  },
+  "C.FOR.0209": {
+    "id": "96ba7664-d058-4c4b-aafe-27f339437972",
+    "codigo": "C.FOR.0209",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "EDGE",
+    "modelo": "LIMITED 3.5 V6 AWD",
+    "inicioProducao": "2008-12-01T00:00:00",
+    "finalProducao": "2010-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DURATEC",
+      "cilindrada": "3496",
+      "configuracao": "3.5 L 24V DOHC V6",
+      "potenciaCv": "269"
+    },
+    "dataAtualizacao": "2025-07-07T16:54:53.322008-03:00"
+  },
+  "C.VWW.0761": {
+    "id": "b84e7414-d523-49a4-84da-37097e1f4b82",
+    "codigo": "C.VWW.0761",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PASSAT",
+    "modelo": "HIGHLINE TSI AUT.",
+    "inicioProducao": "2010-11-01T00:00:00",
+    "finalProducao": "2015-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "CCZB",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "211"
+    },
+    "dataAtualizacao": "2025-01-31T09:00:47.999343-03:00"
+  },
+  "C.VWW.0752": {
+    "id": "8ed6d536-f8ba-47c4-b5d3-2734c2b57b19",
+    "codigo": "C.VWW.0752",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PASSAT",
+    "modelo": "CC 2.0 TSI DSG",
+    "inicioProducao": "2014-04-01T00:00:00",
+    "finalProducao": "2015-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA888",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "211"
+    },
+    "dataAtualizacao": "2025-02-03T10:19:26.372288-03:00"
+  },
+  "C.VWW.0731": {
+    "id": "8a4d51c2-ae1f-4874-8e78-ff9ead4b8806",
+    "codigo": "C.VWW.0731",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PASSAT VARIANT",
+    "modelo": "COMFORTLINE",
+    "inicioProducao": "2010-11-01T00:00:00",
+    "finalProducao": "2013-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA888",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "211"
+    },
+    "dataAtualizacao": "2025-04-01T08:30:59.263226-03:00"
+  },
+  "C.VWW.0760": {
+    "id": "798720fc-0f8f-49c3-ba9a-40893525ac52",
+    "codigo": "C.VWW.0760",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PASSAT",
+    "modelo": "HIGHLINE 2.0 TSI DSG",
+    "inicioProducao": "2015-11-01T00:00:00",
+    "finalProducao": "2020-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA888",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "220"
+    },
+    "dataAtualizacao": "2025-01-24T09:50:43.266136-03:00"
+  },
+  "C.VWW.0747": {
+    "id": "494634fa-f9db-43c0-8cb6-ac7a41bc1d34",
+    "codigo": "C.VWW.0747",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PASSAT VARIANT",
+    "modelo": "TSI",
+    "inicioProducao": "2011-04-01T00:00:00",
+    "finalProducao": "2015-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "-",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "211"
+    },
+    "dataAtualizacao": "2025-07-01T18:59:50.513103-03:00"
+  },
+  "C.VWW.0754": {
+    "id": "3cae4c94-fe3b-4750-8550-b1f24d5b0708",
+    "codigo": "C.VWW.0754",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PASSAT",
+    "modelo": "COMFORTLINE 2.0 TSI DSG",
+    "inicioProducao": "2015-11-01T00:00:00",
+    "finalProducao": "2016-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA888",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "220"
+    },
+    "dataAtualizacao": "2025-02-04T14:52:23.299786-03:00"
+  },
+  "C.VWW.0739": {
+    "id": "de87e18d-5292-471b-bdc2-063fe7b4a836",
+    "codigo": "C.VWW.0739",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PASSAT VARIANT",
+    "modelo": "R-LINE TSI",
+    "inicioProducao": "2014-01-01T00:00:00",
+    "finalProducao": "2015-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "D2D",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "211"
+    },
+    "dataAtualizacao": "2025-02-06T10:58:51.9581-03:00"
+  },
+  "C.VWW.0784": {
+    "id": "3c8b8d21-14a9-4aab-9426-ea940a965cb5",
+    "codigo": "C.VWW.0784",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PASSAT",
+    "modelo": "R-LINE 2.0 TSI DSG-6",
+    "inicioProducao": "2014-04-01T00:00:00",
+    "finalProducao": "2014-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA888",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "211"
+    },
+    "dataAtualizacao": "2024-10-29T12:54:38.393691-03:00"
+  },
+  "C.VWW.1178": {
+    "id": "3b58fda9-4613-4c9a-a5b2-25fa88b9d42e",
+    "codigo": "C.VWW.1178",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "TIGUAN",
+    "modelo": "ALLSPACE 250 TSI",
+    "inicioProducao": "2018-06-01T00:00:00",
+    "finalProducao": "2019-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA211",
+      "cilindrada": "1395",
+      "configuracao": "1.4 L 16V DOHC L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2023-12-06T09:00:09.488148-03:00"
+  },
+  "C.VWW.1180": {
+    "id": "46b7e083-291e-44ef-9aed-bc8e60631b26",
+    "codigo": "C.VWW.1180",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "TIGUAN",
+    "modelo": "ALLSPACE R-LINE 350 TSI",
+    "inicioProducao": "2018-06-01T00:00:00",
+    "finalProducao": "2021-10-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA888",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "220"
+    },
+    "dataAtualizacao": "2025-01-29T13:35:48.301123-03:00"
+  },
+  "C.VWW.1174": {
+    "id": "63f87e1f-f4f0-4815-82b0-b73ca5e6bad9",
+    "codigo": "C.VWW.1174",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "TIGUAN",
+    "modelo": "250 TSI",
+    "inicioProducao": "2016-01-01T00:00:00",
+    "finalProducao": "2018-06-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA211",
+      "cilindrada": "1395",
+      "configuracao": "1.4 L 16V DOHC L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2025-02-04T14:54:56.77763-03:00"
+  },
+  "C.VWW.1179": {
+    "id": "795a20da-3f12-470a-ac46-835c455860e8",
+    "codigo": "C.VWW.1179",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "TIGUAN",
+    "modelo": "ALLSPACE COMFORTLINE 250 TSI",
+    "inicioProducao": "2018-06-01T00:00:00",
+    "finalProducao": "2019-01-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA211",
+      "cilindrada": "1395",
+      "configuracao": "1.4 L 16V DOHC L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2023-12-06T09:00:53.349456-03:00"
+  },
+  "C.VWW.0753": {
+    "id": "aad6fb35-c644-499b-9ab3-b77750e505e8",
+    "codigo": "C.VWW.0753",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "PASSAT",
+    "modelo": "CC",
+    "inicioProducao": "2009-06-01T00:00:00",
+    "finalProducao": "2014-06-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "-",
+      "cilindrada": "3597",
+      "configuracao": "3.6 L 24V DOHC VR6",
+      "potenciaCv": "300"
+    },
+    "dataAtualizacao": "2025-07-04T10:07:15.603162-03:00"
+  },
+  "C.VWW.1369": {
+    "id": "c4d4f658-8068-4090-a31e-90fe74732778",
+    "codigo": "C.VWW.1369",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "TAOS",
+    "modelo": "COMFORTLINE 250 TSI",
+    "inicioProducao": "2021-06-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA211",
+      "cilindrada": "1395",
+      "configuracao": "1.4 L 16V DOHC L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2023-12-05T15:12:05.191098-03:00"
+  },
+  "C.VWW.1368": {
+    "id": "93a8ba48-6fe2-4ee9-9064-bea1cb8a7734",
+    "codigo": "C.VWW.1368",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "TAOS",
+    "modelo": "HIGHLINE 250 TSI",
+    "inicioProducao": "2021-06-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA211",
+      "cilindrada": "1395",
+      "configuracao": "1.4 L 16V DOHC L4",
+      "potenciaCv": "150"
+    },
+    "dataAtualizacao": "2023-12-05T15:10:14.688531-03:00"
+  },
+  "C.VWW.1380": {
+    "id": "56f873e9-9df3-4555-8114-f2e88e565ea8",
+    "codigo": "C.VWW.1380",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "TIGUAN",
+    "modelo": "ALLSPACE R-LINE 300 TSI",
+    "inicioProducao": "2023-10-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA888",
+      "cilindrada": "1984",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "186"
+    },
+    "dataAtualizacao": "2024-04-16T12:49:36.700552-03:00"
   }
 }

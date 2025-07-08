@@ -15,6 +15,8 @@ class RedirecionarConsole:
         self.text_widget = text_widget
 
     def write(self, message):
+        if not self.text_widget.winfo_exists():
+            return
         self.text_widget.insert(tk.END, message)
         self.text_widget.see(tk.END)
         self.text_widget.update_idletasks()
