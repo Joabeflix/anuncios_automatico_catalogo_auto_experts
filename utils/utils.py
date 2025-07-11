@@ -120,5 +120,3 @@ def selecionar_pasta(titulo, msg=None):
 if __name__ == "__main__":
     dados_puxar = ['atacadao', 'joabe', 'alves']
     dados = retorno_dados_json(rf'configs/settings.json', chaves=dados_puxar)
-
-

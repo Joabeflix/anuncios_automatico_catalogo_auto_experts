@@ -37,7 +37,7 @@ class MinhaInterface:
         self.entrada_planilha = ttk.Entry(self.root, width=45, style='secondary')
         self.entrada_planilha.place(x=10, y=10)
 
-        """ CheckButtons"""
+        """ CheckButtons """
         self.baixar_imagem = tk.BooleanVar(value=False)
 
 
