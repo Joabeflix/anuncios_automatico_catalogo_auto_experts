@@ -7,6 +7,7 @@ import time
 from globals import MAPEAMENTO_FALTA_ATRIBUTO, TOKEN
 import sys
 import os
+from typing import Optional, Callable
 
 class APICliente:
     BASE_URL = 'https://api.intelliauto.com.br/v1'
@@ -14,7 +15,7 @@ class APICliente:
     def __init__(self):
         self.access_token = TOKEN
 
-    def obter_dados_api(self, obj, url_path):
+    def obter_dados_api(self, obj: str, url_path: str) -> requests.Response | None:
         url = f'{self.BASE_URL}/{url_path}/{obj}'
         headers = {
             'accept': 'application/json',
@@ -44,12 +45,12 @@ class APICliente:
 
 class FiltroJSON:
     @staticmethod
-    def filtrar_dados(data, filtro_json, item_filtro=None):
+    def filtrar_dados(data: str, filtro_json: str, item_filtro: str | None = '') -> dict | str:
         try:
             resultado = eval(f"data{filtro_json}")
         except Exception as e:
             texto_no_console(f"{MAPEAMENTO_FALTA_ATRIBUTO.get(filtro_json, "")}")
-            return ""
+            return ''
 
         if item_filtro:
             try:
@@ -61,7 +62,7 @@ class FiltroJSON:
         return resultado
 
 
-def puxar_dados_produto_api(codigo_produto, dados_necessarios=None):
+def puxar_dados_produto_api(codigo_produto: str, dados_necessarios: list | None = None) -> dict:
     if dados_necessarios is None:
         dados_necessarios = []
 
@@ -94,14 +95,15 @@ def puxar_dados_produto_api(codigo_produto, dados_necessarios=None):
         retorno = {}
         for chave in dados_necessarios:
             mapeamento = mapeamento_usar(chave)
-            valor = filtro.filtrar_dados(dados, mapeamento['caminho'], mapeamento.get('chave_secundaria'))
-            retorno[chave] = valor
+            if mapeamento:
+                valor = filtro.filtrar_dados(dados, mapeamento['caminho'], mapeamento.get('chave_secundaria'))
+                retorno[chave] = valor
 
         return retorno
-    return None
+    return {}
 
 
-def puxar_dados_veiculos_api(lista_veiculos, funcao_atualizar_barra_anuncio):
+def puxar_dados_veiculos_api(lista_veiculos: dict, funcao_atualizar_barra_anuncio: Callable[[int], None]):
     api_cliente = APICliente()
     url_path = 'veiculos/codigo'
     veiculos_completos = []
@@ -185,11 +187,3 @@ def puxar_dados_veiculos_api(lista_veiculos, funcao_atualizar_barra_anuncio):
         json.dump(cache_veiculos, f, ensure_ascii=False, indent=2)
 
     return veiculos_completos
-
-
-
-
-
-if __name__ == "__main__":
-    access_token = TokenGerador().retorno_token()
-    dados_gerais = puxar_dados_produto_api(access_token=access_token, codigo_produto='HG 41111', dados_necessarios=['similares'])

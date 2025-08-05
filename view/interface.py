@@ -1,6 +1,5 @@
 import ttkbootstrap as ttk
 import tkinter as tk
-from ttkbootstrap.constants import *
 from tkinter.filedialog import askopenfilename
 from utils.utils import texto_no_console, tela_aviso, selecionar_pasta
 from tkinter.scrolledtext import ScrolledText
@@ -25,7 +24,7 @@ class RedirecionarConsole:
         pass
 
 class MinhaInterface:
-    def __init__(self):
+    def __init__(self) -> None:
         self.local_salvar_imagens=None
 
         self.root = ttk.Window(themename=TEMA)
@@ -120,10 +119,10 @@ class MinhaInterface:
         sys.stdout = RedirecionarConsole(self.console)
 
 
-    def abrir_catalogo_autoexperts(self):
+    def abrir_catalogo_autoexperts(self) -> None:
         webbrowser.open_new("https://autoexperts.parts/pt/br")
 
-    def definir_local_salvar_imagem(self):
+    def definir_local_salvar_imagem(self) -> None:
         if self.baixar_imagem.get():
             texto_no_console('Baixar imagens (ATIVADO).')
             local = selecionar_pasta(titulo='Local para salvar as imagens',msg='Local para salvar as imagens selecionado com sucesso')
@@ -136,17 +135,17 @@ class MinhaInterface:
 
         
 
-    def atualizar_progresso_geral(self, valor):
+    def atualizar_progresso_geral(self, valor: int) -> None:
         """ Atualiza o medidor com o valor (0 a 100) """
         self.meter_geral.configure(amountused=valor)
         self.root.update_idletasks()
 
-    def atualizar_progresso_anuncio_atual(self, valor):
+    def atualizar_progresso_anuncio_atual(self, valor: int) -> None:
         """ Atualiza o medidor com o valor (0 a 100) """
         self.meter_anuncio.configure(amountused=valor)
         self.root.update_idletasks()
 
-    def selecionar_arquivos_excel(self):
+    def selecionar_arquivos_excel(self) -> None:
         arquivo = askopenfilename(filetypes=[('Excel Files', '*.xlsx')])
         if arquivo:
             texto_no_console(f'Arquivo selecionado com sucesso: {arquivo}\n')
@@ -155,11 +154,11 @@ class MinhaInterface:
         else:   
             texto_no_console('Nenhum arquivo selecionado.\n')
 
-    def gerar_anuncios_thread(self):
+    def gerar_anuncios_thread(self) -> None:
         texto_no_console('Iniciando...')
         threading.Thread(target=self._gerar_anuncios, daemon=True).start()
 
-    def _gerar_anuncios(self):
+    def _gerar_anuncios(self) -> None:
         local_planilha = self.entrada_planilha.get()
         if local_planilha:
             app = Gerar_Anuncios(
@@ -177,15 +176,9 @@ class MinhaInterface:
         else:
             tela_aviso('erro', 'Você precisa selecionar uma planilha!!!!', 'erro')
 
-    def iniciar(self):
+    def iniciar(self) -> None:
         self.root.mainloop()
         texto_no_console('Programa iniciado com sucesso.')
-
-
-
-
-
-
         self.root.destroy()
 
 

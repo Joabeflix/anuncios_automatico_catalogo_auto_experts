@@ -1,4 +1,4 @@
-def mapeamento_usar(chave):
+def mapeamento_usar(chave: str) -> dict:
     mapeamentos = {
         'nome': {
             'caminho': "['data'][0]['aplicacoes'][0]['descricao']",
@@ -108,9 +108,5 @@ def mapeamento_usar(chave):
 
     if chave in mapeamentos:
         return mapeamentos[chave]
-    return False
-
-
-if __name__ == "__main__":
-    ...
+    return {}
 

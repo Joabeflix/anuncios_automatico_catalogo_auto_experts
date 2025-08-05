@@ -23,21 +23,21 @@ class Gerar_Anuncios:
         funcao_atualizar_barra_anuncio,
         local_salvar_imagens,
         baixar_img=True
-    ):
+    ) -> None:
         self.planilha = planilha
         self.baixar_img = baixar_img
         self.funcao_atualizar_barra_geral = funcao_atualizar_barra_geral
         self.funcao_atualizar_barra_anuncio = funcao_atualizar_barra_anuncio
         self.local_salvar_imagens = local_salvar_imagens
 
-    def extrair_primeira_data(self, veiculo):
+    def extrair_primeira_data(self, veiculo: str) -> str:
         match = re.search(r'\b(19|20)\d{2}-(19|20)\d{2}\b', veiculo)
         if match:
             return veiculo[:match.end()]
         return veiculo
 
     @medir_tempo_execucao
-    def gerar_planilha(self):
+    def gerar_planilha(self) -> None:
         self.funcao_atualizar_barra_geral(0)
 
         planilha_funcoes = Exel(arquivo_excel=self.planilha)
@@ -91,7 +91,7 @@ class Gerar_Anuncios:
                 continue
 
             @medir_tempo_execucao
-            def gerar_aplicacao_veiculo():
+            def gerar_aplicacao_veiculo() -> str:
                 texto_no_console(f'Gerando aplicação do código {dados_anuncio_api["part_number"]}')
                 lista_de_veiculos_crua = dados_anuncio_api['veiculos']
 
@@ -214,7 +214,7 @@ class Gerar_Anuncios:
         texto_no_console('Planilha de anúncios gerada com sucesso!')
         texto_no_console('Tempo demorado para gerar a planilha:')
 
-    def baixar_imagem(self, url, nome_arquivo):
+    def baixar_imagem(self, url: str, nome_arquivo: str) -> None:
         texto_no_console(f'Baixando imagem {nome_arquivo}.')
         try:
             resposta = requests.get(url)
@@ -227,7 +227,7 @@ class Gerar_Anuncios:
         except Exception as e:
             texto_no_console(f"Código: {nome_arquivo} --> provavelmente não tem imagem disponível na API.")
 
-    def verificar_e_substituir_nome_padrao(self, nome_padrao):
+    def verificar_e_substituir_nome_padrao(self, nome_padrao: str) -> str:
         nome_padrao = str(nome_padrao).lower()
         return PADROES_SUBS_NOME_ANUNCIO.get(nome_padrao, nome_padrao)
 

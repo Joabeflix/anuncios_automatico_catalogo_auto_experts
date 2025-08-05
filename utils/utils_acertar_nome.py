@@ -2,17 +2,17 @@ import re
 from globals import PADROES_SUBS_ATE_60
 
 
-def deixar_nome_ate_60_caracteres(nome_produto, codigo_produto, marca):
+def deixar_nome_ate_60_caracteres(nome_produto: str, codigo_produto: str, marca: str) -> str:
 
     palavras_para_substituir = PADROES_SUBS_ATE_60
 
-    def acertar_nomes(x):
+    def acertar_nomes(x: str) -> str:
         return str(x).upper().replace("  ", " ")
     
-    def verificar_tamanho(nome):
+    def verificar_tamanho(nome: str) -> bool:
         return True if len(nome) < 61 else False
     
-    def retorno_final(x):
+    def retorno_final(x: str) -> str:
         return x.title().rstrip().replace("///", "").replace("//", "").replace("   ", " ").replace("  ", " ")
     
     nome_produto = acertar_nomes(nome_produto)
@@ -47,7 +47,7 @@ def deixar_nome_ate_60_caracteres(nome_produto, codigo_produto, marca):
         return retorno_final(nome_novo)
     
 
-    def remover_conteudo_parenteses(texto):
+    def remover_conteudo_parenteses(texto: str) -> str:
         """
         Função para remover dados que temos entre parentezes dos nomes... ex: 
         "Amortecedor De Suspensão Compatível Puma 7900 (Serie 10 / X10) 1981-2005 Diant / Tras"

@@ -3,13 +3,13 @@ from utils.utils import *
 from globals import CLIENTKEY, CLIENTSECRET
 
 class TokenGerador:
-    def __init__(self):
+    def __init__(self) -> None:
         pass
 
     CLIENT_KEY=CLIENTKEY
     CLIENT_SECRET=CLIENTSECRET
  
-    def _gerar_token(self):
+    def _gerar_token(self) -> str | None:
         token_url = 'https://api.intelliauto.com.br/v1/login'
         token_payload = {
             'clientKey': CLIENTKEY,
@@ -20,12 +20,14 @@ class TokenGerador:
         if token_response.status_code == 200:
             token = token_response.json().get('accessToken')
             texto_no_console(f'Novo Token gerado: {token}')
+            print(type(token))
             return token
         return None
 
-    def definir_novo_token(self):
+    def definir_novo_token(self) -> str | None:
         token = self._gerar_token()
-        alterar_valor_json(rf'configs\configuracoes.json', 'token', token)
+        if token:
+            alterar_valor_json(rf'configs\configuracoes.json', 'token', token)
         return token
     
     """

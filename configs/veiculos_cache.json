@@ -68290,5 +68290,527 @@
       "potenciaCv": "186"
     },
     "dataAtualizacao": "2024-04-16T12:49:36.700552-03:00"
+  },
+  "C.VWW.0144": {
+    "id": "04f98904-723c-4e92-8999-ffe1451ce0f4",
+    "codigo": "C.VWW.0144",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "FUSCA",
+    "modelo": "1500",
+    "inicioProducao": "1970-10-01T00:00:00",
+    "finalProducao": "1975-10-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1500 AR",
+      "cilindrada": "1493",
+      "configuracao": "1.5 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "44"
+    },
+    "dataAtualizacao": "2025-01-24T10:00:25.296034-03:00"
+  },
+  "C.VWW.1224": {
+    "id": "c309332b-ae88-4035-8f35-5c79891bb8fb",
+    "codigo": "C.VWW.1224",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "VARIANT",
+    "modelo": "I",
+    "inicioProducao": "1969-12-01T00:00:00",
+    "finalProducao": "1977-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1584",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "65"
+    },
+    "dataAtualizacao": "2025-01-24T09:31:21.736432-03:00"
+  },
+  "C.VWW.0145": {
+    "id": "9086c4f3-b308-48b3-b70b-84752f45e898",
+    "codigo": "C.VWW.0145",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "FUSCA",
+    "modelo": "1600",
+    "inicioProducao": "1969-01-01T00:00:00",
+    "finalProducao": "1971-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1584",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "54"
+    },
+    "dataAtualizacao": "2023-11-06T12:49:10.651514-03:00"
+  },
+  "C.VWW.0142": {
+    "id": "2caf9184-e090-449b-9980-e7e8d881c7ed",
+    "codigo": "C.VWW.0142",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "FUSCA",
+    "modelo": "1300",
+    "inicioProducao": "1967-01-01T00:00:00",
+    "finalProducao": "1986-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1300 AR",
+      "cilindrada": "1285",
+      "configuracao": "1.3 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "38"
+    },
+    "dataAtualizacao": "2025-02-25T13:42:53.72531-03:00"
+  },
+  "C.VWW.0536": {
+    "id": "4d5af14a-a726-49f2-94bc-b519c0fb33db",
+    "codigo": "C.VWW.0536",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KARMANN-GHIA",
+    "modelo": "COUPÉ",
+    "inicioProducao": "1966-08-01T00:00:00",
+    "finalProducao": "1969-07-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1500 AR",
+      "cilindrada": "1493",
+      "configuracao": "1.5 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "44"
+    },
+    "dataAtualizacao": "2025-04-02T08:35:10.993287-03:00"
+  },
+  "C.VWW.0558": {
+    "id": "f14db879-9012-408e-91be-dc1ff094e9ea",
+    "codigo": "C.VWW.0558",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "PICK-UP",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1998-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1588",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "60"
+    },
+    "dataAtualizacao": "2023-11-06T14:18:57.56127-03:00"
+  },
+  "C.VWW.0566": {
+    "id": "49a9b3bf-7340-4287-8552-a136b6d2e5d8",
+    "codigo": "C.VWW.0566",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "T2 STD FLEX",
+    "inicioProducao": "2006-01-01T00:00:00",
+    "finalProducao": "2013-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA111",
+      "cilindrada": "1390",
+      "configuracao": "1.4 L 8V SOHC L4",
+      "potenciaCv": "78;80"
+    },
+    "dataAtualizacao": "2025-04-30T09:20:36.960984-03:00"
+  },
+  "C.VWW.0550": {
+    "id": "459f2214-c3a8-474f-8872-f4a6b8bc211e",
+    "codigo": "C.VWW.0550",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "FURGÃO",
+    "inicioProducao": "2006-01-01T00:00:00",
+    "finalProducao": "2013-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA111",
+      "cilindrada": "1390",
+      "configuracao": "1.4 L 8V SOHC L4",
+      "potenciaCv": "78;80"
+    },
+    "dataAtualizacao": "2023-11-22T12:46:56.136984-03:00"
+  },
+  "C.VWW.0557": {
+    "id": "55e557e2-6c40-4cbe-8e2c-6f6a9db0bd48",
+    "codigo": "C.VWW.0557",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "PICK-UP",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1998-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1588",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "60"
+    },
+    "dataAtualizacao": "2023-11-06T14:17:56.953216-03:00"
+  },
+  "C.VWW.0551": {
+    "id": "c14a212d-5bbf-40b6-83da-87118f729d96",
+    "codigo": "C.VWW.0551",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "LOTAÇÃO",
+    "inicioProducao": "2006-01-01T00:00:00",
+    "finalProducao": "2013-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA111",
+      "cilindrada": "1390",
+      "configuracao": "1.4 L 8V SOHC L4",
+      "potenciaCv": "78;80"
+    },
+    "dataAtualizacao": "2023-11-22T12:44:13.534432-03:00"
+  },
+  "C.VWW.0556": {
+    "id": "7f350c1d-b6c1-4fca-89e9-35a9cf552ad4",
+    "codigo": "C.VWW.0556",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "PICK-UP",
+    "inicioProducao": "1997-11-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1584",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "58"
+    },
+    "dataAtualizacao": "2025-02-27T13:50:12.658545-03:00"
+  },
+  "C.GUR.0005": {
+    "id": "ddf6a910-4ea6-41fa-9c7a-54e7355f9ea9",
+    "codigo": "C.GUR.0005",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "GURGEL",
+    "nome": "G 15",
+    "modelo": "E 400",
+    "inicioProducao": "1979-01-01T00:00:00",
+    "finalProducao": "1987-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1584",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "60"
+    },
+    "dataAtualizacao": "2023-11-01T14:52:40.629699-03:00"
+  },
+  "C.VWW.0547": {
+    "id": "1130c9b9-b3bf-46a1-b4a0-b75c56db2a41",
+    "codigo": "C.VWW.0547",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "FURGÃO",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1998-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1588",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "60"
+    },
+    "dataAtualizacao": "2023-11-06T14:10:40.94156-03:00"
+  },
+  "C.VWW.0546": {
+    "id": "e0840c67-9df0-4bf9-991c-0091992fd266",
+    "codigo": "C.VWW.0546",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "FURGÃO",
+    "inicioProducao": "1997-11-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1584",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "58"
+    },
+    "dataAtualizacao": "2025-01-24T09:28:02.53313-03:00"
+  },
+  "C.VWW.0568": {
+    "id": "68737b8d-56f4-49b6-9861-1dc8fa5211c4",
+    "codigo": "C.VWW.0568",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "T2 STD",
+    "inicioProducao": "1998-02-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1584",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "67"
+    },
+    "dataAtualizacao": "2025-01-24T09:08:12.433563-03:00"
+  },
+  "C.VWW.0559": {
+    "id": "6d8eeb07-0485-4ef9-8f2c-7bdc71309db9",
+    "codigo": "C.VWW.0559",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "PICK-UP",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1998-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1588",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "60"
+    },
+    "dataAtualizacao": "2023-11-06T14:20:04.641595-03:00"
+  },
+  "C.VWW.0564": {
+    "id": "5f1bb3b8-6c6b-4e2a-aa68-1a2cde508269",
+    "codigo": "C.VWW.0564",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "STANDARD",
+    "inicioProducao": "1976-01-01T00:00:00",
+    "finalProducao": "1997-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1588",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "54"
+    },
+    "dataAtualizacao": "2025-02-25T13:30:22.409872-03:00"
+  },
+  "C.GUR.0004": {
+    "id": "9ce318e9-f918-427e-aa54-6b324c132624",
+    "codigo": "C.GUR.0004",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "GURGEL",
+    "nome": "G 15",
+    "modelo": "800",
+    "inicioProducao": "1979-01-01T00:00:00",
+    "finalProducao": "1987-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1584",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "60"
+    },
+    "dataAtualizacao": "2023-11-01T14:51:33.162007-03:00"
+  },
+  "C.VWW.0539": {
+    "id": "11587043-4595-4226-89e3-15bbdbfe9df1",
+    "codigo": "C.VWW.0539",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "50 ANOS",
+    "inicioProducao": "2006-01-01T00:00:00",
+    "finalProducao": "2012-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "EA111",
+      "cilindrada": "1390",
+      "configuracao": "1.4 L 8V SOHC L4",
+      "potenciaCv": "78;80"
+    },
+    "dataAtualizacao": "2025-02-25T13:55:34.655165-03:00"
+  },
+  "C.VWW.0565": {
+    "id": "53617408-29c2-4782-a3a4-d0f4e68c311d",
+    "codigo": "C.VWW.0565",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "STANDARD",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1998-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1588",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "60"
+    },
+    "dataAtualizacao": "2023-11-06T14:26:09.21705-03:00"
+  },
+  "C.VWW.0555": {
+    "id": "2fcd6db8-a869-4474-9029-dbe555e223d3",
+    "codigo": "C.VWW.0555",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "PICK-UP",
+    "inicioProducao": "1976-01-01T00:00:00",
+    "finalProducao": "1997-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1588",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "54"
+    },
+    "dataAtualizacao": "2025-02-25T13:39:17.448484-03:00"
+  },
+  "C.VWW.0545": {
+    "id": "ec90a9dd-ddb7-4334-ab1f-89da2511bd52",
+    "codigo": "C.VWW.0545",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "FURGÃO",
+    "inicioProducao": "1976-01-01T00:00:00",
+    "finalProducao": "1997-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1588",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "54"
+    },
+    "dataAtualizacao": "2025-02-25T13:31:17.44888-03:00"
+  },
+  "C.VWW.0540": {
+    "id": "210e1422-fe95-42d0-ad4c-4fcc7e1a76c3",
+    "codigo": "C.VWW.0540",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "CARAT",
+    "inicioProducao": "1997-11-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1584",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "58"
+    },
+    "dataAtualizacao": "2025-02-06T09:49:44.326294-03:00"
+  },
+  "C.VWW.0548": {
+    "id": "6c403338-2993-45dd-9c97-0cedb55a1240",
+    "codigo": "C.VWW.0548",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "FURGÃO",
+    "inicioProducao": "1980-01-01T00:00:00",
+    "finalProducao": "1998-01-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1588",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "60"
+    },
+    "dataAtualizacao": "2023-11-06T14:11:42.553989-03:00"
+  },
+  "C.VWW.0567": {
+    "id": "cf36af36-31ea-464d-bb36-769c5c039ed1",
+    "codigo": "C.VWW.0567",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "VOLKSWAGEN",
+    "nome": "KOMBI",
+    "modelo": "T2 STD",
+    "inicioProducao": "1997-11-01T00:00:00",
+    "finalProducao": "2005-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "1600 AR",
+      "cilindrada": "1584",
+      "configuracao": "1.6 L 8V SOHC BOXER 4 AR",
+      "potenciaCv": "58"
+    },
+    "dataAtualizacao": "2025-01-24T09:05:49.182649-03:00"
+  },
+  "C.GUR.0003": {
+    "id": "c70c1ba5-0a2f-4cc2-8e84-56d8728a944f",
+    "codigo": "C.GUR.0003",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "GURGEL",
+    "nome": "CARAJAS",
+    "modelo": "X 15 DIESEL",
+    "inicioProducao": "1985-02-01T00:00:00",
+    "finalProducao": "1994-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "AP 1600 DIESEL",
+      "cilindrada": "1588",
+      "configuracao": "1.6 L 8V SOHC L4",
+      "potenciaCv": "50"
+    },
+    "dataAtualizacao": "2024-07-17T07:13:59.654667-03:00"
+  },
+  "T.FOR.0158": {
+    "id": "5e0909c9-d9fa-4054-962f-f273a1527c4b",
+    "codigo": "T.FOR.0158",
+    "classificacao": "Caminhões",
+    "marca": "FORD",
+    "nome": "F-2000",
+    "modelo": "-",
+    "inicioProducao": "1980-10-01T00:00:00",
+    "finalProducao": "1983-12-01T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "83"
+    },
+    "dataAtualizacao": "2025-06-04T10:28:58.482407-03:00"
+  },
+  "C.FOR.0363": {
+    "id": "63ab631d-2499-4e97-9ed4-d600c750631e",
+    "codigo": "C.FOR.0363",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "SUPER 3.6",
+    "inicioProducao": "1982-01-01T00:00:00",
+    "finalProducao": "1992-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "E-MAX",
+      "cilindrada": "3621",
+      "configuracao": "3.6 L 12V SOHC L6",
+      "potenciaCv": "112"
+    },
+    "dataAtualizacao": "2024-08-26T09:54:28.26938-03:00"
+  },
+  "C.FOR.0369": {
+    "id": "8fa2201a-438e-49f2-a6e9-d9f802a89337",
+    "codigo": "C.FOR.0369",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "SUPER SÉRIE 3.6",
+    "inicioProducao": "1982-01-01T00:00:00",
+    "finalProducao": "1992-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "E-MAX",
+      "cilindrada": "3621",
+      "configuracao": "3.6 L 12V SOHC L6",
+      "potenciaCv": "112"
+    },
+    "dataAtualizacao": "2024-08-26T09:54:28.26938-03:00"
   }
 }

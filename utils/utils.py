@@ -4,8 +4,9 @@ import os
 from tkinter import messagebox
 import time
 from tkinter.filedialog import askdirectory
+from typing import Optional, Any, Callable
 
-def texto_no_console(obj):
+def texto_no_console(obj: str | list) -> None:
     separadores = ['_', '*', '-', '#']
     if obj in separadores:
         print(obj * 130)
@@ -20,14 +21,14 @@ def texto_no_console(obj):
     print(f'>>> {obj}{'\n'}')
 
 
-def alterar_valor_json(caminho_json, chave, novo_valor):
+def alterar_valor_json(caminho_json: str, chave: str, novo_valor: str | float) -> None:
     with open(file=caminho_json, mode='r', encoding='utf8') as arquivo:
         dados = json.load(arquivo)
     dados[chave] = novo_valor
     with open(file=caminho_json, mode='w', encoding='utf8') as arquivo:
         json.dump(dados, arquivo, ensure_ascii=False, indent=4)
 
-def retorno_dados_json(caminho_json, chaves, se_nao_encontrar=None):
+def retorno_dados_json(caminho_json: str, chaves: list[str] | str, se_nao_encontrar: str | float | None = None) -> list[str] | str | float | None:
     """
     Lê um arquivo JSON e retorna o valor da chave fornecida.
 
@@ -60,25 +61,25 @@ def retorno_dados_json(caminho_json, chaves, se_nao_encontrar=None):
     return se_nao_encontrar
 
 
-def tela_aviso(titulo, mensagem, tipo):
+def tela_aviso(titulo: str, mensagem: str, tipo: str) -> None:
 
     tipos = {
         "informacao": messagebox.showinfo,
         "erro": messagebox.showerror
     }
     if tipo in tipos.keys():
-        return tipos.get(tipo)(title=titulo, message=mensagem)
+        tipos[tipo](title=titulo, message=mensagem)
     texto_no_console([
         f'Tipo de tela não cadastrado na função: {tipo}', 
         f'Tipos cadastrados: {list(tipos.keys())}'])
 
-def converter_int64_para_int(obj):
+def converter_int64_para_int(obj: Any) -> Any:
     """ Se não for int64 ele retorna o valor original."""
-    if isinstance(obj, np.int64):
+    if isinstance(obj, np.integer):
         return int(obj)
     return obj
 
-def limpar_prompt():
+def limpar_prompt() -> None:
     os.system('cls')
 
 
@@ -106,17 +107,13 @@ def medir_tempo_execucao(funcao):
     return wrapper
 
 
-def selecionar_pasta(titulo, msg=None):
+def selecionar_pasta(titulo: str, msg: str| None=None) -> str:
     pasta = askdirectory(title=titulo)
     if pasta:
         texto_no_console(f"{msg}")
         return pasta
     tela_aviso('Erro', 'Você precisa selecionar um local para salvar!', 'erro')
     return selecionar_pasta(titulo=titulo, msg=msg)
-    
-
-        
 
 if __name__ == "__main__":
-    dados_puxar = ['atacadao', 'joabe', 'alves']
-    dados = retorno_dados_json(rf'configs/settings.json', chaves=dados_puxar)
+    tela = tela_aviso(titulo='Teste', mensagem='Oi, está mensagem é de teste. Rs!', tipo='erro')
