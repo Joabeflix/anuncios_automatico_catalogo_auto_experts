@@ -186,4 +186,7 @@ def puxar_dados_veiculos_api(lista_veiculos: dict, funcao_atualizar_barra_anunci
     with open(caminho_json, 'w', encoding='utf-8') as f:
         json.dump(cache_veiculos, f, ensure_ascii=False, indent=2)
 
+
+    # Deixando sempre a barra em 100%
+    funcao_atualizar_barra_anuncio(100)
     return veiculos_completos

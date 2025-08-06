@@ -69,9 +69,10 @@ def tela_aviso(titulo: str, mensagem: str, tipo: str) -> None:
     }
     if tipo in tipos.keys():
         tipos[tipo](title=titulo, message=mensagem)
-    texto_no_console([
-        f'Tipo de tela não cadastrado na função: {tipo}', 
-        f'Tipos cadastrados: {list(tipos.keys())}'])
+    else:
+        texto_no_console([
+            f'Tipo de tela não cadastrado na função: {tipo}', 
+            f'Tipos cadastrados: {list(tipos.keys())}'])
 
 def converter_int64_para_int(obj: Any) -> Any:
     """ Se não for int64 ele retorna o valor original."""
