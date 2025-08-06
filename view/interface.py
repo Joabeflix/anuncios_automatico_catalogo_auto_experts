@@ -53,6 +53,9 @@ class MinhaInterface:
         self.label_console = ttk.Label(self.root, text="Informações:", font=("Segoe UI", 17, "bold"), foreground="white")
         self.label_console.place(x=10, y=42)
 
+        self.label_qtd_feita = ttk.Label(self.root, text='', font=("Segoe UI", 28, "bold"), foreground="white")
+        self.label_qtd_feita.place(x=710, y=30)
+
         self.label_link_github = ttk.Label(
             self.root, 
             text='Auto Experts',
@@ -65,6 +68,9 @@ class MinhaInterface:
         self.label_link_github.bind("<Button-1>", lambda e: self.abrir_catalogo_autoexperts())
 
         self.label_meu_nome = ttk.Label(self.root, text="By - Joabe", ).place(x=114, y=474)
+
+        self.label_teste_pontilhado = ttk.Label(self.root, text='', font=("Segoe UI", 10, "bold"), foreground="white")
+        self.label_teste_pontilhado.place(x=300, y=474)
 
 
         """ Buttons """
@@ -166,7 +172,8 @@ class MinhaInterface:
                 local_salvar_imagens=self.local_salvar_imagens,
                 planilha=local_planilha,
                 funcao_atualizar_barra_geral=self.atualizar_progresso_geral,
-                funcao_atualizar_barra_anuncio=self.atualizar_progresso_anuncio_atual
+                funcao_atualizar_barra_anuncio=self.atualizar_progresso_anuncio_atual,
+                label_qtd_feita=self.label_qtd_feita
                   # Passa função para uso interno
             )
             app.gerar_planilha()
@@ -177,9 +184,12 @@ class MinhaInterface:
             tela_aviso('erro', 'Você precisa selecionar uma planilha!!!!', 'erro')
 
     def iniciar(self) -> None:
+  
         self.root.mainloop()
         texto_no_console('Programa iniciado com sucesso.')
         self.root.destroy()
+
+
 
 
 

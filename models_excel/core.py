@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 import re
+import ttkbootstrap as ttk
 
 from utils.utils import (
     texto_no_console,
@@ -18,17 +19,19 @@ from models_excel.excel_utils import Exel
 class Gerar_Anuncios:
     def __init__(
         self,
-        planilha,
+        planilha: str,
         funcao_atualizar_barra_geral,
         funcao_atualizar_barra_anuncio,
-        local_salvar_imagens,
-        baixar_img=True
+        local_salvar_imagens: str | None,
+        label_qtd_feita: ttk.Label,
+        baixar_img: bool = True
     ) -> None:
         self.planilha = planilha
         self.baixar_img = baixar_img
         self.funcao_atualizar_barra_geral = funcao_atualizar_barra_geral
         self.funcao_atualizar_barra_anuncio = funcao_atualizar_barra_anuncio
         self.local_salvar_imagens = local_salvar_imagens
+        self.label_qtd_feita=label_qtd_feita
 
     def extrair_primeira_data(self, veiculo: str) -> str:
         match = re.search(r'\b(19|20)\d{2}-(19|20)\d{2}\b', veiculo)
@@ -177,12 +180,14 @@ class Gerar_Anuncios:
             except:
                 pass
 
-            texto_no_console(f'Feito: {qtd_feita}/{qtd_produtos}.')
+            # texto_no_console(f'Feito: {qtd_feita}/{qtd_produtos}.')
             texto_no_console('-')
 
             if self.funcao_atualizar_barra_geral:
                 progresso = int((qtd_feita / qtd_produtos) * 100)
                 self.funcao_atualizar_barra_geral(progresso)
+
+            self.label_qtd_feita.config(text=f"{qtd_feita}/{qtd_produtos}")
 
             qtd_feita += 1
 
@@ -232,11 +237,4 @@ class Gerar_Anuncios:
         return PADROES_SUBS_NOME_ANUNCIO.get(nome_padrao, nome_padrao)
 
 if __name__ == "__main__":
-    app = Gerar_Anuncios(
-        planilha='plan.xlsx',
-        funcao_atualizar_barra_geral=None,
-        funcao_atualizar_barra_anuncio=None,
-        local_salvar_imagens='imgs'
-    )
-    app.gerar_planilha()
-
+    ...
