@@ -110,3 +110,4 @@ def mapeamento_usar(chave: str) -> dict:
         return mapeamentos[chave]
     return {}
 
+
