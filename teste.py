@@ -1,6 +1,6 @@
-import pandas as pd
-
-print(type(pd.read_excel(rf'models_excel\teste.xlsx')))
-
-
+opcoes = {
+    "s": 123,
+    "c": 456 
+}
+print(opcoes.get('sdfd', 'sem'))
 
