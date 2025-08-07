@@ -15,18 +15,28 @@ class Exel:
         planilha.to_excel(f'{nome_salvar}_{data_hora}.xlsx', index=False)
     
     def adicionar_colunas(self, planilha: pd.DataFrame, nome_salvar: str, dados_inserir: dict={}) -> None:
+        """
+        Exemplo de uso da função.
+        :dados_inserir: {
+                        "COLUNA x": [1, 2, 3, 4],
+                        "COLUNA_Y": ["JOABE", "ALVES", "LUZ", "LINDO"]
+                        }
+        """
         if dados_inserir:
             for coluna in dados_inserir.keys():
                 planilha[coluna] = dados_inserir.get(coluna)
 
             self.salvar(planilha=planilha, nome_salvar=nome_salvar)
                 
-    
+
 if __name__ == "__main__":
     local_arquivo = r'models_excel\teste.xlsx'
     planilha_funcoes = Exel(arquivo_excel=local_arquivo)
     planilha = planilha_funcoes.abrir()
 
+    """
+    Estrutura para inserir dados na planilha...
+    """
     dados_inserir = {
         "COLUNA x": [
             1, 2, 3, 4
