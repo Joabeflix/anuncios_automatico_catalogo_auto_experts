@@ -23,7 +23,7 @@ class Gerar_Anuncios:
         funcao_atualizar_barra_geral,
         funcao_atualizar_barra_anuncio,
         local_salvar_imagens: str | None,
-        label_qtd_feita: ttk.Label,
+        label_qtd_feita: ttk.Label | None,
         baixar_img: bool = True
     ) -> None:
         self.planilha = planilha
@@ -41,7 +41,8 @@ class Gerar_Anuncios:
 
     @medir_tempo_execucao
     def gerar_planilha(self) -> None:
-        self.funcao_atualizar_barra_geral(0)
+        if self.funcao_atualizar_barra_geral:
+            self.funcao_atualizar_barra_geral(0)
 
         planilha_funcoes = Exel(arquivo_excel=self.planilha)
         planilha_aberta = planilha_funcoes.abrir()
@@ -186,8 +187,8 @@ class Gerar_Anuncios:
             if self.funcao_atualizar_barra_geral:
                 progresso = int((qtd_feita / qtd_produtos) * 100)
                 self.funcao_atualizar_barra_geral(progresso)
-
-            self.label_qtd_feita.config(text=f"{qtd_feita}/{qtd_produtos}")
+            if self.label_qtd_feita:
+                self.label_qtd_feita.config(text=f"{qtd_feita}/{qtd_produtos}")
 
             qtd_feita += 1
 
