@@ -1,10 +1,10 @@
+import os
+import time
 import json
 import numpy as np
-import os
+from typing import Any
 from tkinter import messagebox
-import time
 from tkinter.filedialog import askdirectory
-from typing import Optional, Any, Callable
 
 def texto_no_console(obj: str | list) -> None:
     separadores = ['_', '*', '-', '#']
@@ -19,7 +19,6 @@ def texto_no_console(obj: str | list) -> None:
             print(f'>>> {t}{'\n'}')
         return None
     print(f'>>> {obj}{'\n'}')
-
 
 def alterar_valor_json(caminho_json: str, chave: str, novo_valor: str | float) -> None:
     with open(file=caminho_json, mode='r', encoding='utf8') as arquivo:
@@ -60,7 +59,6 @@ def retorno_dados_json(caminho_json: str, chaves: list[str] | str, se_nao_encont
         print(f"Erro inesperado: {e}")
     return se_nao_encontrar
 
-
 def tela_aviso(titulo: str, mensagem: str, tipo: str) -> None:
 
     tipos = {
@@ -83,7 +81,6 @@ def converter_int64_para_int(obj: Any) -> Any:
 def limpar_prompt() -> None:
     os.system('cls')
 
-
 def medir_tempo_execucao(funcao):
     def wrapper(*args, **kwargs):
 
@@ -91,9 +88,6 @@ def medir_tempo_execucao(funcao):
         resultado = funcao(*args, **kwargs)
         fim = time.perf_counter()
         _tempo_demorado = f"{fim - inicio:.0f}"
-
-
-
         tempo_demorado_total = int(_tempo_demorado)
 
         if tempo_demorado_total < 60:

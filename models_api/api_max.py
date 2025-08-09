@@ -1,13 +1,12 @@
+import os
+import sys
+import time
 import json
 import requests
-from utils.utils import texto_no_console, tela_aviso
 from models_api.gerar_token import TokenGerador
-from models_api.mapeamentos_retorno_api import mapeamento_usar
-import time
 from globals import MAPEAMENTO_FALTA_ATRIBUTO, TOKEN
-import sys
-import os
-from typing import Optional, Callable
+from utils.utils import texto_no_console, tela_aviso
+from models_api.mapeamentos_retorno_api import mapeamento_usar
 
 class APICliente:
     BASE_URL = 'https://api.intelliauto.com.br/v1'
@@ -58,7 +57,6 @@ class FiltroJSON:
                 return filtrados[0].get('descricao', '')
             except (IndexError, KeyError):
                 return ''
-
         return resultado
 
 
@@ -98,7 +96,6 @@ def puxar_dados_produto_api(codigo_produto: str, dados_necessarios: list | None 
             if mapeamento:
                 valor = filtro.filtrar_dados(dados, mapeamento['caminho'], mapeamento.get('chave_secundaria'))
                 retorno[chave] = valor
-
         return retorno
     return {}
 
@@ -130,7 +127,6 @@ def puxar_dados_veiculos_api(lista_veiculos: dict, funcao_atualizar_barra_anunci
         codigo = item.get('codigo')
         if not codigo:
             continue
-
 
         # Aqui estamos verificando se ja não adicionamos o carro no cache, pois se tiver
         # não vamos precisar fazer a requisição e assim vamos gerar o relatorio mais rapido

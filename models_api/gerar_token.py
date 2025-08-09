@@ -1,6 +1,7 @@
 import requests
-from utils.utils import *
 from globals import CLIENTKEY, CLIENTSECRET
+from utils.utils import texto_no_console, alterar_valor_json
+
 
 class TokenGerador:
     def __init__(self) -> None:
@@ -20,7 +21,7 @@ class TokenGerador:
         if token_response.status_code == 200:
             token = token_response.json().get('accessToken')
             texto_no_console(f'Novo Token gerado: {token}')
-            print(type(token))
+            texto_no_console(f'{type(token)}')
             return token
         return None
 

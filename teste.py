@@ -3,4 +3,3 @@ opcoes = {
     "c": 456 
 }
 print(opcoes.get('sdfd', 'sem'))
-

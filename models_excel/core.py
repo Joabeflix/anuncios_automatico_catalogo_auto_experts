@@ -1,21 +1,14 @@
-import pandas as pd
-import requests
 import re
+import requests
 import ttkbootstrap as ttk
-
-from utils.utils import (
-    texto_no_console,
-    tela_aviso,
-    medir_tempo_execucao,
-    selecionar_pasta
-)
+from models_excel.excel_utils import Exel
+from globals import PADROES_SUBS_NOME_ANUNCIO
 from utils.utils_acertar_nome import deixar_nome_ate_60_caracteres
 from models_api.api_max import puxar_dados_produto_api, puxar_dados_veiculos_api
-from models_api.gerar_token import TokenGerador
-from globals import PADROES_SUBS_NOME_ANUNCIO
-from models_excel.excel_utils import Exel
+from utils.utils import texto_no_console, tela_aviso, medir_tempo_execucao, selecionar_pasta
 
 
+#####################################################################################################################
 class Gerar_Anuncios:
     def __init__(
         self,
@@ -88,7 +81,6 @@ class Gerar_Anuncios:
             )
 
             if not dados_anuncio_api:
-    
                 for coluna in dados_inserir.keys():
                     dados_inserir[coluna].append("sem dados / código errado")
                 qtd_feita += 1
@@ -236,6 +228,3 @@ class Gerar_Anuncios:
     def verificar_e_substituir_nome_padrao(self, nome_padrao: str) -> str:
         nome_padrao = str(nome_padrao).lower()
         return PADROES_SUBS_NOME_ANUNCIO.get(nome_padrao, nome_padrao)
-
-if __name__ == "__main__":
-    ...
