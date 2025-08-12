@@ -1,8 +1,6 @@
 from tkinter.filedialog import askopenfilename
 from utils.utils import texto_no_console, tela_aviso, selecionar_pasta
-import sys
 from models_excel.core import Gerar_Anuncios
-import threading
 import os
 
 class ConsoleInterface:
