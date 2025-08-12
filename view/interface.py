@@ -1,13 +1,13 @@
-import ttkbootstrap as ttk
+import sys
+import threading
+import webbrowser
 import tkinter as tk
+from globals import TEMA
+import ttkbootstrap as ttk
+from models_excel.core import Gerar_Anuncios
+from tkinter.scrolledtext import ScrolledText
 from tkinter.filedialog import askopenfilename
 from utils.utils import texto_no_console, tela_aviso, selecionar_pasta
-from tkinter.scrolledtext import ScrolledText
-import sys
-from models_excel.core import Gerar_Anuncios
-import threading
-from globals import TEMA
-import webbrowser
 
 class RedirecionarConsole:
     def __init__(self, text_widget):
@@ -30,7 +30,6 @@ class MinhaInterface:
         self.root = ttk.Window(themename=TEMA)
         self.root.title("Criar Anúncios AutoExperts")
         self.root.geometry("1057x493")
-        
 
         """ Entrys """
         self.entrada_planilha = ttk.Entry(self.root, width=45, style='secondary')
@@ -38,8 +37,6 @@ class MinhaInterface:
 
         """ CheckButtons """
         self.baixar_imagem = tk.BooleanVar(value=False)
-
-
         self.escolher_baixar_imagem = ttk.Checkbutton(
             self.root,
             variable=self.baixar_imagem,
@@ -72,7 +69,6 @@ class MinhaInterface:
         self.label_teste_pontilhado = ttk.Label(self.root, text='', font=("Segoe UI", 10, "bold"), foreground="white")
         self.label_teste_pontilhado.place(x=300, y=474)
 
-
         """ Buttons """
         self.botao_selecionar_excel = ttk.Button(
             self.root,
@@ -104,7 +100,6 @@ class MinhaInterface:
         )
         self.meter_geral.place(x=850, y=109)
 
-
         """ Medidor de Progresso (NOVO) """
         self.meter_anuncio = ttk.Meter(
             self.root,
@@ -124,7 +119,6 @@ class MinhaInterface:
         self.console.place(x=10, y=84)
         sys.stdout = RedirecionarConsole(self.console)
 
-
     def abrir_catalogo_autoexperts(self) -> None:
         webbrowser.open_new("https://autoexperts.parts/pt/br")
 
@@ -137,9 +131,6 @@ class MinhaInterface:
         else:
             texto_no_console('Baixar imagens (DESATIVADO).')
             self.local_salvar_imagens = None
-
-
-        
 
     def atualizar_progresso_geral(self, valor: int) -> None:
         """ Atualiza o medidor com o valor (0 a 100) """
@@ -188,11 +179,6 @@ class MinhaInterface:
         self.root.mainloop()
         texto_no_console('Programa iniciado com sucesso.')
         self.root.destroy()
-
-
-
-
-
 
 if __name__ == "__main__":
     app = MinhaInterface()

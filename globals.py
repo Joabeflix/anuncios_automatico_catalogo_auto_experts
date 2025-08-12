@@ -16,10 +16,3 @@ CLIENTKEY=dados_config['clientkey']
 CLIENTSECRET=dados_config['clientsecret']
 TOKEN=dados_config['token']
 TEMA=dados_config['tema']
-
-
-
-
-
-
-

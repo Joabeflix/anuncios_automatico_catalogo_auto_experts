@@ -1,6 +1,10 @@
+import os
+from models_excel.core import Gerar_Anuncios
 from tkinter.filedialog import askopenfilename
 from utils.utils import texto_no_console, tela_aviso, selecionar_pasta
+import sys
 from models_excel.core import Gerar_Anuncios
+import threading
 import os
 
 class ConsoleInterface:
@@ -32,7 +36,6 @@ class ConsoleInterface:
 
         executar = opcoes.get(inp_opcao, 'inv')
 
-
     def opcao_invalida(self) -> None:
         os.system('cls')
         texto_no_console('Você selecionou uma opção inválida!')
@@ -52,5 +55,3 @@ class ConsoleInterface:
 if __name__ == "__main__":
     app = ConsoleInterface()
     app.executar()
-
-
