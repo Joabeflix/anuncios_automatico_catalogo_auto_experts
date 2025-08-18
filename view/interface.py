@@ -14,11 +14,16 @@ class RedirecionarConsole:
         self.text_widget = text_widget
 
     def write(self, message):
+        """
         if not self.text_widget.winfo_exists():
             return
-        self.text_widget.insert(tk.END, message)
-        self.text_widget.see(tk.END)
-        self.text_widget.update_idletasks()
+        """
+        try:
+            self.text_widget.insert(tk.END, message)
+            self.text_widget.see(tk.END)
+            self.text_widget.update_idletasks()
+        except:
+            pass
 
     def flush(self):
         pass
@@ -178,7 +183,7 @@ class MinhaInterface:
   
         self.root.mainloop()
         texto_no_console('Programa iniciado com sucesso.')
-        self.root.destroy()
+        # self.root.destroy()
 
 if __name__ == "__main__":
     app = MinhaInterface()
