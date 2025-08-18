@@ -7,7 +7,6 @@ from utils.utils_acertar_nome import deixar_nome_ate_60_caracteres
 from models_api.api_max import puxar_dados_produto_api, puxar_dados_veiculos_api
 from utils.utils import texto_no_console, tela_aviso, medir_tempo_execucao, selecionar_pasta
 
-
 #####################################################################################################################
 class Gerar_Anuncios:
     def __init__(
@@ -228,3 +227,4 @@ class Gerar_Anuncios:
     def verificar_e_substituir_nome_padrao(self, nome_padrao: str) -> str:
         nome_padrao = str(nome_padrao).lower()
         return PADROES_SUBS_NOME_ANUNCIO.get(nome_padrao, nome_padrao)
+
