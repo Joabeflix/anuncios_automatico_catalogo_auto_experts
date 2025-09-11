@@ -11,7 +11,7 @@ from models_api.mapeamentos_retorno_api import mapeamento_usar
 class APICliente:
     BASE_URL = 'https://api.intelliauto.com.br/v1'
 
-    def __init__(self):
+    def __init__(self) -> None:
         self.access_token = TOKEN
 
     def obter_dados_api(self, obj: str, url_path: str) -> requests.Response | None:
