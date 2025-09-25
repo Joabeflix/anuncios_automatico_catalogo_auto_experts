@@ -35,7 +35,7 @@ if __name__ == "__main__":
     planilha = planilha_funcoes.abrir()
 
     """
-    Estrutura para inserir dados na planilha...
+    Testes
     """
     dados_inserir = {
         "COLUNA x": [
