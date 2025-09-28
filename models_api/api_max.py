@@ -100,7 +100,7 @@ def puxar_dados_produto_api(codigo_produto: str, dados_necessarios: list | None 
     return {}
 
 
-def puxar_dados_veiculos_api(lista_veiculos: dict, funcao_atualizar_barra_anuncio):
+def puxar_dados_veiculos_api(lista_veiculos: dict, funcao_atualizar_barra_anuncio=None):
     api_cliente = APICliente()
     url_path = 'veiculos/codigo'
     veiculos_completos = []
