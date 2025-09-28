@@ -1,5 +1,6 @@
 import pandas as pd
 from datetime import datetime
+import os
 
 class Exel:
     def __init__(self, arquivo_excel: str) -> None:
@@ -30,7 +31,8 @@ class Exel:
             self.salvar(planilha=planilha, nome_salvar=nome_salvar)
 
 if __name__ == "__main__":
-    local_arquivo = r'models_excel\teste.xlsx'
+    # local_arquivo = r'models_excel\teste.xlsx'
+    local_arquivo = os.path.join("models_excel", "teste.xlsx")
     planilha_funcoes = Exel(arquivo_excel=local_arquivo)
     planilha = planilha_funcoes.abrir()
 

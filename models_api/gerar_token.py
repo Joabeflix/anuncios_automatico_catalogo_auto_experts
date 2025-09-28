@@ -1,7 +1,7 @@
+import os
 import requests
 from globals import CLIENTKEY, CLIENTSECRET
 from utils.utils import texto_no_console, alterar_valor_json
-
 
 class TokenGerador:
     def __init__(self) -> None:
@@ -28,7 +28,9 @@ class TokenGerador:
     def definir_novo_token(self) -> str | None:
         token = self._gerar_token()
         if token:
-            alterar_valor_json(rf'configs\configuracoes.json', 'token', token)
+            # local_json = rf"configs\configuracoes.json"
+            local_json = os.path.join("configs", "configuracoes.json")
+            alterar_valor_json(local_json, 'token', token)
         return token
     
     """
