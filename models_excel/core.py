@@ -1,12 +1,15 @@
 import re
 import requests
-import ttkbootstrap as ttk
+import ttkbootstrap as ttk # type: ignore
 from models_excel.excel_utils import Exel
 from globals import PADROES_SUBS_NOME_ANUNCIO
 from utils.utils_acertar_nome import deixar_nome_ate_60_caracteres
 from models_api.api_max import puxar_dados_produto_api, puxar_dados_veiculos_api
 from utils.utils import texto_no_console, tela_aviso, medir_tempo_execucao, selecionar_pasta
+from models_api.retornos_api_class import DadosProduto
 
+
+print("USANDO CORE V2")
 #####################################################################################################################
 class Gerar_Anuncios:
     def __init__(
@@ -26,6 +29,8 @@ class Gerar_Anuncios:
         self.label_qtd_feita=label_qtd_feita
 
     def extrair_primeira_data(self, veiculo: str) -> str:
+        "Uso essa função exatamente para pagar o primeiro nome de um"
+        "Veículo que tem no nome e usamos para concatenar no nome anuncio"
         match = re.search(r'\b(19|20)\d{2}-(19|20)\d{2}\b', veiculo)
         if match:
             return veiculo[:match.end()]
@@ -44,13 +49,6 @@ class Gerar_Anuncios:
         texto_no_console(f'Total de produtos para criar anúncio: {qtd_produtos}')
 
         qtd_feita = 1
-        dados_puxar = [
-            'nome', 'grupo_produto', 'aplicacao', 'marca',
-            'part_number', 'ean', 'posicao', 'lado',
-            'imagem_url', 'veiculos', 'ncm', 'garantia',
-            'peso', 'altura_embalagem', 'largura_embalagem',
-            'comprimento_embalagem', 'qtd_embalagem', 'similares'
-        ]
 
         dados_inserir = {
             "nome_anuncio": [],
@@ -74,10 +72,11 @@ class Gerar_Anuncios:
         for cod in coluna_codigo:
             texto_no_console(f'Gerando dados do código {cod}.')
 
-            dados_anuncio_api = puxar_dados_produto_api(
-                codigo_produto=cod,
-                dados_necessarios=dados_puxar
-            )
+            # dados_anuncio_api = puxar_dados_produto_api(
+            #     codigo_produto=cod,
+            #     dados_necessarios=dados_puxar
+            # )
+            dados_anuncio_api = DadosProduto(cod)
 
             if not dados_anuncio_api:
                 for coluna in dados_inserir.keys():
@@ -87,8 +86,8 @@ class Gerar_Anuncios:
 
             @medir_tempo_execucao
             def gerar_aplicacao_veiculo() -> str:
-                texto_no_console(f'Gerando aplicação do código {dados_anuncio_api["part_number"]}')
-                lista_de_veiculos_crua = dados_anuncio_api['veiculos']
+                texto_no_console(f'Gerando aplicação do código {dados_anuncio_api.part_number}')
+                lista_de_veiculos_crua = dados_anuncio_api.veiculos
 
                 lista_veiculos_api = puxar_dados_veiculos_api(
                     lista_veiculos=lista_de_veiculos_crua,
@@ -119,7 +118,7 @@ class Gerar_Anuncios:
                         texto_no_console(f"Erro ao montar aplicação para veículo: {e}")
 
                 lista_similares = []
-                for item in dados_anuncio_api['similares']:
+                for item in dados_anuncio_api.similares:
                     try:
                         lista_similares.append(f"{item['marca']['nome']}: {item['partNumber']}")
                     except Exception as e:
@@ -133,41 +132,46 @@ class Gerar_Anuncios:
                     if lista_similares else ''
                 )
 
-                dados_anuncio_api["descricao_completa"] = "\n".join(linhas_aplicacao)
-                dados_anuncio_api["similares_feito"] = "\n".join(lista_similares)
+                dados_anuncio_api.dados_gerais["descricao_completa"] = "\n".join(linhas_aplicacao)
+                dados_anuncio_api.dados_gerais["similares_feito"] = "\n".join(lista_similares)
 
                 return f"{'\n'.join(linhas_aplicacao)}{linhas_similares}"
 
             _nome_anuncio = (
-                f'{self.verificar_e_substituir_nome_padrao(dados_anuncio_api['grupo_produto'])} Compatível {self.extrair_primeira_data(dados_anuncio_api['aplicacao'])} '
-                f'{dados_anuncio_api['posicao']} {dados_anuncio_api['lado']} {dados_anuncio_api['marca']} {dados_anuncio_api['part_number']}'
+                f'{self.verificar_e_substituir_nome_padrao(dados_anuncio_api.grupo_produto)} Compatível {self.extrair_primeira_data(dados_anuncio_api.aplicacao)} '
+                f'{dados_anuncio_api.posicao} {dados_anuncio_api.lado} {dados_anuncio_api.marca} {dados_anuncio_api.part_number}'
             ).title()
 
             nome_anuncio = " ".join(_nome_anuncio.replace('None', ' ').split()).title()
-            nome_ate_60 = deixar_nome_ate_60_caracteres(nome_anuncio, dados_anuncio_api['part_number'], dados_anuncio_api['marca'])
+            nome_ate_60 = deixar_nome_ate_60_caracteres(nome_anuncio, dados_anuncio_api.part_number, dados_anuncio_api.marca)
 
             aplicacao_completa_inicio = (
-                f"Produto: {dados_anuncio_api['nome']}\nMarca: {dados_anuncio_api['marca']}\n"
-                f"Código Produto: {dados_anuncio_api['part_number']}\n\nCompatível com os veículos:\n{dados_anuncio_api['aplicacao']}"
+                f"Produto: {dados_anuncio_api.nome}\nMarca: {dados_anuncio_api.marca}\n"
+                f"Código Produto: {dados_anuncio_api.part_number}\n\nCompatível com os veículos:\n{dados_anuncio_api.aplicacao}"
             )
             aplicacao_completa = (f'{aplicacao_completa_inicio}\n\n\n\nAplicação detalhada:\n{gerar_aplicacao_veiculo()}')
 
-            dados_anuncio_api["nome_anuncio"] = nome_anuncio
-            dados_anuncio_api["nome_ate_60"] = nome_ate_60
-            dados_anuncio_api["descricao_completa_ecommerce"] = aplicacao_completa
-            dados_anuncio_api["descricao_simplificada"] = dados_anuncio_api['aplicacao']
+            dados_anuncio_api.dados_gerais["nome_anuncio"] = nome_anuncio
+            dados_anuncio_api.dados_gerais["nome_ate_60"] = nome_ate_60
+            dados_anuncio_api.dados_gerais["descricao_completa_ecommerce"] = aplicacao_completa
+            dados_anuncio_api.dados_gerais["descricao_simplificada"] = dados_anuncio_api.aplicacao
 
             texto_no_console(f'Nome gerado: {nome_ate_60}')
 
             for coluna in dados_inserir.keys():
-                dados = dados_anuncio_api[coluna]
+
+                # Eu adicionei até dados que['part_number'] criamos nos dados de retorno gerais acima...
+                # fazendo isso aqui abaixo vamos inserir.
+                # ou seja, minha ideia foi montar tudo acima, e adicionar os dados no próprio retorno
+                # para no fim eu adicionar tudo de uma vez em dados_inserir
+                dados = dados_anuncio_api.dados_gerais[coluna]
                 dados_inserir[coluna].append(dados)
 
             try:
                 if self.baixar_img:
                     self.baixar_imagem(
-                        url=dados_anuncio_api['imagem_url'],
-                        nome_arquivo=dados_anuncio_api['part_number']
+                        url=dados_anuncio_api.imagem_url,
+                        nome_arquivo=dados_anuncio_api.part_number
                     )
             except:
                 pass

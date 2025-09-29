@@ -3,7 +3,7 @@ import threading
 import webbrowser
 import tkinter as tk
 from globals import TEMA
-import ttkbootstrap as ttk
+import ttkbootstrap as ttk # type: ignore
 from models_excel.core import Gerar_Anuncios
 from tkinter.scrolledtext import ScrolledText
 from tkinter.filedialog import askopenfilename
