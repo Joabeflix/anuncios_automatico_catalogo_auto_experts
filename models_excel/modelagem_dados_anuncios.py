@@ -64,10 +64,6 @@ def deixar_nome_ate_60_caracteres(nome_produto: str, codigo_produto: str, marca:
     return retorno_final(nome_novo)
 
 
-
-
-
-
 # Aux
 def verificar_e_substituir_nome_padrao(nome_padrao: str) -> str:
     nome_padrao = str(nome_padrao).lower()
