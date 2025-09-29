@@ -7,8 +7,8 @@ from utils.utils_acertar_nome import deixar_nome_ate_60_caracteres
 from models_api.api_max import puxar_dados_produto_api, puxar_dados_veiculos_api
 from utils.utils import texto_no_console, tela_aviso, medir_tempo_execucao, selecionar_pasta
 from models_api.retornos_api_class import DadosProduto
-
-
+from models_excel.modelagem_dados_anuncios import f_nome_anuncio
+from tipos.tipos import RetornoNomeAnuncioTipo
 print("USANDO CORE V2")
 #####################################################################################################################
 class Gerar_Anuncios:
@@ -137,13 +137,23 @@ class Gerar_Anuncios:
 
                 return f"{'\n'.join(linhas_aplicacao)}{linhas_similares}"
 
-            _nome_anuncio = (
-                f'{self.verificar_e_substituir_nome_padrao(dados_anuncio_api.grupo_produto)} Compatível {self.extrair_primeira_data(dados_anuncio_api.aplicacao)} '
-                f'{dados_anuncio_api.posicao} {dados_anuncio_api.lado} {dados_anuncio_api.marca} {dados_anuncio_api.part_number}'
-            ).title()
+#            _nome_anuncio = (
+#                f'{self.verificar_e_substituir_nome_padrao(dados_anuncio_api.grupo_produto)} Compatível {self.extrair_primeira_data(dados_anuncio_api.aplicacao)} '
+#                f'{dados_anuncio_api.posicao} {dados_anuncio_api.lado} {dados_anuncio_api.marca} {dados_anuncio_api.part_number}'
+#            ).title()
+#            nome_anuncio = " ".join(_nome_anuncio.replace('None', ' ').split()).title()
 
-            nome_anuncio = " ".join(_nome_anuncio.replace('None', ' ').split()).title()
-            nome_ate_60 = deixar_nome_ate_60_caracteres(nome_anuncio, dados_anuncio_api.part_number, dados_anuncio_api.marca)
+
+            nome_anuncio_: RetornoNomeAnuncioTipo = f_nome_anuncio(dados_produto={
+                'aplicacao': dados_anuncio_api.aplicacao,
+                'grupo_produto': dados_anuncio_api.grupo_produto,
+                'lado': dados_anuncio_api.lado,
+                'marca': dados_anuncio_api.marca,
+                'part_number': dados_anuncio_api.part_number,
+                'posicao': dados_anuncio_api.posicao
+            })
+            nome_anuncio = nome_anuncio_['nome_anuncio']
+            nome_ate_60 = nome_anuncio_['nome_ate_60_caracteres']
 
             aplicacao_completa_inicio = (
                 f"Produto: {dados_anuncio_api.nome}\nMarca: {dados_anuncio_api.marca}\n"
