@@ -7,7 +7,7 @@ from utils.utils_acertar_nome import deixar_nome_ate_60_caracteres
 from models_api.api_max import puxar_dados_produto_api, puxar_dados_veiculos_api
 from utils.utils import texto_no_console, tela_aviso, medir_tempo_execucao, selecionar_pasta
 from models_api.retornos_api_class import DadosProduto
-from models_excel.modelagem_dados_anuncios import f_nome_anuncio
+from models_excel.modelagem_dados_anuncios import f_nome_anuncio, f_similares, f_descricoes
 from tipos.tipos import RetornoNomeAnuncioTipo
 print("USANDO CORE V2")
 #####################################################################################################################
@@ -84,66 +84,6 @@ class Gerar_Anuncios:
                 qtd_feita += 1
                 continue
 
-            @medir_tempo_execucao
-            def gerar_aplicacao_veiculo() -> str:
-                texto_no_console(f'Gerando aplicação do código {dados_anuncio_api.part_number}')
-                lista_de_veiculos_crua = dados_anuncio_api.veiculos
-
-                lista_veiculos_api = puxar_dados_veiculos_api(
-                    lista_veiculos=lista_de_veiculos_crua,
-                    funcao_atualizar_barra_anuncio=self.funcao_atualizar_barra_anuncio
-                )
-
-                linhas_aplicacao = []
-                for veiculo, ano_aplicacao in zip(lista_veiculos_api, lista_de_veiculos_crua):
-                    try:
-                        marca = veiculo.get('marca', '')
-                        nome = veiculo.get('nome', '')
-                        modelo = veiculo.get('modelo', '')
-                        motorizacao = veiculo.get('motorizacao', {})
-                        motor_nome = motorizacao.get('nome', '')
-                        cilindrada = motorizacao.get('cilindrada', '')
-                        configuracao = motorizacao.get('configuracao', '')
-                        potencia = motorizacao.get('potenciaCv', '')
-                        anos = f"{ano_aplicacao.get('anoInicial', '')}-{ano_aplicacao.get('anoFinal', '')}"
-
-                        linha = f"{marca} {nome} {modelo} {anos} - Motor: {motor_nome} {cilindrada}cc {configuracao} {potencia}cv"
-
-                        if linha.strip() in linhas_aplicacao:
-                            continue
-
-                        linhas_aplicacao.append(linha.strip())
-
-                    except Exception as e:
-                        texto_no_console(f"Erro ao montar aplicação para veículo: {e}")
-
-                lista_similares = []
-                for item in dados_anuncio_api.similares:
-                    try:
-                        lista_similares.append(f"{item['marca']['nome']}: {item['partNumber']}")
-                    except Exception as e:
-                        texto_no_console(f"Erro ao montar os similares: {e}")
-
-                texto_no_console('Aplicação montada com sucesso!')
-                texto_no_console('Tempo demorado para gerar a aplicação:')
-
-                linhas_similares = (
-                    f"\n\nCódigos similares:\n{'\n'.join(lista_similares)}"
-                    if lista_similares else ''
-                )
-
-                dados_anuncio_api.dados_gerais["descricao_completa"] = "\n".join(linhas_aplicacao)
-                dados_anuncio_api.dados_gerais["similares_feito"] = "\n".join(lista_similares)
-
-                return f"{'\n'.join(linhas_aplicacao)}{linhas_similares}"
-
-#            _nome_anuncio = (
-#                f'{self.verificar_e_substituir_nome_padrao(dados_anuncio_api.grupo_produto)} Compatível {self.extrair_primeira_data(dados_anuncio_api.aplicacao)} '
-#                f'{dados_anuncio_api.posicao} {dados_anuncio_api.lado} {dados_anuncio_api.marca} {dados_anuncio_api.part_number}'
-#            ).title()
-#            nome_anuncio = " ".join(_nome_anuncio.replace('None', ' ').split()).title()
-
-
             nome_anuncio_: RetornoNomeAnuncioTipo = f_nome_anuncio(dados_produto={
                 'aplicacao': dados_anuncio_api.aplicacao,
                 'grupo_produto': dados_anuncio_api.grupo_produto,
@@ -155,19 +95,24 @@ class Gerar_Anuncios:
             nome_anuncio = nome_anuncio_['nome_anuncio']
             nome_ate_60 = nome_anuncio_['nome_ate_60_caracteres']
 
-            aplicacao_completa_inicio = (
-                f"Produto: {dados_anuncio_api.nome}\nMarca: {dados_anuncio_api.marca}\n"
-                f"Código Produto: {dados_anuncio_api.part_number}\n\nCompatível com os veículos:\n{dados_anuncio_api.aplicacao}"
-            )
-            aplicacao_completa = (f'{aplicacao_completa_inicio}\n\n\n\nAplicação detalhada:\n{gerar_aplicacao_veiculo()}')
+            descricoes = f_descricoes(dados_produto={
+                'nome': dados_anuncio_api.nome,
+                'marca': dados_anuncio_api.marca,
+                'part_number': dados_anuncio_api.part_number,
+                'similares': dados_anuncio_api.similares,
+                'veiculos': dados_anuncio_api.veiculos
+                }, funcao_atualizar_barra_anuncio=self.funcao_atualizar_barra_anuncio)
+
+
+
 
             dados_anuncio_api.dados_gerais["nome_anuncio"] = nome_anuncio
             dados_anuncio_api.dados_gerais["nome_ate_60"] = nome_ate_60
-            dados_anuncio_api.dados_gerais["descricao_completa_ecommerce"] = aplicacao_completa
+            dados_anuncio_api.dados_gerais["descricao_completa_ecommerce"] = descricoes['descricao_completa_ecommerce']
             dados_anuncio_api.dados_gerais["descricao_simplificada"] = dados_anuncio_api.aplicacao
-
+            dados_anuncio_api.dados_gerais["similares_feito"] = f_similares(dados_anuncio_api.similares)
+            dados_anuncio_api.dados_gerais["descricao_completa"] = descricoes['aplicacao']
             texto_no_console(f'Nome gerado: {nome_ate_60}')
-
             for coluna in dados_inserir.keys():
 
                 # Eu adicionei até dados que['part_number'] criamos nos dados de retorno gerais acima...

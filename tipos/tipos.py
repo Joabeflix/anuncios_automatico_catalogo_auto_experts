@@ -1,10 +1,4 @@
 from typing import TypedDict
-
-
-
-
-
-
 """
 Abaixo temos os tipos que usamos para criar
 os dados de anuncios, que fazemos separadamente
@@ -26,4 +20,19 @@ class CriarNomeAnuncioTipo(TypedDict):
 class RetornoNomeAnuncioTipo(TypedDict):
     nome_anuncio: str
     nome_ate_60_caracteres: str
+
+class CriarDescricaoTipo(TypedDict):
+    nome: str
+    marca: str
+    part_number: str
+    veiculos: dict
+    similares: dict
+
+class RetornoDescricaoTipo(TypedDict):
+    descricao_completa_ecommerce: str
+    aplicacao: str
+
+
+class RetornoCriarDescricaoTipo(TypedDict):
+    ...
 

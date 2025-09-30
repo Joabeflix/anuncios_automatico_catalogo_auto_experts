@@ -1,1 +1,74 @@
-{}
+{
+  "C.FOR.0358": {
+    "id": "f5d7c131-3ada-45ac-8862-ed7bfa86b847",
+    "codigo": "C.FOR.0358",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L",
+    "inicioProducao": "1979-01-01T00:00:00",
+    "finalProducao": "1992-08-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "86"
+    },
+    "dataAtualizacao": "2025-05-13T16:49:40.557828-03:00"
+  },
+  "C.FOR.0360": {
+    "id": "f2fe2866-be5e-43b2-8849-cbceca6b726a",
+    "codigo": "C.FOR.0360",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L",
+    "inicioProducao": "1979-01-01T00:00:00",
+    "finalProducao": "1992-08-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "86"
+    },
+    "dataAtualizacao": "2025-05-13T16:47:47.424776-03:00"
+  },
+  "C.FOR.0361": {
+    "id": "cef98c16-fdfc-49d2-8f10-c6cb33e88d50",
+    "codigo": "C.FOR.0361",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L",
+    "inicioProducao": "1979-01-01T00:00:00",
+    "finalProducao": "1992-08-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "87"
+    },
+    "dataAtualizacao": "2025-05-13T16:48:22.111846-03:00"
+  },
+  "C.FOR.0359": {
+    "id": "9144c50c-bf34-4b50-b806-25cb22d476f9",
+    "codigo": "C.FOR.0359",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "F-1000",
+    "modelo": "L",
+    "inicioProducao": "1979-01-01T00:00:00",
+    "finalProducao": "1992-09-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SERIE 229",
+      "cilindrada": "3920",
+      "configuracao": "3.9 L 8V SOHV L4",
+      "potenciaCv": "86"
+    },
+    "dataAtualizacao": "2025-05-13T16:58:55.686391-03:00"
+  }
+}
