@@ -127,6 +127,8 @@ class MinhaInterface:
     def abrir_catalogo_autoexperts(self) -> None:
         webbrowser.open_new("https://autoexperts.parts/pt/br")
 
+
+
     def definir_local_salvar_imagem(self) -> None:
         if self.baixar_imagem.get():
             texto_no_console('Baixar imagens (ATIVADO).')
@@ -188,3 +190,4 @@ class MinhaInterface:
 if __name__ == "__main__":
     app = MinhaInterface()
     app.iniciar()
+

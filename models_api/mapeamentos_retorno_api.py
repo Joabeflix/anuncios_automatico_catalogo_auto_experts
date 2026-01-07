@@ -113,5 +113,3 @@ def mapeamento_usar(chave: str) -> dict:
     if chave in mapeamentos:
         return mapeamentos[chave]
     return {}
-
-

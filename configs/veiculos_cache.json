@@ -70,5 +70,455 @@
       "potenciaCv": "86"
     },
     "dataAtualizacao": "2025-05-13T16:58:55.686391-03:00"
+  },
+  "C.FOR.0201": {
+    "id": "429fc989-0718-499c-b3c4-78f3abed5d32",
+    "codigo": "C.FOR.0201",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "TITANIUM 1.5 AT",
+    "inicioProducao": "2019-01-01T00:00:00",
+    "finalProducao": "2021-01-10T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DRAGON",
+      "cilindrada": "1497",
+      "configuracao": "1.5 L 12V DOHC L3",
+      "potenciaCv": "130;137"
+    },
+    "dataAtualizacao": "2025-07-07T16:47:24.25358-03:00"
+  },
+  "C.FOR.0167": {
+    "id": "dc490251-5dbb-47ee-870a-526301f8dd20",
+    "codigo": "C.FOR.0167",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "TITANIUM",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2017-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SIGMA",
+      "cilindrada": "1599",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "110;116"
+    },
+    "dataAtualizacao": "2025-07-07T16:17:58.905744-03:00"
+  },
+  "C.FOR.0205": {
+    "id": "5635f523-ce23-4f30-af45-2cf46723d917",
+    "codigo": "C.FOR.0205",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "TITANIUM",
+    "inicioProducao": "2013-01-01T00:00:00",
+    "finalProducao": "2015-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DURATEC",
+      "cilindrada": "1999",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "141;147"
+    },
+    "dataAtualizacao": "2025-07-16T12:42:46.965898-03:00"
+  },
+  "C.FOR.0159": {
+    "id": "572527a7-f8f4-4718-8e19-5bd3032a8bc2",
+    "codigo": "C.FOR.0159",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "FREESTYLE PLUS",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2017-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SIGMA",
+      "cilindrada": "1599",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "110;116"
+    },
+    "dataAtualizacao": "2025-07-07T16:10:09.918811-03:00"
+  },
+  "C.FOR.0196": {
+    "id": "86156217-5aef-47d0-9da5-219358c3121a",
+    "codigo": "C.FOR.0196",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "FREESTYLE 1.5",
+    "inicioProducao": "2017-08-01T00:00:00",
+    "finalProducao": "2021-01-10T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DRAGON",
+      "cilindrada": "1497",
+      "configuracao": "1.5 L 12V DOHC L3",
+      "potenciaCv": "130;137"
+    },
+    "dataAtualizacao": "2025-07-07T16:42:35.035533-03:00"
+  },
+  "C.FOR.0204": {
+    "id": "89f9b281-80bf-466f-bd48-46f5516c9ef3",
+    "codigo": "C.FOR.0204",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "FREESTYLE",
+    "inicioProducao": "2013-01-01T00:00:00",
+    "finalProducao": "2014-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DURATEC",
+      "cilindrada": "1999",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "141;147"
+    },
+    "dataAtualizacao": "2025-07-16T12:44:40.954409-03:00"
+  },
+  "C.FOR.0166": {
+    "id": "917dda03-da2f-4dd8-a98f-03b8fe0de117",
+    "codigo": "C.FOR.0166",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "TITANIUM PLUS POWERSHIFT",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2015-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DURATEC",
+      "cilindrada": "1999",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "141;147"
+    },
+    "dataAtualizacao": "2025-07-29T13:13:37.121519-03:00"
+  },
+  "C.FOR.0202": {
+    "id": "a0b1c84d-b1a4-45c6-93a2-fcbb25039f7a",
+    "codigo": "C.FOR.0202",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "100 ANOS 1.5 AT",
+    "inicioProducao": "2019-06-12T00:00:00",
+    "finalProducao": "2021-01-10T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DRAGON",
+      "cilindrada": "1497",
+      "configuracao": "1.5 L 12V DOHC L3",
+      "potenciaCv": "130;137"
+    },
+    "dataAtualizacao": "2025-07-07T16:48:23.448915-03:00"
+  },
+  "C.FOR.0160": {
+    "id": "6eff4a25-7896-466a-98d2-737b001580b4",
+    "codigo": "C.FOR.0160",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "S",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2017-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SIGMA",
+      "cilindrada": "1599",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "110;116"
+    },
+    "dataAtualizacao": "2025-07-07T16:11:08.591153-03:00"
+  },
+  "C.FOR.0203": {
+    "id": "e0169428-975d-4320-aca3-39d5b06a9a23",
+    "codigo": "C.FOR.0203",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "SE DIRECT 2.0 POWERSHIFT",
+    "inicioProducao": "2017-08-01T00:00:00",
+    "finalProducao": "2019-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DURATEC",
+      "cilindrada": "1999",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "141;147"
+    },
+    "dataAtualizacao": "2025-11-08T01:58:20.535252-03:00"
+  },
+  "C.FOR.0165": {
+    "id": "0439a1b0-a09d-41e6-a3c1-51b8c33ed006",
+    "codigo": "C.FOR.0165",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "TITANIUM AT",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2014-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DURATEC",
+      "cilindrada": "1999",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "141;147"
+    },
+    "dataAtualizacao": "2025-07-29T13:12:59.005299-03:00"
+  },
+  "C.FOR.0153": {
+    "id": "d798684f-9867-4670-a70b-62ac1a520f0b",
+    "codigo": "C.FOR.0153",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "FREESTYLE",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2017-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SIGMA",
+      "cilindrada": "1599",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "110;116"
+    },
+    "dataAtualizacao": "2025-07-07T16:04:23.67045-03:00"
+  },
+  "C.FOR.0198": {
+    "id": "610cbd4f-5c41-4bab-ac52-34f98ecd9b12",
+    "codigo": "C.FOR.0198",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "SE DIRECT 1.5 AT",
+    "inicioProducao": "2017-01-01T00:00:00",
+    "finalProducao": "2017-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DRAGON",
+      "cilindrada": "1497",
+      "configuracao": "1.5 L 12V DOHC L3",
+      "potenciaCv": "130;137"
+    },
+    "dataAtualizacao": "2025-07-07T16:44:29.01717-03:00"
+  },
+  "C.FOR.0200": {
+    "id": "e30ba23b-5cb3-4407-ae35-27d462e516c8",
+    "codigo": "C.FOR.0200",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "FREESTYLE PLUS 1.5 AT",
+    "inicioProducao": "2019-01-01T00:00:00",
+    "finalProducao": "2019-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DRAGON",
+      "cilindrada": "1497",
+      "configuracao": "1.5 L 12V DOHC L3",
+      "potenciaCv": "130;137"
+    },
+    "dataAtualizacao": "2025-12-10T13:23:58.161927-03:00"
+  },
+  "C.FOR.0194": {
+    "id": "4dbe75ec-5521-4c19-ba50-253db6bf774e",
+    "codigo": "C.FOR.0194",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "FREESTYLE 1.5 AT",
+    "inicioProducao": "2017-08-01T00:00:00",
+    "finalProducao": "2021-01-10T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DRAGON",
+      "cilindrada": "1497",
+      "configuracao": "1.5 L 12V DOHC L3",
+      "potenciaCv": "130;137"
+    },
+    "dataAtualizacao": "2025-07-07T16:40:45.96051-03:00"
+  },
+  "C.FOR.0161": {
+    "id": "348da75f-da9c-49a8-b9a5-b9d7ff25c5a7",
+    "codigo": "C.FOR.0161",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "SE POWERSHIFT",
+    "inicioProducao": "2015-08-01T00:00:00",
+    "finalProducao": "2017-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SIGMA",
+      "cilindrada": "1599",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "126;131"
+    },
+    "dataAtualizacao": "2025-07-07T16:12:10.438837-03:00"
+  },
+  "C.FOR.0193": {
+    "id": "2b238d7d-6613-425c-86ed-bab08f9f589a",
+    "codigo": "C.FOR.0193",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "SE 1.5 AT",
+    "inicioProducao": "2017-08-01T00:00:00",
+    "finalProducao": "2021-01-10T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DRAGON",
+      "cilindrada": "1497",
+      "configuracao": "1.5 L 12V DOHC L3",
+      "potenciaCv": "130;137"
+    },
+    "dataAtualizacao": "2025-07-07T16:39:51.001879-03:00"
+  },
+  "C.FOR.0195": {
+    "id": "afea12c3-6925-4df3-9e01-33911ad7fdfb",
+    "codigo": "C.FOR.0195",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "SE 1.5",
+    "inicioProducao": "2017-08-01T00:00:00",
+    "finalProducao": "2021-01-10T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DRAGON",
+      "cilindrada": "1497",
+      "configuracao": "1.5 L 12V DOHC L3",
+      "potenciaCv": "130;137"
+    },
+    "dataAtualizacao": "2025-07-07T16:41:42.416478-03:00"
+  },
+  "C.FOR.0162": {
+    "id": "e99ce250-15b3-4397-ac01-0b795d1feb20",
+    "codigo": "C.FOR.0162",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "SE",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2017-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SIGMA",
+      "cilindrada": "1599",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "110;116"
+    },
+    "dataAtualizacao": "2025-07-07T16:13:08.422516-03:00"
+  },
+  "C.FOR.0157": {
+    "id": "8144502a-8fa5-45a2-9cc0-0bc84c72568e",
+    "codigo": "C.FOR.0157",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "FREESTYLE PLUS POWERSHIFT",
+    "inicioProducao": "2015-08-01T00:00:00",
+    "finalProducao": "2017-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SIGMA",
+      "cilindrada": "1599",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "126;131"
+    },
+    "dataAtualizacao": "2025-07-07T16:08:10.381192-03:00"
+  },
+  "C.FOR.0197": {
+    "id": "3a79ee96-8b36-4c64-a81a-71beb1b26b89",
+    "codigo": "C.FOR.0197",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "TITANIUM 2.0 AT",
+    "inicioProducao": "2017-08-01T00:00:00",
+    "finalProducao": "2019-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DURATEC",
+      "cilindrada": "1999",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "170;176"
+    },
+    "dataAtualizacao": "2025-07-29T14:25:46.108033-03:00"
+  },
+  "C.FOR.0163": {
+    "id": "ec6d3d6e-0caf-410b-ac47-78b893b10344",
+    "codigo": "C.FOR.0163",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "SE 2.0 AT.",
+    "inicioProducao": "2012-08-01T00:00:00",
+    "finalProducao": "2015-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DURATEC",
+      "cilindrada": "1999",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "141;147"
+    },
+    "dataAtualizacao": "2025-07-29T13:12:20.898833-03:00"
+  },
+  "C.FOR.0152": {
+    "id": "35ec68f1-e533-4704-a48b-ff30cb59faac",
+    "codigo": "C.FOR.0152",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "FREESTYLE POWERSHIFT",
+    "inicioProducao": "2016-08-01T00:00:00",
+    "finalProducao": null,
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SIGMA",
+      "cilindrada": "1599",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "126;131"
+    },
+    "dataAtualizacao": "2025-07-07T16:03:19.461606-03:00"
+  },
+  "C.FOR.0164": {
+    "id": "02812c96-8eb8-4ada-b5e5-38309cc2baa8",
+    "codigo": "C.FOR.0164",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "SE DIRECT POWERSHIFT",
+    "inicioProducao": "2017-01-01T00:00:00",
+    "finalProducao": "2017-12-30T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "SIGMA",
+      "cilindrada": "1599",
+      "configuracao": "1.6 L 16V DOHC L4",
+      "potenciaCv": "126;131"
+    },
+    "dataAtualizacao": "2025-07-07T16:15:03.498539-03:00"
+  },
+  "C.FOR.0154": {
+    "id": "6a04556f-3fad-47b0-8d07-3ee0153a779e",
+    "codigo": "C.FOR.0154",
+    "classificacao": "Automóveis e Utilitários Leves",
+    "marca": "FORD",
+    "nome": "ECOSPORT",
+    "modelo": "FREESTYLE 2.0 POWERSHIFT",
+    "inicioProducao": "2014-07-01T00:00:00",
+    "finalProducao": "2016-12-31T00:00:00",
+    "mercado": "Brasil",
+    "motorizacao": {
+      "nome": "DURATEC",
+      "cilindrada": "1999",
+      "configuracao": "2.0 L 16V DOHC L4",
+      "potenciaCv": "141;147"
+    },
+    "dataAtualizacao": "2025-07-29T13:43:34.700067-03:00"
   }
 }
