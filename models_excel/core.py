@@ -6,7 +6,7 @@ from globals import PADROES_SUBS_NOME_ANUNCIO
 from utils.utils_acertar_nome import deixar_nome_ate_60_caracteres
 from models_api.api_max import puxar_dados_produto_api, puxar_dados_veiculos_api
 from utils.utils import texto_no_console, tela_aviso, medir_tempo_execucao, selecionar_pasta
-from models_api.retornos_api_class import DadosProduto
+from models_api.retornos_api_class import DadosProdutoApi
 from models_excel.modelagem_dados_anuncios import f_nome_anuncio, f_similares, f_descricoes
 from tipos.tipos import RetornoNomeAnuncioTipo
 print("USANDO CORE V2")
@@ -76,7 +76,7 @@ class Gerar_Anuncios:
             #     codigo_produto=cod,
             #     dados_necessarios=dados_puxar
             # )
-            dados_anuncio_api = DadosProduto(cod)
+            dados_anuncio_api = DadosProdutoApi(cod)
 
             if not dados_anuncio_api:
                 for coluna in dados_inserir.keys():
@@ -183,7 +183,7 @@ class Gerar_Anuncios:
         except Exception as e:
             texto_no_console(f"Código: {nome_arquivo} --> provavelmente não tem imagem disponível na API.")
 
-    def verificar_e_substituir_nome_padrao(self, nome_padrao: str) -> str:
-        nome_padrao = str(nome_padrao).lower()
-        return PADROES_SUBS_NOME_ANUNCIO.get(nome_padrao, nome_padrao)
+    # def verificar_e_substituir_nome_padrao(self, nome_padrao: str) -> str:
+    #     nome_padrao = str(nome_padrao).lower()
+    #     return PADROES_SUBS_NOME_ANUNCIO.get(nome_padrao, nome_padrao)
 

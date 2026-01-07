@@ -1,6 +1,6 @@
 from models_api.api_max import puxar_dados_produto_api
 
-class DadosProduto:
+class DadosProdutoApi:
     def __init__(self, codigo_produto) -> None:
         dados_puxar = [
             'nome', 'grupo_produto', 'aplicacao', 'marca',
@@ -68,16 +68,6 @@ class DadosProduto:
     @property
     def similares(self) -> dict:
         return self.dados_api['similares']
-    
-
-if __name__ == '__main__':
-    app = DadosProduto('C-3377')
-    print(app.aplicacao)    
-    print(app.peso)
-    app.dados_gerais['teste'] = "joabeflix"
-    print(app.dados_gerais)
-
-
-
-
-
+    @property
+    def qtd_veiculos(self) -> int:
+        return len(self.veiculos)
