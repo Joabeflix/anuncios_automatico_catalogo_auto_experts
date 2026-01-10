@@ -105,7 +105,6 @@ class Gerar_Anuncios:
 
 
 
-
             dados_anuncio_api.dados_gerais["nome_anuncio"] = nome_anuncio
             dados_anuncio_api.dados_gerais["nome_ate_60"] = nome_ate_60
             dados_anuncio_api.dados_gerais["descricao_completa_ecommerce"] = descricoes['descricao_completa_ecommerce']
