@@ -9,6 +9,12 @@ deixo tudo 100% tipado, e abaixo temos os tipos
 """ 
 
 
+
+
+
+
+
+
 class CriarNomeAnuncioTipo(TypedDict):
     grupo_produto: str
     aplicacao: str

@@ -186,3 +186,4 @@ class Gerar_Anuncios:
     #     nome_padrao = str(nome_padrao).lower()
     #     return PADROES_SUBS_NOME_ANUNCIO.get(nome_padrao, nome_padrao)
 
+
