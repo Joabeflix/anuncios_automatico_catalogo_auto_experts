@@ -29,12 +29,14 @@ class APICliente:
 
         if response.status_code == 401:
             texto_no_console("Erro 401: Token inválido ou expirado.")
-            tela_aviso('Erro Token', 'Provavelmente o seu token de acesso é inválido ou está expirado... Vamos gerar um novo token.', 'erro')
-            gerar_token = TokenGerador().definir_novo_token()
-            tela_aviso('Resolvido', f'Geramos o novo token "{gerar_token}"\n\n\nSe mesmo assim o erro persistir, consultar o Joabe para validar melhor o erro.', 'informacao')
-            tela_aviso('Aviso.', 'Reinicie o programa!!!', 'informacao')
-            sys.exit()
-            return None
+            # tela_aviso('Erro Token', 'Provavelmente o seu token de acesso é inválido ou está expirado... Vamos gerar um novo token.', 'erro')
+            token = TokenGerador().definir_novo_token()
+            # tela_aviso('Resolvido', f'Geramos o novo token "{gerar_token}"\n\n\nSe mesmo assim o erro persistir, consultar o Joabe para validar melhor o erro.', 'informacao')
+            tela_aviso('Resolvido', f'Geramos um novo token. Se mesmo assim o erro persistir, consultar o Joabe para validar melhor o erro.', 'informacao')
+            # tela_aviso('Aviso.', 'Reinicie o programa!!!', 'informacao')
+            # sys.exit()
+            self.access_token = token
+            return self.obter_dados_api(obj=obj, url_path=url_path)
         if response.status_code == 200:
             return response
 
