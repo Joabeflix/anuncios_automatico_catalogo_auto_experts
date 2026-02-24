@@ -6,9 +6,6 @@ from utils.utils import texto_no_console, alterar_valor_json
 class TokenGerador:
     def __init__(self) -> None:
         pass
-
-    CLIENT_KEY=CLIENTKEY
-    CLIENT_SECRET=CLIENTSECRET
  
     def _gerar_token(self) -> str | None:
         token_url = 'https://api.intelliauto.com.br/v1/login'
@@ -28,7 +25,7 @@ class TokenGerador:
     def definir_novo_token(self) -> str | None:
         token = self._gerar_token()
         if token:
-            alterar_valor_json(rf'configs\configuracoes.json', 'token', token)
+            alterar_valor_json(rf'configs\token.json', 'token', token)
         return token
     
     """

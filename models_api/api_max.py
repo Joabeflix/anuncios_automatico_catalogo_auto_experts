@@ -104,8 +104,8 @@ def puxar_dados_veiculos_api(lista_veiculos: dict, funcao_atualizar_barra_anunci
     api_cliente = APICliente()
     url_path = 'veiculos/codigo'
     veiculos_completos = []
-
-    caminho_json = r'configs\veiculos_cache.json'
+    
+    caminho_json = r'cache\veiculos_cache.json'
 
     try:
         with open(caminho_json, 'r', encoding='utf-8') as f:

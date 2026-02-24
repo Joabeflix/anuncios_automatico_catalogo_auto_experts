@@ -1,7 +1,7 @@
 import re
 import requests
 import ttkbootstrap as ttk
-from models_excel.excel_utils import Exel
+from montagem_anuncio.excel_utils import Exel
 from globals import PADROES_SUBS_NOME_ANUNCIO
 from utils.utils_acertar_nome import deixar_nome_ate_60_caracteres
 from models_api.api_max import puxar_dados_produto_api, puxar_dados_veiculos_api

@@ -4,7 +4,7 @@ import webbrowser
 import tkinter as tk
 from globals import TEMA
 import ttkbootstrap as ttk
-from models_excel.core import Gerar_Anuncios
+from montagem_anuncio.core import Gerar_Anuncios
 from tkinter.scrolledtext import ScrolledText
 from tkinter.filedialog import askopenfilename
 from utils.utils import texto_no_console, tela_aviso, selecionar_pasta
