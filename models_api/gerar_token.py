@@ -1,7 +1,7 @@
+import os
 import requests
 from globals import CLIENTKEY, CLIENTSECRET
 from utils.utils import texto_no_console, alterar_valor_json
-
 
 class TokenGerador:
     def __init__(self) -> None:

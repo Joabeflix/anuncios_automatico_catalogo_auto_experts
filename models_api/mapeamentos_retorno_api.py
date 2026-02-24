@@ -48,6 +48,10 @@ def mapeamento_usar(chave: str) -> dict:
             'caminho': "['data'][0]['especificacoes']",
             'chave_secundaria': "Posição"
         },
+        'diametro do cilindro': {
+            'caminho': "['data'][0]['especificacoes']",
+            'chave_secundaria': "Técnico"
+        },
         'lado': {
             'caminho': "['data'][0]['especificacoes']",
             'chave_secundaria': "Lado"
@@ -109,5 +113,3 @@ def mapeamento_usar(chave: str) -> dict:
     if chave in mapeamentos:
         return mapeamentos[chave]
     return {}
-
-

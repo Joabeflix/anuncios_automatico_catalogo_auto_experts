@@ -34,10 +34,10 @@ class MinhaInterface:
 
         self.root = ttk.Window(themename=TEMA)
         self.root.title("Criar Anúncios AutoExperts")
-        self.root.geometry("1057x493")
+        self.root.geometry("1500x700")
 
         """ Entrys """
-        self.entrada_planilha = ttk.Entry(self.root, width=45, style='secondary')
+        self.entrada_planilha = ttk.Entry(self.root, width=30, style='secondary')
         self.entrada_planilha.place(x=10, y=10)
 
         """ CheckButtons """
@@ -49,23 +49,23 @@ class MinhaInterface:
             style='square-toggle',
             command=lambda: self.definir_local_salvar_imagem()
         )
-        self.escolher_baixar_imagem.place(x=530, y=16)
+        self.escolher_baixar_imagem.place(x=635, y=16)
 
         """ Labels """
         self.label_console = ttk.Label(self.root, text="Informações:", font=("Segoe UI", 17, "bold"), foreground="white")
-        self.label_console.place(x=10, y=42)
+        self.label_console.place(x=10, y=50)
 
         self.label_qtd_feita = ttk.Label(self.root, text='', font=("Segoe UI", 28, "bold"), foreground="white")
         self.label_qtd_feita.place(x=710, y=30)
 
         self.label_link_github = ttk.Label(
             self.root, 
-            text='Auto Experts',
+            text='---> Auto Experts <---',
             foreground='green',
             cursor='hand2',
             font=("Arial", 12, "underline")
             )
-        self.label_link_github.place(x=10, y=470)
+        self.label_link_github.place(x=10, y=656)
 
         self.label_link_github.bind("<Button-1>", lambda e: self.abrir_catalogo_autoexperts())
 
@@ -81,7 +81,7 @@ class MinhaInterface:
             command=self.selecionar_arquivos_excel,
             style='light-outline'
         )
-        self.botao_selecionar_excel.place(x=303, y=10)
+        self.botao_selecionar_excel.place(x=333, y=10)
 
         self.botao_gerar_planilha = ttk.Button(
             self.root,
@@ -89,7 +89,7 @@ class MinhaInterface:
             style='success-outline',
             command=lambda: self.gerar_anuncios_thread()
         )
-        self.botao_gerar_planilha.place(x=419, y=10)
+        self.botao_gerar_planilha.place(x=487, y=10)
 
         """ Medidor de Progresso (NOVO) """
         self.meter_geral = ttk.Meter(
@@ -103,7 +103,7 @@ class MinhaInterface:
             bootstyle="success",
             stripethickness=3
         )
-        self.meter_geral.place(x=850, y=109)
+        self.meter_geral.place(x=1210, y=109)
 
         """ Medidor de Progresso (NOVO) """
         self.meter_anuncio = ttk.Meter(
@@ -117,15 +117,17 @@ class MinhaInterface:
             bootstyle="secondary",
             stripethickness=3
         )
-        self.meter_anuncio.place(x=850, y=275)
+        self.meter_anuncio.place(x=1210, y=340)
 
         """ Console """
         self.console = ScrolledText(self.root, width=85, height=20, wrap=tk.WORD, font=("Arial", 12))
-        self.console.place(x=10, y=84)
+        self.console.place(x=10, y=100)
         sys.stdout = RedirecionarConsole(self.console)
 
     def abrir_catalogo_autoexperts(self) -> None:
         webbrowser.open_new("https://autoexperts.parts/pt/br")
+
+
 
     def definir_local_salvar_imagem(self) -> None:
         if self.baixar_imagem.get():
@@ -188,3 +190,4 @@ class MinhaInterface:
 if __name__ == "__main__":
     app = MinhaInterface()
     app.iniciar()
+
